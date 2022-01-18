@@ -1,4 +1,4 @@
-import React,{ useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Markup from './markup/Markup';
 import useScrollPosition from "use-scroll-position";
 import './css/plugins.css';
@@ -18,21 +18,21 @@ function App() {
 	useEffect(() => {
 		setbody_(document.querySelector("body"));
 		setHeader_(document.getElementsByClassName("main-bar-wraper"));
-	  }, []);
+	}, []);
 
 
-	var element = document.getElementById("fix-header"); 	
-		
-	if(typeof(element) != 'undefined' && element != null){
+	var element = document.getElementById("fix-header");
+
+	if (typeof (element) != 'undefined' && element != null) {
 		header === "fixed" && scrollPosition > 10
 			? header_ && header_[0].classList.add("is-fixed")
-			: header_ && header_[0].classList.remove("is-fixed"); 	
+			: header_ && header_[0].classList.remove("is-fixed");
 	}
-  return (
-    <div className="App">
-      <Markup />
-    </div>
-  );
+	return (
+		<div className="App">
+			<Markup />
+		</div>
+	);
 }
 
 export default App;

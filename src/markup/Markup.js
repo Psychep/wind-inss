@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ThemeButton from './Element/ThemeButton/ThemeButton';
 
@@ -44,8 +44,8 @@ import ShopColumns from './Pages/Shop/ShopColumns';
 import ShopColumnsSidebar from './Pages/Shop/ShopColumnsSidebar';
 
 import ShopCart from './Pages/Shop/ShopCart';
-import ShopCheckout from './Pages/Shop/ShopCheckout';	
-import ShopProductDetails from './Pages/Shop/ShopProductDetails';	
+import ShopCheckout from './Pages/Shop/ShopCheckout';
+import ShopProductDetails from './Pages/Shop/ShopProductDetails';
 
 import ShopWishlist from './Pages/Shop/ShopWishlist';
 import ShopLogin from './Pages/Shop/ShopLogin';
@@ -62,10 +62,10 @@ import ShortAccordions from './Pages/ShortCode/ShortAccordions';
 
 import ScrollToTop from './Element/ScrollToTop';
 
-class Markup extends Component{
-	render(){
-		return(
-			<BrowserRouter basename="/react/demo">
+class Markup extends Component {
+    render() {
+        return (
+            <BrowserRouter basename="/react/demo">
                 <div className="page-wraper">
                     <Switch>
                         <Route path='/' exact component={Homepage} />
@@ -108,14 +108,14 @@ class Markup extends Component{
                         <Route path='/portfolio-grid-4' exact component={PortfolioGrid4} />
                         <Route path='/shop-columns' exact component={ShopColumns} />
                         <Route path='/shop-columns-sidebar' exact component={ShopColumnsSidebar} />
-						
+
                         <Route path='/shop-cart' exact component={ShopCart} />
                         <Route path='/shop-checkout' exact component={ShopCheckout} />
                         <Route path='/shop-product-details' exact component={ShopProductDetails} />
                         <Route path='/shop-wishlist' exact component={ShopWishlist} />
                         <Route path='/shop-login' exact component={ShopLogin} />
                         <Route path='/shop-register' exact component={ShopRegister} />
-						
+
                         <Route path='/short-icon-box' exact component={ShortIconBox} />
                         <Route path='/short-counter' exact component={ShortCounter} />
                         <Route path='/short-portfolio' exact component={ShortPortfolio} />
@@ -123,15 +123,15 @@ class Markup extends Component{
                         <Route path='/short-team' exact component={ShortTeam} />
                         <Route path='/short-testimonial' exact component={ShortTestimonial} />
                         <Route path='/short-form' exact component={ShortForm} />
-                        <Route path='/short-accordions' exact component={ShortAccordions} />						
-					</Switch>
+                        <Route path='/short-accordions' exact component={ShortAccordions} />
+                    </Switch>
                 </div>
-				<ScrollToTop />
-				<ThemeButton />
-            </BrowserRouter>	
-		)
-	}
-	
+                <ScrollToTop />
+                <ThemeButton />
+            </BrowserRouter>
+        )
+    }
+
 }
 
 export default Markup;
