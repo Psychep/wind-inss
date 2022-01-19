@@ -65,7 +65,7 @@ import ScrollToTop from './Element/ScrollToTop';
 class Markup extends Component {
     render() {
         return (
-            <BrowserRouter basename="/react/demo">
+            <BrowserRouter basename="">
                 <div className="page-wraper">
                     <Switch>
                         <Route path='/' exact component={Index6} />
