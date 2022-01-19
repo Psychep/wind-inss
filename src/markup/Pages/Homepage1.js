@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import Header from './../Layout/Header1';
 import Footer from './../Layout/Footer1';
 import HomeOwlSlider from './../Element/HomeOwlSlider';
@@ -17,34 +17,34 @@ import bgimg2 from './../../images/background/bg-map.jpg';
 import bgimg3 from './../../images/background/bg1.jpg';
 
 
-class Homepage extends Component{
-		
-	componentDidMount() {
-		
-	}	
-	
-	render(){
-		return(
-			<div className="page-wraper">
-				<Header />
-				<div className="page-content bg-white">
-					{/*  Slider Banner */}
-					<div className="owl-slider-banner main-slider">
-						<HomeOwlSlider />
-						{/*  Service   */}
-						<div className="service-box-slide">
-							<div className="container">
-								<div className="row">
-									<div className="col-lg-12">
-										<ImgCarouselContent />
-									</div>
-								</div>
-							</div>
-						</div>
-						{/*  Service End  */}
-					</div>
-					{/*  Slider Banner */}
-					<div className="content-block">
+class Homepage extends Component {
+
+    componentDidMount() {
+
+    }
+
+    render() {
+        return (
+            <div className="page-wraper">
+                <Header />
+                <div className="page-content bg-white">
+                    {/*  Slider Banner */}
+                    <div className="owl-slider-banner main-slider">
+                        <HomeOwlSlider />
+                        {/*  Service   */}
+                        <div className="service-box-slide">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-lg-12">
+                                        <ImgCarouselContent />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/*  Service End  */}
+                    </div>
+                    {/*  Slider Banner */}
+                    <div className="content-block">
                         {/* <!-- About Us --> */}
                         <div className="section-full bg-white content-inner-1 about-us">
                             <div className="container">
@@ -67,7 +67,7 @@ class Homepage extends Component{
                             </div>
                         </div>
                         {/* <!-- About Us End --> */}
-						{/* <!-- Our Services --> */}
+                        {/* <!-- Our Services --> */}
                         <div className="section-full content-inner-2">
                             <div className="container">
                                 <div className="section-head text-black text-center">
@@ -83,7 +83,7 @@ class Homepage extends Component{
                             </div>
                         </div>
                         {/* <!-- Our Services --> */}
-						{/* <!-- Why Chose Us --> */}
+                        {/* <!-- Why Chose Us --> */}
                         <div className="section-full content-inner-1 overlay-primary choseus-tabs  bg-img-fix" style={{ backgroundImage: "url(" + bgimg + ")" }}>
                             <div className="container">
                                 <div className="section-head text-white text-center">
@@ -91,13 +91,13 @@ class Homepage extends Component{
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over</p>
                                 </div>
                             </div>
-							<HomeTab />
-							<div className="choses-info text-white">
+                            <HomeTab />
+                            <div className="choses-info text-white">
                                 <Counter />
                             </div>
-						</div>	
-						{/* <!-- Why Chose Us End --> */}
-						{/* <!-- Our Portfolio --> */}
+                        </div>
+                        {/* <!-- Why Chose Us End --> */}
+                        {/* <!-- Our Portfolio --> */}
                         <div className="section-full content-inner-1 mfp-gallery">
                             <div className="container-fluid">
                                 <div className="section-head text-center">
@@ -105,11 +105,11 @@ class Homepage extends Component{
                                     <h2 className="box-title m-tb0">We work to innovate & are proud<br /> of what we've created<span className="bg-primary"></span></h2>
                                     <h5>YOU’LL LOVE TO SEE SOME OF OUR BEST PROJECTS. TAKE A LOOK!</h5>
                                 </div>
-                                    <PortfolioCarousel />
+                                <PortfolioCarousel />
                             </div>
                         </div>
                         {/* <!-- Our Portfolio END --> */}
-						{/* <!-- Testimonials --> */}
+                        {/* <!-- Testimonials --> */}
                         <div className="section-full content-inner" style={{ backgroundImage: "url(" + bgimg2 + ")", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
                             <div className="container">
                                 <div className="section-head text-center">
@@ -122,19 +122,19 @@ class Homepage extends Component{
                             </div>
                         </div>
                         {/* <!-- Testimonials END --> */}
-						
-						{/* <!-- Get in touch --> */}
+
+                        {/* <!-- Get in touch --> */}
                         <div className="section-full overlay-primary-dark bg-img-fix" style={{ backgroundImage: "url(" + bgimg3 + ")" }}>
                             <FormStyle />
                         </div>
                         {/* <!-- Get in touch --> */}
-						
-					</div>
-				</div>	
-				<Footer />
-				
-			</div>		
-		)
-	}
+
+                    </div>
+                </div>
+                <Footer />
+
+            </div>
+        )
+    }
 }
 export default Homepage;
