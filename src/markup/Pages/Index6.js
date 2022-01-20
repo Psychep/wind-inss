@@ -138,7 +138,7 @@ const Index6 = (props) => {
                                                     <div className="text-primary">
                                                         <span className="icon-cell icon-lg"><img src={iconbubble1} alt="" /></span>
                                                     </div>
-                                                    <h5 className="dlab-tilte">Diamond</h5>
+                                                    <h5 className="dlab-tilte">Oto Sigortaları</h5>
                                                 </div>
                                             </div>
                                             <div className="bubbles-bx bubbles-bx2 ml-auto " style={{ backgroundImage: "url(" + bubble3 + ")" }}>
@@ -146,7 +146,7 @@ const Index6 = (props) => {
                                                     <div className="text-primary">
                                                         <span className="icon-cell icon-lg"><img src={iconbubble3} alt="" /></span>
                                                     </div>
-                                                    <h5 className="dlab-tilte">Diamond</h5>
+                                                    <h5 className="dlab-tilte">Yangın Sigortaları</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -156,7 +156,7 @@ const Index6 = (props) => {
                                                     <div className="text-primary">
                                                         <span className="icon-cell icon-lg"><img src={iconbubble2} alt="" /></span>
                                                     </div>
-                                                    <h5 className="dlab-tilte">Cube</h5>
+                                                    <h5 className="dlab-tilte">Nakliyat  Sigortaları</h5>
                                                 </div>
                                             </div>
                                             <div className="bubbles-bx bubbles-bx4 " style={{ backgroundImage: "url(" + bubble4 + ")" }}>
@@ -164,7 +164,7 @@ const Index6 = (props) => {
                                                     <div className="text-primary">
                                                         <span className="icon-cell icon-lg"><img src={iconbubble4} alt="" /></span>
                                                     </div>
-                                                    <h5 className="dlab-tilte">Delicious</h5>
+                                                    <h5 className="dlab-tilte">Tarım Sigortaları</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -174,17 +174,19 @@ const Index6 = (props) => {
                                                     <div className="text-primary">
                                                         <span className="icon-cell icon-lg"><img src={iconbubble5} alt="" /></span>
                                                     </div>
-                                                    <h5 className="dlab-tilte">G & G</h5>
+                                                    <h5 className="dlab-tilte">Kefalet Sigortası</h5>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-5 title-bx about-bx2-content text-right ">
-                                    <h2>Smartly Coded & Maintained</h2>
+                                    <h2>WİND SİGORTA</h2>
                                     <div className="dlab-separator bg-primary op8"></div>
-                                    <p>Aliquam vulputate, tortor nec commodo ultricies, vitae viverra urna nulla sed turpis. Nullam lacinia faucibus risus, a euismod lorem tincidunt id.
-                                        Vestibulum imperdiet nibh vel magna lacinia ultrices. Nam ac elit a ante commodo tristique</p>
+                                    <p>Edindiğimiz değerlerle, sigortacılık mesleğini icra ederken güvenilir ve hızlı bir şekilde, müşterilerimizin ihtiyaçları dahilinde hizmet verip sektörde marka olmayı hedefleyen öncü bir acenteyiz.
+                                        Poliçe değil güven satıyoruz sloganımızla, ihtiyaca yönelik ürünleri uygun fiyata müşterilerimizle buluşturuyoruz.
+                                        Her türlü teknolojiye ayak uyduran dinamik yapımızla tüm yeniliklere açık acenteliğimizle, sizlerin hizmetindeyiz.
+                                    </p>
                                     <Link to={"#"} className="site-button radius-xl button-md btn-long">Read More</Link>
                                 </div>
                             </div>
@@ -192,168 +194,12 @@ const Index6 = (props) => {
                     </div>
                     {/* <!-- Coded & Maintained End --> */}
                     {/* <!-- Our Product Gallery --> */}
-                    <div className="section-full content-inner our-product-gallery">
-                        <div className="setResizeMargin">
-                            <div className="section-head title-bx">
-                                <h2>Our Product Gallery</h2>
-                            </div>
-                            <div className="content-section">
-                                <Index6Carousel />
-                                <div className="m-t30">
-                                    <Link to={"#"} className="site-button button-md btn-long radius-xl">Read More</Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     {/* <!-- Our Product Gallery END --> */}
                     {/* <!-- Our Branded Products --> */}
                     <div className="section-full business-pro-blog" style={{ backgroundImage: "url(" + bg6 + ")" }}>
                         {/* <!-- Our Branded Products --> */}
-                        <div className="content-inner business-product">
-                            <div className="container">
-                                <div className="section-head title-bx text-center">
-                                    <h2>Our Branded Products</h2>
-                                </div>
-                                <div className="row align-items-center d-flex">
-                                    <div className="col-md-12 col-lg-3">
-                                        <div className="product-box zoomIn" >
-                                            <div className="product-img">
-                                                <img src={watch1} alt="" />
-                                            </div>
-                                            <div className="product-details">
-                                                <h4 className="product-title"><Link to={"./shop-product-details"}>Product Name here</Link></h4>
-                                                <span className="product-tage">Sports Watch</span>
-                                                <ul className="rating-star">
-                                                    <li className="active"><i className="fa fa-star"></i></li>
-                                                    <li className="active"><i className="fa fa-star"></i></li>
-                                                    <li className="active"><i className="fa fa-star"></i></li>
-                                                    <li className="active"><i className="fa fa-star"></i></li>
-                                                    <li><i className="fa fa-star"></i></li>
-                                                </ul>
-                                                <div className="product-price">
-                                                    <h4>$67.00</h4>
-                                                </div>
-                                                <Link to={"./shop-product-details"} className="site-button button-sm radius-xl">Shop Now</Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-12 col-lg-6">
-                                        <div className="row align-items-end d-flex">
-                                            <div className="col-lg-8 col-md-6 col-sm-12">
-                                                <div className="product-box product-lg product-right  zoomIn" >
-                                                    <div className="product-details">
-                                                        <h4 className="product-title"><Link to={"./shop-product-details"}>Product Name here</Link></h4>
-                                                        <span className="product-tage">Sports Watch</span>
-                                                        <ul className="rating-star">
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li><i className="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <div className="product-price">
-                                                            <h4>$67.00</h4>
-                                                        </div>
-                                                        <Link to={"./shop-product-details"} className="site-button button-sm radius-xl">Shop Now</Link>
-                                                    </div>
-                                                    <div className="product-img">
-                                                        <img src={watch2} alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-4 col-md-6 col-sm-6">
-                                                <div className="product-box product-sm zoomIn" >
-                                                    <div className="product-img">
-                                                        <img src={watch3} alt="" />
-                                                    </div>
-                                                    <div className="product-details">
-                                                        <h4 className="product-title"><Link to={"./shop-product-details"}>Product Name here</Link></h4>
-                                                        <span className="product-tage">Sports Watch</span>
-                                                        <ul className="rating-star">
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li><i className="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <div className="product-price">
-                                                            <h4>$67.00</h4>
-                                                        </div>
-                                                        <Link to={"./shop-product-details"} className="site-button button-sm radius-xl">Shop Now</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-4 col-md-6 col-sm-6 d-flex align-self-start">
-                                                <div className="product-box product-sm  zoomIn" >
-                                                    <div className="product-img">
-                                                        <img src={watch5} alt="" />
-                                                    </div>
-                                                    <div className="product-details">
-                                                        <h4 className="product-title"><Link to={"./shop-product-details"}>Product Name here</Link></h4>
-                                                        <span className="product-tage">Sports Watch</span>
-                                                        <ul className="rating-star">
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li><i className="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <div className="product-price">
-                                                            <h4>$67.00</h4>
-                                                        </div>
-                                                        <Link to={"./shop-product-details"} className="site-button button-sm radius-xl">Shop Now</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-8 col-md-6 col-sm-12">
-                                                <div className="product-box product-lg product-right  zoomIn" >
-                                                    <div className="product-details">
-                                                        <h4 className="product-title"><Link to={"./shop-product-details"}>Product Name here</Link></h4>
-                                                        <span className="product-tage">Sports Watch</span>
-                                                        <ul className="rating-star">
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li className="active"><i className="fa fa-star"></i></li>
-                                                            <li><i className="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <div className="product-price">
-                                                            <h4>$67.00</h4>
-                                                        </div>
-                                                        <Link to={"./shop-product-details"} className="site-button button-sm radius-xl">Shop Now</Link>
-                                                    </div>
-                                                    <div className="product-img">
-                                                        <img src={watch6} alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-12 col-lg-3">
-                                        <div className="product-box  zoomIn" >
-                                            <div className="product-details">
-                                                <h4 className="product-title"><Link to={"./shop-product-details"}>Product Name here</Link></h4>
-                                                <span className="product-tage">Sports Watch</span>
-                                                <ul className="rating-star">
-                                                    <li className="active"><i className="fa fa-star"></i></li>
-                                                    <li className="active"><i className="fa fa-star"></i></li>
-                                                    <li className="active"><i className="fa fa-star"></i></li>
-                                                    <li className="active"><i className="fa fa-star"></i></li>
-                                                    <li><i className="fa fa-star"></i></li>
-                                                </ul>
-                                                <div className="product-price">
-                                                    <h4>$67.00</h4>
-                                                </div>
-                                                <Link to={"./shop-product-details"} className="site-button button-sm radius-xl">Shop Now</Link>
-                                            </div>
-                                            <div className="product-img">
-                                                <img src={watch4} alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                         {/* <!-- Our Branded Products END --> */}
                         {/* <!-- Our Featured Products --> */}
                         <div className="content-inner our-featured">
@@ -364,7 +210,7 @@ const Index6 = (props) => {
                                             <h2>Our Featured  <br /> Products</h2>
                                             <h3 className="text-primary font-weight-500">Pricing starts from 30$</h3>
                                             <p className="m-b30">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
-                                            <Link to={"#"} className="site-button button-long button-md radius-xl">Read More</Link>
+                                            <Link to={"#"} className="site-button button-long button-md radius-xl">Daha Fazlası</Link>
                                         </div>
                                     </div>
                                     <div className="col-lg-8 col-md-6 text-right">
@@ -610,7 +456,7 @@ const Index6 = (props) => {
                     {/* <!-- Contact Us END --> */}
                 </div>
                 {/* <!-- contact area END --> */}
-            </div>
+            </div >
 
             <Footer5 />
         </>
