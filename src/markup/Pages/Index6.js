@@ -210,8 +210,8 @@ const Index6 = (props) => {
                                         <div className="flip-bx testimonial-flip" >
                                             <div className="front">
                                                 <div className="inner text-white">
-                                                    <div className="testimonial-pic radius">
-                                                        <img src={data.image} alt="" width="100" height="100" />
+                                                    <div className="testimonial-pic " >
+                                                        <img src={data.image} alt="" width="230" height="230" />
                                                     </div>
                                                     <div className="testimonial-detail">
                                                         <strong className="testimonial-name">{data.name}</strong>

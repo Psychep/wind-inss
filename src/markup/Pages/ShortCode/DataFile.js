@@ -10,9 +10,17 @@ import work2 from './../../../images/our-work/pic2.jpg';
 import work3 from './../../../images/our-work/pic3.jpg';
 import work4 from './../../../images/our-work/pic4.jpg';
 
-import test1 from './../../../images/our-work/pic1.jpg';
-import test2 from './../../../images/our-work/pic2.jpg';
-import test3 from './../../../images/our-work/pic3.jpg';
+import aracsigorta from './../../../images/product/arac-sigorta.png';
+import yanginsigorta from './../../../images/product/yangin-sigorta.png';
+import nakliyatsigorta from './../../../images/product/nakliyat-sigorta.png';
+import kefaletsigorta from './../../../images/product/kefalet.png';
+import sagliksigorta from './../../../images/product/saglik-sigorta.png';
+import muhendisliksigorta from './../../../images/product/muhendislik-sigortasi.png';
+import ferdikaza from './../../../images/product/ferdikazasigortasi.png';
+import allrisk from './../../../images/product/allrisk.png';
+import depremsigorta from './../../../images/product/depremsigorta.png';
+import sorumluluksigorta from './../../../images/product/sorumluluksigota.png';
+
 
 const wraperBlog = [
 	{ icon: <i className="ti-headphone-alt" />, title: 'Market forecast' },
@@ -84,16 +92,16 @@ const wraperBox8 = [
 ];
 
 const flipBlog = [
-	{ image: test1, name: "Oto Sigortaları", link: "shop-product-details", id: "1", aciklama: "lorem ipsum dolor sit amed", urun: ["Trafik Sigortası", "Kasko", "Filo Kasko Sİgortası"] },
-	{ image: test2, name: "Yangın Sigortaları", link: "shop-product-details", id: "2", aciklama: "lorem ipsum dolor sit amed", urun: ["Konut Sigortası", "İş Yeri Sigortası"] },
-	{ image: test3, name: "Nakliyat  Sigortaları", link: "shop-product-details", id: "3", aciklama: "lorem ipsum dolor sit amed", urun: ["Hayvan Hayat Sigortası", "Kümes Hayvanları Sigortası", "Dolu Sigortası", "Sera Sigortası"] },
-	{ image: test1, name: "Kefalet Sigortası", link: "shop-product-details", id: "5", aciklama: "lorem ipsum dolor sit amed", urun: ["Kefalet Sigortası"] },
-	{ image: test1, name: "Sağlık Sigortaları", link: "shop-product-details", id: "6", aciklama: "lorem ipsum dolor sit amed", urun: ["Özel Sağlık sigortası", "Tamamlayıcı Sağlık Sigortası", "Yabancı Sağlık Sigortası"] },
-	{ image: test1, name: "Mühendislik Sigortası", link: "shop-product-details", id: "10", aciklama: "lorem ipsum dolor sit amed", urun: ["Montaj", "Elektornik Cihaz", "Makine Kırılması Sigortası"] },
-	{ image: test1, name: "Ferdi Kaza Sigortası", link: "shop-product-details", id: "7", aciklama: "lorem ipsum dolor sit amed", urun: ["Ferdi Kaza Sigortası"] },
-	{ image: test1, name: "All Risk İnşaat Sigortaları", link: "shop-product-details", id: "8", aciklama: "lorem ipsum dolor sit amed", urun: ["All Risk İnşaat Sigortaları"] },
-	{ image: test1, name: "Deprem Sigortası ", link: "shop-product-details", id: "9", aciklama: "lorem ipsum dolor sit amed", urun: ["Deprem Sigortası"] },
-	{ image: test1, name: "Sorumluluk Sigortaları", link: "shop-product-details", id: "11", aciklama: "lorem ipsum dolor sit amed", urun: ["Sorumluluk Sigortaları"] },
+	{ image: aracsigorta, name: "Oto Sigortaları", link: "shop-product-details", id: "1", aciklama: "lorem ipsum dolor sit amed", urun: ["Trafik Sigortası", "Kasko", "Filo Kasko Sİgortası"] },
+	{ image: yanginsigorta, name: "Yangın Sigortaları", link: "shop-product-details", id: "2", aciklama: "lorem ipsum dolor sit amed", urun: ["Konut Sigortası", "İş Yeri Sigortası"] },
+	{ image: nakliyatsigorta, name: "Nakliyat  Sigortaları", link: "shop-product-details", id: "3", aciklama: "lorem ipsum dolor sit amed", urun: ["Hayvan Hayat Sigortası", "Kümes Hayvanları Sigortası", "Dolu Sigortası", "Sera Sigortası"] },
+	{ image: kefaletsigorta, name: "Kefalet Sigortası", link: "shop-product-details", id: "5", aciklama: "lorem ipsum dolor sit amed", urun: ["Kefalet Sigortası"] },
+	{ image: sagliksigorta, name: "Sağlık Sigortaları", link: "shop-product-details", id: "6", aciklama: "lorem ipsum dolor sit amed", urun: ["Özel Sağlık sigortası", "Tamamlayıcı Sağlık Sigortası", "Yabancı Sağlık Sigortası"] },
+	{ image: muhendisliksigorta, name: "Mühendislik Sigortası", link: "shop-product-details", id: "10", aciklama: "lorem ipsum dolor sit amed", urun: ["Montaj", "Elektornik Cihaz", "Makine Kırılması Sigortası"] },
+	{ image: ferdikaza, name: "Ferdi Kaza Sigortası", link: "shop-product-details", id: "7", aciklama: "lorem ipsum dolor sit amed", urun: ["Ferdi Kaza Sigortası"] },
+	{ image: allrisk, name: "All Risk İnşaat Sigortaları", link: "shop-product-details", id: "8", aciklama: "lorem ipsum dolor sit amed", urun: ["All Risk İnşaat Sigortaları"] },
+	{ image: depremsigorta, name: "Deprem Sigortası ", link: "shop-product-details", id: "9", aciklama: "lorem ipsum dolor sit amed", urun: ["Deprem Sigortası"] },
+	{ image: sorumluluksigorta, name: "Sorumluluk Sigortaları", link: "shop-product-details", id: "11", aciklama: "lorem ipsum dolor sit amed", urun: ["Sorumluluk Sigortaları"] },
 ];
 
 
