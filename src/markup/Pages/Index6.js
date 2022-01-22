@@ -252,9 +252,9 @@ const Index6 = (props) => {
                                 <div className="col-xl-7 col-lg-6 col-md-12 contact-form-bx">
                                     <div className="form-group">
                                         <div className="input-group">
-                                            <label>Write your email</label>
+                                            <label>E-mail</label>
                                             <input name="dzEmail" required="required" type="email" className="form-control" placeholder="" />
-                                            <button name="submit" value="Submit" type="submit" className="site-button radius-xl">Subscribe</button>
+                                            <button name="submit" value="Submit" type="submit" className="site-button radius-xl">Kayıt ol</button>
                                         </div>
                                         <div className="dzSubscribeMsg"></div>
                                     </div>
