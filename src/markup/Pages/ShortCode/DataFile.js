@@ -10,6 +10,9 @@ import work2 from './../../../images/our-work/pic2.jpg';
 import work3 from './../../../images/our-work/pic3.jpg';
 import work4 from './../../../images/our-work/pic4.jpg';
 
+import test1 from './../../../images/our-work/pic1.jpg';
+import test2 from './../../../images/our-work/pic2.jpg';
+import test3 from './../../../images/our-work/pic3.jpg';
 
 const wraperBlog = [
 	{ icon: <i className="ti-headphone-alt" />, title: 'Market forecast' },
