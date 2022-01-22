@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Header4 from './../Layout/Header1';
 import Footer5 from './../Layout/footer5';
-import Index6Carousel from './../Element/Index6Carousel';
 import { flipBlog } from './../Pages/ShortCode/DataFile';
 //Images
 import bg4 from './../../images/background/bg4.png';
