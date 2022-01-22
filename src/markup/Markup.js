@@ -73,7 +73,7 @@ class Markup extends Component {
                         <Route path='/index-3' exact component={Index3} />
                         <Route path='/index-4' exact component={Index4} />
                         <Route path='/index-5' exact component={Index5} />
-                        <Route path='/index-6' exact component={Index6} />
+                        <Route path='/anasayfa' exact component={Index6} />
                         <Route path='/index-7' exact component={Index7} />
                         <Route path='/about-1' exact component={Aboutus1} />
                         <Route path='/about-2' exact component={Aboutus2} />

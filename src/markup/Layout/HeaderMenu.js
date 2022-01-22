@@ -6,7 +6,7 @@ class HeaderMenu extends Component {
 		return (
 			<>
 				<ul className="nav navbar-nav">
-					<li className="active"><Link to={'./index-6'}><span className="ti-home"></span> <i className=""></i></Link>
+					<li className="active"><Link to={'./anasayfa'}><span className="ti-home"></span> <i className=""></i></Link>
 
 					</li>
 					<li><Link to={'#'}>Ürünler <i className=""></i></Link>
@@ -92,18 +92,7 @@ class HeaderMenu extends Component {
 							<li><Link to={'./shop-register'} className="dez-page">Shop Register</Link></li>
 						</ul>
 					</li>
-					<li><Link to={'#'}>Teklif Al <i className="own"></i> </Link>
-						<ul className="sub-menu left">
-							<li><Link to={'./short-icon-box'} className="dez-page">Icon Box</Link></li>
-							<li><Link to={'./short-counter'} className="dez-page">Counter</Link></li>
-							<li><Link to={'./short-portfolio'} className="dez-page">Portfolio</Link></li>
-							<li><Link to={'./short-tabs'} className="dez-page">Tabs</Link></li>
-							<li><Link to={'./short-team'} className="dez-page">Team</Link></li>
-							<li><Link to={'./short-testimonial'} className="dez-page">Testimonial</Link></li>
-							<li><Link to={'./short-form'} className="dez-page">Form</Link></li>
-							<li><Link to={'./short-accordions'} className="dez-page">Accordions</Link></li>
-						</ul>
-					</li>
+
 				</ul>
 			</>
 		)
