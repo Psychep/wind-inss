@@ -13,39 +13,39 @@ import tamplate from './../../images/tamplate.png';
 import bg1 from './../../images/background/bg1.jpg';
 import bgmap from './../../images/background/bg-map.jpg';
 
- 
+
 const BlogLeft = ({ title, number }) => {
-   return (
-		<>
-			<div className="line-left clearfix">
+    return (
+        <>
+            <div className="line-left clearfix">
                 <div className="line-left-box">
-					<div className="line-content-box ">
-						<h4 className="min-title text-uppercase text-primary m-t0 m-b15">{title}</h4>
-						<p className="font-16">
-							We at Dream Spa provide various services to the nature of the clients. we can talk.
-						</p>
-					</div>
-					<div className="line-num bg-primary-dark">{number}</div>
-				</div>
-			</div>	
-		</>
+                    <div className="line-content-box ">
+                        <h4 className="min-title text-uppercase text-primary m-t0 m-b15">{title}</h4>
+                        <p className="font-16">
+                            We at Dream Spa provide various services to the nature of the clients. we can talk.
+                        </p>
+                    </div>
+                    <div className="line-num bg-primary-dark">{number}</div>
+                </div>
+            </div>
+        </>
     );
 };
 const BlogRight = ({ title, number }) => {
-   return (
-		<>
-			<div className="line-right clearfix">
+    return (
+        <>
+            <div className="line-right clearfix">
                 <div className="line-right-box">
-					<div className="line-content-box ">
-						<h4 className="min-title text-uppercase text-primary m-t0 m-b15">{title}</h4>
-						<p className="font-16">
-							We at Dream Spa provide various services to the nature of the clients. we can talk.
-						</p>
-					</div>
-					<div className="line-num bg-primary-dark">{number}</div>
-				</div>
-			</div>	
-		</>
+                    <div className="line-content-box ">
+                        <h4 className="min-title text-uppercase text-primary m-t0 m-b15">{title}</h4>
+                        <p className="font-16">
+                            We at Dream Spa provide various services to the nature of the clients. we can talk.
+                        </p>
+                    </div>
+                    <div className="line-num bg-primary-dark">{number}</div>
+                </div>
+            </div>
+        </>
     );
 };
 
@@ -68,12 +68,12 @@ class ProjectManagement extends Component {
                                 <div className="section-head text-black text-center">
                                     <h4 className="text-gray-dark m-b10">Start A Project</h4>
                                     <h2 className="box-title m-tb0">
-										Information Flow in the Right Direction + Keeping all concerned in the loop = Effective Project Management
-										<span className="bg-primary"></span>
-									</h2>
+                                        Information Flow in the Right Direction + Keeping all concerned in the loop = Effective Project Management
+                                        <span className="bg-primary"></span>
+                                    </h2>
                                     <p>
-										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-									</p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
                                 </div>
                             </div>
                             <div className="container">
@@ -84,19 +84,17 @@ class ProjectManagement extends Component {
                                     </div>
                                     <div className="col-lg-12">
                                         <div className="time-line clearfix">
-                                            <BlogLeft title='Project Analysis' number='1' />  
-											<BlogRight title='Project Kick Off Meetings' number='2' />
-											<BlogLeft title='Clear, Correct & Concise Information' number='3' />
-											<BlogRight title='Single Point of Contact' number='4' />
-											<BlogLeft title='Multiple Communication Channels' number='5' />
-											<BlogRight title='Project Workflow Accessibility' number='6' />
-											<BlogLeft title='Privacy & Security' number='7' />
-											<BlogRight title='Modern Project Management Tools' number='8' />
-											<BlogLeft title='Proactive & Upfront' number='9' />								   
-											<BlogRight title='Weekly/ Fortnightly Reviews' number='10' />
-											<BlogLeft title='Complete Documentation' number='11' />								   
-											<BlogRight title='Status Reports' number='12' />									
-											<BlogLeft title='Respect & Flexibility' number='13' />
+                                            <BlogLeft title='Project Analysis' number='1' />
+                                            <BlogRight title='Project Kick Off Meetings' number='2' />
+                                            <BlogLeft title='Clear, Correct & Concise Information' number='3' />
+                                            <BlogRight title='Single Point of Contact' number='4' />
+                                            <BlogLeft title='Multiple Communication Channels' number='5' />
+                                            <BlogRight title='Project Workflow Accessibility' number='6' />
+                                            <BlogLeft title='Privacy & Security' number='7' />
+                                            <BlogRight title='Modern Project Management Tools' number='8' />
+                                            <BlogLeft title='Proactive & Upfront' number='9' />
+                                            <BlogRight title='Weekly/ Fortnightly Reviews' number='10' />
+
                                         </div>
                                     </div>
                                     <div className="col-lg-12 text-center">
@@ -105,26 +103,14 @@ class ProjectManagement extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="text-center">
-                                <img src={tamplate} alt="" />
+                            <div className="text-center" style={{ paddingTop: "65px" }}>
                             </div>
                         </div>
                         {/* <!-- Our Services --> */}
-						 {/* <!-- Why Chose Us --> */}
-							<SectionCounter />
+                        {/* <!-- Why Chose Us --> */}
                         {/* <!-- Why Chose Us End --> */}
                         {/* <!-- Testimonials --> */}
-                        <div className="section-full content-inner" style={{ backgroundImage:"url(" + bgmap + ")",backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
-                            <div className="container">
-                                <div className="section-head text-center">
-                                    <h2 className="box-title m-tb0">Our Testimonials<span className="bg-primary"></span></h2>
-                                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
-                                </div>
-                                <div className="section-content m-b30 	">
-								 <TestimonialCarousel /> 
-                                </div>
-                            </div>
-                        </div>
+
                         {/* <!-- Testimonials END --> */}
                         {/* <!-- Get in touch --> */}
                         <div className="section-full overlay-primary-dark bg-img-fix" style={{ backgroundImage: "url(" + bg1 + ")" }}>

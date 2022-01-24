@@ -6,6 +6,7 @@ import PageTitle from './../../Layout/PageTitle';
 import SectionCounter from './../../Element/SectionCounter';
 import TestimonialCarousel from './../../Element/TestimonialCarousel';
 import FormStyle from './../../Element/FormStyle';
+import { flipBlog } from "../../Pages/ShortCode/DataFile";
 
 //Images
 import bnr5 from './../../../images/banner/bnr5.jpg';
@@ -13,12 +14,12 @@ import bgmap from './../../../images/background/bg-map.jpg';
 import bg1 from './../../../images/background/bg1.jpg';
 
 const iconBox = [
-	{icon: <i className="flaticon-devices" />, title:'Web Design Solutions', },
-	{icon: <i className="flaticon-pen" />, title:'Web Development  Solutions ', },
-	{icon: <i className="flaticon-bar-chart" />, title:'SEO/SMO Solutions', },
-	{icon: <i className="flaticon-file" />, title:'Pre Customized Solutions', },
-	{icon: <i className="flaticon-notebook" />, title:'Project Maintenance', },
-	{icon: <i className="flaticon-team" />, title:'Social Networking Portal', },
+    { icon: <i className="flaticon-devices" />, title: 'Web Design Solutions', },
+    { icon: <i className="flaticon-pen" />, title: 'Web Development  Solutions ', },
+    { icon: <i className="flaticon-bar-chart" />, title: 'SEO/SMO Solutions', },
+    { icon: <i className="flaticon-file" />, title: 'Pre Customized Solutions', },
+    { icon: <i className="flaticon-notebook" />, title: 'Project Maintenance', },
+    { icon: <i className="flaticon-team" />, title: 'Social Networking Portal', },
 ];
 
 class Service extends Component {
@@ -32,7 +33,7 @@ class Service extends Component {
                 <div className="page-content bg-white">
                     {/* <!-- inner page banner --> */}
                     <div className="dlab-bnr-inr overlay-primary" style={{ backgroundImage: "url(" + bnr5 + ")" }}>
-						<PageTitle motherMenu='Our Services'  activeMenu='Our Services' />
+                        <PageTitle motherMenu='Our Services' activeMenu='Our Services' />
                     </div>
                     {/* <!-- inner page banner END --> */}
                     <div className="content-block">
@@ -47,23 +48,24 @@ class Service extends Component {
                             </div>
                             <div className="container">
                                 <div className="row ">
-									{iconBox.map((data, index)=>(
-										<div className="col-md-4 col-sm-6 m-b30 "  key={index}>
-											<div className="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-												<div className="icon-lg m-b20"> <Link to={"#"} className="icon-cell">{data.icon}</Link> </div>
-												<div className="icon-content">
-													<h5 className="dlab-tilte text-uppercase"><Link to={"#"}>{data.title}</Link></h5>
-													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
-												</div>
-											</div>
-										</div>
-									))}	
+                                    {flipBlog.map((data, index) => (
+                                        data.urun.map((data, index) => (
+                                            <div className="col-md-4 col-sm-6 m-b30 " key={index}>
+                                                <div className="icon-bx-wraper expertise  bx-style-1 p-a30 center">
+                                                    <div className="icon-lg m-b20"> <Link to={"#"} className="icon-cell">{data.icon}</Link> </div>
+                                                    <div className="icon-content">
+                                                        <h5 className="dlab-tilte text-uppercase"><Link to={"#"}>{data}</Link></h5>
+                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ))))}
                                 </div>
                             </div>
                         </div>
                         {/* <!-- Our Services --> */}
                         {/* <!-- Why Chose Us --> */}
-							<SectionCounter />
+                        <SectionCounter />
                         {/* <!-- Why Chose Us End --> */}
                         <div className="section-full content-inner-1">
                             <div className="container">
@@ -148,14 +150,14 @@ class Service extends Component {
                             </div>
                         </div>
                         {/* <!-- Testimonials --> */}
-                        <div className="section-full content-inner "   style={{ backgroundImage: "url(" + bgmap + ")", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+                        <div className="section-full content-inner " style={{ backgroundImage: "url(" + bgmap + ")", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
                             <div className="container">
                                 <div className="section-head text-center">
                                     <h2 className="box-title m-tb0">Our Testimonials<span className="bg-primary"></span></h2>
                                     <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
                                 </div>
                                 <div className="section-content m-b30 ">
-									<TestimonialCarousel /> 
+                                    <TestimonialCarousel />
                                 </div>
                             </div>
                         </div>
