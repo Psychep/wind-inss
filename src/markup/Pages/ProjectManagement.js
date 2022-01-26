@@ -14,7 +14,7 @@ import bg1 from './../../images/background/bg1.jpg';
 import bgmap from './../../images/background/bg-map.jpg';
 
 
-const BlogLeft = ({ title, number }) => {
+const BlogLeft = ({ title, number, content }) => {
     return (
         <>
             <div className="line-left clearfix">
@@ -22,7 +22,7 @@ const BlogLeft = ({ title, number }) => {
                     <div className="line-content-box ">
                         <h4 className="min-title text-uppercase text-primary m-t0 m-b15">{title}</h4>
                         <p className="font-16">
-                            We at Dream Spa provide various services to the nature of the clients. we can talk.
+                            {content}
                         </p>
                     </div>
                     <div className="line-num bg-primary-dark">{number}</div>
@@ -31,7 +31,7 @@ const BlogLeft = ({ title, number }) => {
         </>
     );
 };
-const BlogRight = ({ title, number }) => {
+const BlogRight = ({ title, number, content }) => {
     return (
         <>
             <div className="line-right clearfix">
@@ -39,7 +39,7 @@ const BlogRight = ({ title, number }) => {
                     <div className="line-content-box ">
                         <h4 className="min-title text-uppercase text-primary m-t0 m-b15">{title}</h4>
                         <p className="font-16">
-                            We at Dream Spa provide various services to the nature of the clients. we can talk.
+                            {content}
                         </p>
                     </div>
                     <div className="line-num bg-primary-dark">{number}</div>
@@ -66,10 +66,9 @@ class ProjectManagement extends Component {
                         <div className="section-full content-inner-1">
                             <div className="container">
                                 <div className="section-head text-black text-center">
-                                    <h4 className="text-gray-dark m-b10">Start A Project</h4>
+                                    <h4 className="text-gray-dark m-b10">Wind Sigorta</h4>
                                     <h2 className="box-title m-tb0">
-                                        Information Flow in the Right Direction + Keeping all concerned in the loop = Effective Project Management
-                                        <span className="bg-primary"></span>
+                                        Her türlü teknolojiye ayak uyduran dinamik yapımızla tüm yeniliklere açık acenteliğimizle, sizlerin hizmetindeyiz.                                        <span className="bg-primary"></span>
                                     </h2>
                                     <p>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
