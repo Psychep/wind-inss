@@ -1,120 +1,237 @@
-import React from 'react';
+import React from "react";
 
-import services1 from './../../../images/our-services/pic1.jpg';
-import services2 from './../../../images/our-services/pic2.jpg';
-import services3 from './../../../images/our-services/pic3.jpg';
-import services4 from './../../../images/our-services/pic4.jpg';
+import services1 from "./../../../images/our-services/pic1.jpg";
+import services2 from "./../../../images/our-services/pic2.jpg";
+import services3 from "./../../../images/our-services/pic3.jpg";
+import services4 from "./../../../images/our-services/pic4.jpg";
 
-import work1 from './../../../images/our-work/pic1.jpg';
-import work2 from './../../../images/our-work/pic2.jpg';
-import work3 from './../../../images/our-work/pic3.jpg';
-import work4 from './../../../images/our-work/pic4.jpg';
+import work1 from "./../../../images/our-work/pic1.jpg";
+import work2 from "./../../../images/our-work/pic2.jpg";
+import work3 from "./../../../images/our-work/pic3.jpg";
+import work4 from "./../../../images/our-work/pic4.jpg";
 
-import aracsigorta from './../../../images/product/arac-sigorta.png';
-import yanginsigorta from './../../../images/product/yangin-sigorta.png';
-import nakliyatsigorta from './../../../images/product/nakliyat-sigorta.png';
-import kefaletsigorta from './../../../images/product/kefalet.png';
-import sagliksigorta from './../../../images/product/saglik-sigorta.png';
-import muhendisliksigorta from './../../../images/product/muhendislik-sigortasi.png';
-import ferdikaza from './../../../images/product/ferdikazasigortasi.png';
-import allrisk from './../../../images/product/allrisk.png';
-import depremsigorta from './../../../images/product/depremsigorta.png';
-import sorumluluksigorta from './../../../images/product/sorumluluksigota.png';
-
+import aracsigorta from "./../../../images/product/arac-sigorta.png";
+import yanginsigorta from "./../../../images/product/yangin-sigorta.png";
+import nakliyatsigorta from "./../../../images/product/nakliyat-sigorta.png";
+import kefaletsigorta from "./../../../images/product/kefalet.png";
+import sagliksigorta from "./../../../images/product/saglik-sigorta.png";
+import muhendisliksigorta from "./../../../images/product/muhendislik-sigortasi.png";
+import ferdikaza from "./../../../images/product/ferdikazasigortasi.png";
+import allrisk from "./../../../images/product/allrisk.png";
+import depremsigorta from "./../../../images/product/depremsigorta.png";
+import sorumluluksigorta from "./../../../images/product/sorumluluksigota.png";
 
 const wraperBlog = [
-	{ icon: <i className="ti-headphone-alt" />, title: 'Market forecast' },
-	{ icon: <i className="ti-ruler-pencil" />, title: 'Most Versatile' },
-	{ icon: <i className="ti-desktop" />, title: 'Workflow automation' },
+  { icon: <i className="ti-headphone-alt" />, title: "Market forecast" },
+  { icon: <i className="ti-ruler-pencil" />, title: "Most Versatile" },
+  { icon: <i className="ti-desktop" />, title: "Workflow automation" },
 ];
 
 const wraperBox2 = [
-	{ icon: <i className="ti-desktop" />, title: 'Lifetime Updates', },
-	{ icon: <i className="ti-ruler-pencil" />, title: 'Fast Supports', },
-	{ icon: <i className="ti-palette" />, title: 'Interactive Elements', },
-	{ icon: <i className="ti-file" />, title: 'Flexible Layout', },
+  { icon: <i className="ti-desktop" />, title: "Lifetime Updates" },
+  { icon: <i className="ti-ruler-pencil" />, title: "Fast Supports" },
+  { icon: <i className="ti-palette" />, title: "Interactive Elements" },
+  { icon: <i className="ti-file" />, title: "Flexible Layout" },
 ];
 
 const dlabBox = [
-	{ icon: <i className="ti-ruler-pencil" />, title: 'Creative design', image: services1, },
-	{ icon: <i className="ti-heart" />, title: 'Just Easy Way', image: services2, },
-	{ icon: <i className="ti-brush-alt" />, title: 'Creative design', image: services3, },
-	{ icon: <i className="ti-mouse-alt" />, title: 'Flexible Layout', image: services4, },
+  {
+    icon: <i className="ti-ruler-pencil" />,
+    title: "Creative design",
+    image: services1,
+  },
+  {
+    icon: <i className="ti-heart" />,
+    title: "Just Easy Way",
+    image: services2,
+  },
+  {
+    icon: <i className="ti-brush-alt" />,
+    title: "Creative design",
+    image: services3,
+  },
+  {
+    icon: <i className="ti-mouse-alt" />,
+    title: "Flexible Layout",
+    image: services4,
+  },
 ];
 
 const wraperBox3 = [
-	{ icon: <i className="flaticon-devices" />, title: 'Web Design Solutions' },
-	{ icon: <i className="flaticon-pen" />, title: 'Web Development Solutions' },
-	{ icon: <i className="flaticon-bar-chart" />, title: 'SEO/SMO Solutions' },
-	{ icon: <i className="flaticon-file" />, title: 'Pre Customized Solutions' },
-	{ icon: <i className="flaticon-notebook" />, title: 'Project Maintenance' },
-	{ icon: <i className="flaticon-team" />, title: 'Social Networking Portal' },
+  { icon: <i className="flaticon-devices" />, title: "Web Design Solutions" },
+  { icon: <i className="flaticon-pen" />, title: "Web Development Solutions" },
+  { icon: <i className="flaticon-bar-chart" />, title: "SEO/SMO Solutions" },
+  { icon: <i className="flaticon-file" />, title: "Pre Customized Solutions" },
+  { icon: <i className="flaticon-notebook" />, title: "Project Maintenance" },
+  { icon: <i className="flaticon-team" />, title: "Social Networking Portal" },
 ];
 
 const wraperBox4 = [
-	{ icon: <i className="flaticon-devices" />, title: 'Custom Applications' },
-	{ icon: <i className="flaticon-pen " />, title: 'Dynamic Website' },
-	{ icon: <i className="flaticon-layers" />, title: 'CMS Development' },
-	{ icon: <i className="flaticon-shop" />, title: 'PHP based E-commercet' },
-	{ icon: <i className="flaticon-technology" />, title: 'CMS Development' },
-	{ icon: <i className="flaticon-internet" />, title: 'Cloud (SaaS, PaaS)' },
+  { icon: <i className="flaticon-devices" />, title: "Custom Applications" },
+  { icon: <i className="flaticon-pen " />, title: "Dynamic Website" },
+  { icon: <i className="flaticon-layers" />, title: "CMS Development" },
+  { icon: <i className="flaticon-shop" />, title: "PHP based E-commercet" },
+  { icon: <i className="flaticon-technology" />, title: "CMS Development" },
+  { icon: <i className="flaticon-internet" />, title: "Cloud (SaaS, PaaS)" },
 ];
 
 const dlabBox2 = [
-	{ icon: <i className="flaticon-diamond" />, title: 'Business', image: work1, },
-	{ icon: <i className="flaticon-pen" />, title: 'Consulting', image: work2, },
-	{ icon: <i className="flaticon-file" />, title: 'Finance', image: work3, },
-	{ icon: <i className="flaticon-bar-chart" />, title: 'Growth', image: work4, },
+  { icon: <i className="flaticon-diamond" />, title: "Business", image: work1 },
+  { icon: <i className="flaticon-pen" />, title: "Consulting", image: work2 },
+  { icon: <i className="flaticon-file" />, title: "Finance", image: work3 },
+  { icon: <i className="flaticon-bar-chart" />, title: "Growth", image: work4 },
 ];
 
 const wraperBox5 = [
-	{ icon: <i className="ti-check-box" />, title: 'Ensure Security', },
-	{ icon: <i className="ti-user" />, title: 'Expert Team', },
-	{ icon: <i className="ti-headphone-alt" />, title: '24/7 SUPPORT', },
+  { icon: <i className="ti-check-box" />, title: "Ensure Security" },
+  { icon: <i className="ti-user" />, title: "Expert Team" },
+  { icon: <i className="ti-headphone-alt" />, title: "24/7 SUPPORT" },
 ];
 
 const wraperBox6 = [
-	{ icon: <i className="flaticon-bar-chart" />, title: 'Make it Simple', },
-	{ icon: <i className="flaticon-trophy" />, title: 'Unique design', },
-	{ icon: <i className="flaticon-devices" />, title: 'True Responsiveness', },
+  { icon: <i className="flaticon-bar-chart" />, title: "Make it Simple" },
+  { icon: <i className="flaticon-trophy" />, title: "Unique design" },
+  { icon: <i className="flaticon-devices" />, title: "True Responsiveness" },
 ];
 const wraperBox7 = [
-	{ icon: <i className="flaticon-pen" />, title: 'Creative', },
-	{ icon: <i className="flaticon-diamond" />, title: 'Unique design', },
-	{ icon: <i className="flaticon-devices" />, title: 'Innovative', },
+  { icon: <i className="flaticon-pen" />, title: "Creative" },
+  { icon: <i className="flaticon-diamond" />, title: "Unique design" },
+  { icon: <i className="flaticon-devices" />, title: "Innovative" },
 ];
 
 const wraperBox8 = [
-	{ icon1: <i className="flaticon-trophy" />, title1: 'Elegant / Unique design', icon2: <i className="flaticon-technology" />, title2: 'Different Layout Type', },
-	{ icon1: <i className="flaticon-bar-chart" />, title1: 'Make it Simple', icon2: <i className="flaticon-devices" />, title2: 'True Responsiveness', },
-	{ icon1: <i className="flaticon-trophy" />, title1: 'Elegant / Unique design', icon2: <i className="flaticon-technology" />, title2: 'Different Layout Type', },
-	{ icon1: <i className="flaticon-bar-chart" />, title1: 'Make it Simple', icon2: <i className="flaticon-devices" />, title2: 'True Responsiveness', },
+  {
+    icon1: <i className="flaticon-trophy" />,
+    title1: "Elegant / Unique design",
+    icon2: <i className="flaticon-technology" />,
+    title2: "Different Layout Type",
+  },
+  {
+    icon1: <i className="flaticon-bar-chart" />,
+    title1: "Make it Simple",
+    icon2: <i className="flaticon-devices" />,
+    title2: "True Responsiveness",
+  },
+  {
+    icon1: <i className="flaticon-trophy" />,
+    title1: "Elegant / Unique design",
+    icon2: <i className="flaticon-technology" />,
+    title2: "Different Layout Type",
+  },
+  {
+    icon1: <i className="flaticon-bar-chart" />,
+    title1: "Make it Simple",
+    icon2: <i className="flaticon-devices" />,
+    title2: "True Responsiveness",
+  },
 ];
 
 const flipBlog = [
-	{ image: aracsigorta, name: "Oto Sigortaları", link: "shop-product-details", id: "1", aciklama: "lorem ipsum dolor sit amed", urun: ["Trafik Sigortası", "Kasko", "Filo Kasko Sİgortası"] },
-	{ image: yanginsigorta, name: "Yangın Sigortaları", link: "shop-product-details", id: "2", aciklama: "lorem ipsum dolor sit amed", urun: ["Konut Sigortası", "İş Yeri Sigortası"] },
-	{ image: nakliyatsigorta, name: "Nakliyat  Sigortaları", link: "shop-product-details", id: "3", aciklama: "lorem ipsum dolor sit amed", urun: ["Hayvan Hayat Sigortası", "Kümes Hayvanları Sigortası", "Dolu Sigortası", "Sera Sigortası"] },
-	{ image: kefaletsigorta, name: "Kefalet Sigortası", link: "shop-product-details", id: "5", aciklama: "lorem ipsum dolor sit amed", urun: ["Kefalet Sigortası"] },
-	{ image: sagliksigorta, name: "Sağlık Sigortaları", link: "shop-product-details", id: "6", aciklama: "lorem ipsum dolor sit amed", urun: ["Özel Sağlık sigortası", "Tamamlayıcı Sağlık Sigortası", "Yabancı Sağlık Sigortası"] },
-	{ image: muhendisliksigorta, name: "Mühendislik Sigortası", link: "shop-product-details", id: "10", aciklama: "lorem ipsum dolor sit amed", urun: ["Montaj", "Elektornik Cihaz", "Makine Kırılması Sigortası"] },
-	{ image: ferdikaza, name: "Ferdi Kaza Sigortası", link: "shop-product-details", id: "7", aciklama: "lorem ipsum dolor sit amed", urun: ["Ferdi Kaza Sigortası"] },
-	{ image: allrisk, name: "All Risk İnşaat Sigortaları", link: "shop-product-details", id: "8", aciklama: "lorem ipsum dolor sit amed", urun: ["All Risk İnşaat Sigortaları"] },
-	{ image: depremsigorta, name: "Deprem Sigortası ", link: "shop-product-details", id: "9", aciklama: "lorem ipsum dolor sit amed", urun: ["Deprem Sigortası"] },
-	{ image: sorumluluksigorta, name: "Sorumluluk Sigortaları", link: "shop-product-details", id: "11", aciklama: "lorem ipsum dolor sit amed", urun: ["Sorumluluk Sigortaları"] },
+  {
+    image: aracsigorta,
+    name: "Oto Sigortaları",
+    link: "shop-product-details",
+    id:1,
+    aciklama: "lorem ipsum dolor sit amed",
+    urun: ["Trafik Sigortası", "Kasko", "Filo Kasko Sİgortası"],
+	tag: ["Oto Sigortaları"]
+  },
+  {
+    image: yanginsigorta,
+    name: "Yangın Sigortaları",
+    link: "shop-product-details",
+    id: 2,
+    aciklama: "lorem ipsum dolor sit amed",
+    urun: ["Konut Sigortası", "İş Yeri Sigortası"],
+	tag: ["Yangın Sigortaları"]
+  },
+  {
+    image: nakliyatsigorta,
+    name: "Nakliyat  Sigortaları",
+    link: "shop-product-details",
+    id: 3,
+    aciklama: "lorem ipsum dolor sit amed",
+	
+    urun: [
+      "Hayvan Hayat Sigortası",
+      "Kümes Hayvanları Sigortası",
+      "Dolu Sigortası",
+      "Sera Sigortası",
+    ],tag: ["Hayvan Hayat Sigortası"]
+  },
+  {
+    image: kefaletsigorta,
+    name: "Kefalet Sigortası",
+    link: "shop-product-details",
+    id: 5,
+    aciklama: "lorem ipsum dolor sit amed",
+    urun: ["Kefalet Sigortası"],tag: ["Kefalet Sigortası"]
+  },
+  {
+    image: sagliksigorta,
+    name: "Sağlık Sigortaları",
+    link: "shop-product-details",
+    id: 6,
+    aciklama: "lorem ipsum dolor sit amed",
+    urun: [
+      "Özel Sağlık sigortası",
+      "Tamamlayıcı Sağlık Sigortası",
+      "Yabancı Sağlık Sigortası",
+    ],tag: ["Sağlık Sigortaları"]
+  },
+  {
+    image: muhendisliksigorta,
+    name: "Mühendislik Sigortası",
+    link: "shop-product-details",
+    id: 7,
+    aciklama: "lorem ipsum dolor sit amed",
+    urun: ["Montaj", "Elektornik Cihaz", "Makine Kırılması Sigortası"],tag: ["Mühendislik Sigortası"]
+  },
+  {
+    image: ferdikaza,
+    name: "Ferdi Kaza Sigortası",
+    link: "shop-product-details",
+    id: 8,
+    aciklama: "lorem ipsum dolor sit amed",
+    urun: ["Ferdi Kaza Sigortası"],tag: ["Ferdi Kaza Sigortası"]
+  },
+  {
+    image: allrisk,
+    name: "All Risk İnşaat Sigortaları",
+    link: "shop-product-details",
+    id: 9,
+    aciklama: "lorem ipsum dolor sit amed",
+    urun: ["All Risk İnşaat Sigortaları"],tag: ["All Risk İnşaat Sigortaları"]
+  },
+  {
+    image: depremsigorta,
+    name: "Deprem Sigortası",
+    link: "shop-product-details",
+    id: 10,
+    aciklama: "lorem ipsum dolor sit amed",
+    urun: ["Deprem Sigortası"],tag: ["Deprem Sigortası"]
+  },
+  {
+    image: sorumluluksigorta,
+    name: "Sorumluluk Sigortaları",
+    link: "shop-product-details",
+    id: 11,
+    aciklama: "lorem ipsum dolor sit amed",
+    urun: ["Sorumluluk Sigortaları"],tag: ["Sorumluluk Sigortaları"]
+  },
 ];
 
 
 export {
-	wraperBlog,
-	wraperBox2,
-	wraperBox3,
-	wraperBox4,
-	wraperBox5,
-	wraperBox6,
-	wraperBox7,
-	wraperBox8,
-	dlabBox,
-	dlabBox2,
-	flipBlog,
+  wraperBlog,
+  wraperBox2,
+  wraperBox3,
+  wraperBox4,
+  wraperBox5,
+  wraperBox6,
+  wraperBox7,
+  wraperBox8,
+  dlabBox,
+  dlabBox2,
+  flipBlog,
 };

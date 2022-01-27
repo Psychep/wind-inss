@@ -85,7 +85,7 @@ function PortfolioItem() {
 	const [filteredImages, setFilterdImages] = useState([]);
 
 	useEffect(() => {
-		tag === 'Show All' ? setFilterdImages(imageBlog) : setFilterdImages(imageBlog.filter(image => image.tag.find(element => element === tag)))
+		tag === 'Show All' ? setFilterdImages(flipBlog) : setFilterdImages(flipBlog.filter(image => image.tag.find(element => element === tag)))
 	}, [tag])
 
 	return (
@@ -103,7 +103,7 @@ function PortfolioItem() {
 						<ul className="filters" data-toggle="buttons">
 							<TagLi name="Show All" handlesettag={setTag} tagActive={tag === 'Show All' ? true : false} />
 							{flipBlog.map((data, index) => (
-								<TagLi name={data.name} handlesettag={setTag} tagActive={tag === data.id ? true : false} />
+								<TagLi name={data.name} handlesettag={setTag} tagActive={tag === data.name ? true : false} />
 							))}
 						</ul>
 					</div>
@@ -119,7 +119,7 @@ function PortfolioItem() {
 										imagesLoadedOptions={imagesLoadedOptions} // default {}
 									>
 										{flipBlog.map((item, index) => (
-											<li className="card-container col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30 drupal php wordpress" key={item.id}>
+											<li className="card-container col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30 drupal php wordpress" key={item.name}>
 												<div className="dlab-box portfolio-box">
 													<div className="dlab-media dlab-img-effect dlab-img-overlay1"> <img src={item.image} alt="" />
 														<div className="dlab-info-has p-a15 bg-primary">
