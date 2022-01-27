@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './../Layout/Header1';
-import Footer from './../Layout/Footer1';
+import Footer from './../Layout/footer5';
 import PageTitle from './../Layout/PageTitle';
 import SectionCounter from './../Element/SectionCounter';
 import TestimonialCarousel from './../Element/TestimonialCarousel';
@@ -8,13 +8,13 @@ import FormStyle from './../Element/FormStyle';
 
 //Images
 import rocket from './../../images/rocket.png';
-import bnr from './../../images/banner/bnr7.jpg';
+import bnr from './../../images/background/bg1.png';
 import tamplate from './../../images/tamplate.png';
-import bg1 from './../../images/background/bg1.jpg';
+import bg1 from './../../images/background/bg10.png';
 import bgmap from './../../images/background/bg-map.jpg';
 
 
-const BlogLeft = ({ title, number, content }) => {
+const BlogLeft = ({ title, number, parg }) => {
     return (
         <>
             <div className="line-left clearfix">
@@ -22,8 +22,7 @@ const BlogLeft = ({ title, number, content }) => {
                     <div className="line-content-box ">
                         <h4 className="min-title text-uppercase text-primary m-t0 m-b15">{title}</h4>
                         <p className="font-16">
-                            {content}
-                        </p>
+                            {parg}                        </p>
                     </div>
                     <div className="line-num bg-primary-dark">{number}</div>
                 </div>
@@ -31,7 +30,7 @@ const BlogLeft = ({ title, number, content }) => {
         </>
     );
 };
-const BlogRight = ({ title, number, content }) => {
+const BlogRight = ({ title, number, parg }) => {
     return (
         <>
             <div className="line-right clearfix">
@@ -39,7 +38,7 @@ const BlogRight = ({ title, number, content }) => {
                     <div className="line-content-box ">
                         <h4 className="min-title text-uppercase text-primary m-t0 m-b15">{title}</h4>
                         <p className="font-16">
-                            {content}
+                            {parg}.
                         </p>
                     </div>
                     <div className="line-num bg-primary-dark">{number}</div>
@@ -83,21 +82,16 @@ class ProjectManagement extends Component {
                                     </div>
                                     <div className="col-lg-12">
                                         <div className="time-line clearfix">
-                                            <BlogLeft title='Project Analysis' number='1' />
-                                            <BlogRight title='Project Kick Off Meetings' number='2' />
-                                            <BlogLeft title='Clear, Correct & Concise Information' number='3' />
-                                            <BlogRight title='Single Point of Contact' number='4' />
-                                            <BlogLeft title='Multiple Communication Channels' number='5' />
-                                            <BlogRight title='Project Workflow Accessibility' number='6' />
-                                            <BlogLeft title='Privacy & Security' number='7' />
-                                            <BlogRight title='Modern Project Management Tools' number='8' />
-                                            <BlogLeft title='Proactive & Upfront' number='9' />
-                                            <BlogRight title='Weekly/ Fortnightly Reviews' number='10' />
+                                            <BlogLeft title='Sigorta İhtiyacınızı Belirleyin' parg="Wind Sigorta'nın sunduğu trafik ve kasko gibi araç sigortasından, ev sigortası ve sağlık sigortasına kadar uzanan yelpazedeki sigorta çeşitlerini inceleyin" number='1' />
+                                            <BlogRight title='Karşılaştırmalı Teklif Alın' parg="Sigortalarımız için kısa bir form doldurarak tüm ürünlerimiz için karşılaştırmalı teklif alın." number='2' />
+                                            <BlogLeft title='Fırsatlarımızdan & Kampanyalarımızdan faydalanın' parg="Wind Sigorta Size en uygun teklifleri verebilmek için size uygun kampanyaları sunar." number='3' />
+                                            <BlogRight title='Hemen Şimdi Hızlı bir teklif Alın' parg="Teklif Formunu doldurun ve size en kısa sürede tekliflerimizi sunalım." number='4' />
+
 
                                         </div>
                                     </div>
                                     <div className="col-lg-12 text-center">
-                                        <h5 className="text-primary">END</h5>
+                                        <h5 className="text-primary">Hızlı Teklif Al</h5>
                                         <div className="arrow-bx fa faa-horizontal animated"></div>
                                     </div>
                                 </div>

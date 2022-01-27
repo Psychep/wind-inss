@@ -7,7 +7,7 @@ import Index2 from './Pages/Index2';
 import Index3 from './Pages/Index3';
 import Index4 from './Pages/Index4';
 import Index5 from './Pages/Index5';
-import Index6 from './Pages/Index6';
+import Index6 from './Pages/Index';
 import Index7 from './Pages/Index7';
 import Aboutus1 from './Pages/Aboutus/Aboutus1';
 import Aboutus2 from './Pages/Aboutus/Aboutus2';
