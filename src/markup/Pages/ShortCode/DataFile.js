@@ -126,15 +126,15 @@ const wraperBox8 = [
   },
 ];
 
-const flipBlog = [
+const flipItem = [
   {
     image: aracsigorta,
     name: "Oto Sigortaları",
     link: "shop-product-details",
-    id:1,
+    id: 1,
     aciklama: "lorem ipsum dolor sit amed",
     urun: ["Trafik Sigortası", "Kasko", "Filo Kasko Sİgortası"],
-	tag: ["Oto Sigortaları"]
+    tag: ["Oto Sigortaları"],
   },
   {
     image: yanginsigorta,
@@ -143,7 +143,7 @@ const flipBlog = [
     id: 2,
     aciklama: "lorem ipsum dolor sit amed",
     urun: ["Konut Sigortası", "İş Yeri Sigortası"],
-	tag: ["Yangın Sigortaları"]
+    tag: ["Yangın Sigortaları"],
   },
   {
     image: nakliyatsigorta,
@@ -151,13 +151,14 @@ const flipBlog = [
     link: "shop-product-details",
     id: 3,
     aciklama: "lorem ipsum dolor sit amed",
-	
+
     urun: [
       "Hayvan Hayat Sigortası",
       "Kümes Hayvanları Sigortası",
       "Dolu Sigortası",
       "Sera Sigortası",
-    ],tag: ["Hayvan Hayat Sigortası"]
+    ],
+    tag: ["Hayvan Hayat Sigortası"],
   },
   {
     image: kefaletsigorta,
@@ -165,7 +166,8 @@ const flipBlog = [
     link: "shop-product-details",
     id: 5,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["Kefalet Sigortası"],tag: ["Kefalet Sigortası"]
+    urun: ["Kefalet Sigortası"],
+    tag: ["Kefalet Sigortası"],
   },
   {
     image: sagliksigorta,
@@ -177,7 +179,8 @@ const flipBlog = [
       "Özel Sağlık sigortası",
       "Tamamlayıcı Sağlık Sigortası",
       "Yabancı Sağlık Sigortası",
-    ],tag: ["Sağlık Sigortaları"]
+    ],
+    tag: ["Sağlık Sigortaları"],
   },
   {
     image: muhendisliksigorta,
@@ -185,7 +188,8 @@ const flipBlog = [
     link: "shop-product-details",
     id: 7,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["Montaj", "Elektornik Cihaz", "Makine Kırılması Sigortası"],tag: ["Mühendislik Sigortası"]
+    urun: ["Montaj", "Elektornik Cihaz", "Makine Kırılması Sigortası"],
+    tag: ["Mühendislik Sigortası"],
   },
   {
     image: ferdikaza,
@@ -193,7 +197,8 @@ const flipBlog = [
     link: "shop-product-details",
     id: 8,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["Ferdi Kaza Sigortası"],tag: ["Ferdi Kaza Sigortası"]
+    urun: ["Ferdi Kaza Sigortası"],
+    tag: ["Ferdi Kaza Sigortası"],
   },
   {
     image: allrisk,
@@ -201,7 +206,8 @@ const flipBlog = [
     link: "shop-product-details",
     id: 9,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["All Risk İnşaat Sigortaları"],tag: ["All Risk İnşaat Sigortaları"]
+    urun: ["All Risk İnşaat Sigortaları"],
+    tag: ["All Risk İnşaat Sigortaları"],
   },
   {
     image: depremsigorta,
@@ -209,7 +215,8 @@ const flipBlog = [
     link: "shop-product-details",
     id: 10,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["Deprem Sigortası"],tag: ["Deprem Sigortası"]
+    urun: ["Deprem Sigortası"],
+    tag: ["Deprem Sigortası"],
   },
   {
     image: sorumluluksigorta,
@@ -217,10 +224,10 @@ const flipBlog = [
     link: "shop-product-details",
     id: 11,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["Sorumluluk Sigortaları"],tag: ["Sorumluluk Sigortaları"]
+    urun: ["Sorumluluk Sigortaları"],
+    tag: ["Sorumluluk Sigortaları"],
   },
 ];
-
 
 export {
   wraperBlog,
@@ -233,5 +240,5 @@ export {
   wraperBox8,
   dlabBox,
   dlabBox2,
-  flipBlog,
+  flipItem,
 };
