@@ -246,17 +246,7 @@ class Expertise extends Component {
                 </div>
               </div>
             </div>
-            {/* <!-- Our Services --> */}
-            {/* <!-- Why Chose Us --> */}
-            {/* <!-- Why Chose Us End --> */}
-            {/* <!-- Testimonials --> */}
-
-            {/* <!-- Testimonials END --> */}
-            {/* <!-- Get in touch --> */}
-
-            {/* <!-- Get in touch --> */}
           </div>
-          {/* <!-- contact area END --> */}
         </div>
 
         <Footer />

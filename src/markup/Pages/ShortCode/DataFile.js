@@ -133,7 +133,26 @@ const flipItem = [
     link: "shop-product-details",
     id: 1,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["Trafik Sigortası", "Kasko", "Filo Kasko Sİgortası"],
+    urun: [
+      {
+        urun: "Trafik Sigortası",
+        aciklama:
+          "Trafik Sigortası, Karayolları Trafik Kanununun 2918 sayılı hükmünce trafiğe çıkan her araç için yapılması zorunlu kılınmış bir sigorta türüdür. Trafik Sigortasının yapılmasındaki temel amaç; karışılan kazada karşı tarafın uğradığı hasar neticesinde karşılaştığı kayıpların üstlenilmesidir. Yani bu sigorta türü, zorunlu olarak bu sigortayı yaptırmış araç sahibinin zararını karşılamaz. Araç sahiplerinin kendi zararlarını karşılamak amacıyla kasko yaptırmaları gerekir.",
+        image: "Filo Kasko Sİgortası",
+      },
+      {
+        urun: "Kasko",
+        aciklama:
+          "Bir motorlu kara taşıtı sigortası olan kasko, sigortayı yaptıran araç sahibinin ve aracının uğrayabileceği zararların karşılanmasını temin eder. Kasko yaptıran araç sahibi, kendisini ve aracını trafikte karşılaşabileceği zararlara karşı güvence altına alır. Kasko sigortasının amacı; sigorta sahibine ait motorlu aracın uğrayabileceği zararları tazmin etmektir. Kasko, yaptırılması kanunlarla zorunlu tutulan bir sigorta türü değildir. Kasko yaptırıp yaptırmamak araç sahiplerinin tasarrufundadır. Ancak trafikte karşılaşılabilecek muhtemel riskler göz önüne alındığında kasko sigortası, araç ve araç sahipleri için sunduğu teminatlar sayesinde büyük önem arz etmektedir. Bununla birlikte ek teminatlar sunulan araç sahiplerine kasko sigortası tercihinde esneklik sağlanarak özel kasko planları oluşturulabiliyor.",
+        image: "Konut Sigortası",
+      },
+      {
+        urun: "Filo Kasko Sİgortası",
+        aciklama:
+          "Filo Kasko, yüksek sayıda araç sahibi olanlar için yapılan kasko poliçesi çeşididir. Tüzel kişilerin araçlarını güvence altına alabildikleri ve bazı genel ve özel şartlarda istenilen teminatlara göre şekillendirebildikleri fiyat avantajı sunan poliçedir.",
+        image: "İş Yeri Sigortası",
+      },
+    ],
     tag: ["Oto Sigortaları"],
   },
   {
@@ -142,7 +161,20 @@ const flipItem = [
     link: "shop-product-details",
     id: 2,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["Konut Sigortası", "İş Yeri Sigortası"],
+    urun: [
+      {
+        urun: "Konut Sigortası",
+        aciklama:
+          "Hem kiracıların hem de ev sahiplerinin yararlanabileceği, en uygun fiyatlı konut poliçesiyle birçok riske karşı eşyalarınızı teminat altına alan bir yangın sigortası türüdür.       ",
+        image: "Filo Kasko Sİgortası",
+      },
+      {
+        urun: "İş Yeri Sigortası",
+        aciklama:
+          "Poliçe teminatları kapsamında karşılaşabileceğiniz hasar durumunda, işinizin durması sonucunda oluşacak maddi zararların boyutlarının artmasına engel olarak, müşterilere ve çalışanlara karşı sorumluluklarınıza tam güvence sağlayan ve işinizi koruyan bir yangın sigortasıdır. ",
+        image: "Konut Sigortası",
+      },
+    ],
     tag: ["Yangın Sigortaları"],
   },
   {
@@ -150,14 +182,30 @@ const flipItem = [
     name: "Nakliyat  Sigortaları",
     link: "shop-product-details",
     id: 3,
-    aciklama: "lorem ipsum dolor sit amed",
-
+    aciklama:
+      "Nakliyat Sigortaları; nakliye aracı ile malların taşınması sırasında, söz konusu malların fiziki zarara uğramasına karşılık birtakım teminatlar sunan sigortalardır. Kamyon, tren, gemi, uçak gibi araçlar vasıtasıyla taşınan mallar; yaşanan bir olumsuzluğa bağlı olarak fiziken zarar gördüğü takdirde, sigorta poliçesinde yer alan teminatlar dâhilinde söz konusu mağduriyet giderilir. Nakliyat Sigortalarının kapsamında yer alan alt başlıklarda görülebileceği üzere; hem yurtiçi hem de yurtdışı taşımacılığı için farklı sigorta türleri bulunmaktadır. Doğa Sigorta bünyesinde 5 tür nakliyat sigortası hizmeti sunulmaktadır.",
     urun: [
-      "Hayvan Hayat Sigortası",
-      "Kümes Hayvanları Sigortası",
-      "Dolu Sigortası",
-      "Sera Sigortası",
+      {
+        urun: "Deniz/Tekne/Yat Sigortası",
+        aciklama:
+          "Tekne-Yat Sigortaları ürünümüz, özel amaçlı olarak kullandığınız yatlarınıza, deniz tehlikeleri veya karada bağlama yerlerin de , marina da  veya yatma-çekek yerinde meydana gelebilecek kazalara karşı güvence sağlayan bir Sigortadır.        ",
+        image: "Filo Kasko Sİgortası",
+      },
+      {
+        urun: "Nakliyat Sigortası",
+        aciklama:
+          "Taşıdığınız sorumluluklar sizi zor durumda bırakmasın. Wind Sigorta ile sorumluluklarınız teminat altındadır, Freight Forwarder olarak faaliyet gösteren şirketlerin, uluslararası konvansiyonlar kapsamındaki yükümlülüklerine karşılık teminat sağlamaktadır,",
+
+        image: "Konut Sigortası",
+      },
+      {
+        urun: "Emtia Sigortası",
+        aciklama:
+          "Sahibi bulunduğunuz malların, çeşitli nakil vasıtaları ile bir yerden diğer bir yere taşınması, bu taşınma sırasında da oluşabilecek çeşitli rizikolara karşı güvence altına alınması Emtia Nakliyat Sigortası ürünümüz ile sağlanmaktadır. ",
+        image: "İş Yeri Sigortası",
+      },
     ],
+
     tag: ["Hayvan Hayat Sigortası"],
   },
   {
@@ -166,7 +214,14 @@ const flipItem = [
     link: "shop-product-details",
     id: 5,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["Kefalet Sigortası"],
+    urun: [
+      {
+        urun: "Kefalet Sigortası",
+        aciklama:
+          "Kefalet	sigortasında	sigorta	şirketi,	borçlunun	sözleşmeden	ve/veya	kanundan	doğan	yükümlülüğünü	yerine	getirmemesi	riskine	karşı	alacaklıya/işverene	düzenlediği	kefalet	senedi	bedeline	kadar	kefil	olmaktadır.	Bu	sigorta	türü	geleneksel	sigorta	uygulamalarından	ziyade	bankacılık	ürünlerine	alternatif	bir	finansal	enstrüman	niteliğindedir.",
+        image: "Filo Kasko Sİgortası",
+      },
+    ],
     tag: ["Kefalet Sigortası"],
   },
   {
@@ -176,10 +231,26 @@ const flipItem = [
     id: 6,
     aciklama: "lorem ipsum dolor sit amed",
     urun: [
-      "Özel Sağlık sigortası",
-      "Tamamlayıcı Sağlık Sigortası",
-      "Yabancı Sağlık Sigortası",
+      {
+        urun: "Özel Sağlık sigortası",
+        aciklama:
+          "Beklenmedik bir kaza veya hastalık sonucu oluşacak sağlık giderlerinizin yanı sıra sağlığınız için ihtiyaç duyacağınız her türlü tanı ve tedavi işlemlerini, en seçkin sağlık kurumlarında en modern yöntemlerle ve mali kaygı duymadan karşılanması için hazırlanmış sigortalardır. Sağlık giderleriniz, genel ve özel şartlar dahilinde ve poliçede belirtilen limitler doğrultusunda karşılanır.  ",
+        image: "Filo Kasko Sİgortası",
+      },
+      {
+        urun: "Tamamlayıcı Sağlık Sigortası",
+        aciklama:
+          "Wind Sigorta'nın sunduğu Tamamlayıcı Sağlık Sigortası ile Wind Sigorta anlaşmalı özel sağlık kurumlarında, özel şartlar kapsamında SGK tarafından karşılanan sağlık giderlerinizde oluşan fark ücretlerini hiçbir ek ödeme yapmadan karşılayabilirsiniz( SGK zorunlu muayene katılım payı hariç).   ",
+        image: "Konut Sigortası",
+      },
+      {
+        urun: "Yabancı Sağlık Sigortası",
+        aciklama:
+          "Kanun gereğince Türk vatandaşı olmayan ve ikamet izni almak için Türkiye’ye gelen yabancı konukların yaptırmak durumunda olduğu Yabancılara Özel Sağlık Sigortası Wind Sigorta’da!        ",
+        image: "İş Yeri Sigortası",
+      },
     ],
+
     tag: ["Sağlık Sigortaları"],
   },
   {
@@ -188,7 +259,20 @@ const flipItem = [
     link: "shop-product-details",
     id: 7,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["Montaj", "Elektornik Cihaz", "Makine Kırılması Sigortası"],
+    urun: [
+      {
+        urun: "Montaj Sigortası",
+        aciklama:
+          "Montaj faaliyetlerinin başlangıcından bitimine kadar geçen süre içinde, ani ve beklenmedik sebeplerle ortaya çıkabilecek risklere karşı güvence sunan bir mühendislik sigortasıdır.",
+        image: "Filo Kasko Sİgortası",
+      },
+      {
+        urun: "Makine Kırılması Sigortası",
+        aciklama:
+          "İşletmenizde kullanılan makinelerin çalışırken aniden duraklaması veya beklenmedik bir sebepten ötürü üretiminizin aksamasına sebep olarak önemli maliyetlerin kaybına neden olmaması için makineleri teminat altına alır.",
+        image: "Konut Sigortası",
+      },
+    ],
     tag: ["Mühendislik Sigortası"],
   },
   {
@@ -196,7 +280,16 @@ const flipItem = [
     name: "Ferdi Kaza Sigortası",
     link: "shop-product-details",
     id: 8,
-    aciklama: "lorem ipsum dolor sit amed",
+    aciklama:
+      "Ferdi kaza sigortası, beklenmedik kaza riski nedeniyle kendinizi teminat altına alabileceğiniz bir sigortadır. Ferdi kaza sigortası neleri kapsar sorusunun cevabı olarak ise beklenmedik kazalara ilaveten deprem, sel, yer kayması ve terör olaylarına karşı sigorta poliçenizin sizi teminat altına alması verilebilir. Ferdi kaza sigortası genel şartları kapsamında sigorta hizmetine başvurabilmek için 18- 60 yaşları arasında olmanız yeterlidir.   ",
+    urun: [
+      {
+        urun: "Ferdi Kaza Sigortası",
+        aciklama:
+          "Ferdi kaza sigortası, beklenmedik kaza riski nedeniyle kendinizi teminat altına alabileceğiniz bir sigortadır. Ferdi kaza sigortası neleri kapsar sorusunun cevabı olarak ise beklenmedik kazalara ilaveten deprem, sel, yer kayması ve terör olaylarına karşı sigorta poliçenizin sizi teminat altına alması verilebilir. Ferdi kaza sigortası genel şartları kapsamında sigorta hizmetine başvurabilmek için 18- 60 yaşları arasında olmanız yeterlidir.        ",
+        image: "Filo Kasko Sİgortası",
+      },
+    ],
     urun: ["Ferdi Kaza Sigortası"],
     tag: ["Ferdi Kaza Sigortası"],
   },
@@ -206,7 +299,14 @@ const flipItem = [
     link: "shop-product-details",
     id: 9,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["All Risk İnşaat Sigortaları"],
+    urun: [
+      {
+        urun: "All Risk İnşaat Sigortaları",
+        aciklama:
+          "İnşaat All Risks Sigortası, müteahhit kuruluşlar için ciddi bir güvence sunmaktadır. İnşaat All Risks Sigortası, yapı malzemelerinin inşaat alanına indirilmesinden, tesisin kullanılmaya başlamasına kadar geçen süre içinde, doğa, teknik ve insan faktörlerinin neden olabileceği çok geniş bir risk yelpazesini güvence altına almaktadır. İnşaat faaliyetlerinize (Şantiyelerinize) yaptıracağınız İnşaat All Risks Sigortası talepleriniz için, Wind Sigorta uzmanlarına danışabilirsiniz.        ",
+        image: "Filo Kasko Sİgortası",
+      },
+    ],
     tag: ["All Risk İnşaat Sigortaları"],
   },
   {
@@ -215,7 +315,14 @@ const flipItem = [
     link: "shop-product-details",
     id: 10,
     aciklama: "lorem ipsum dolor sit amed",
-    urun: ["Deprem Sigortası"],
+    urun: [
+      {
+        urun: "Deprem Sigortası",
+        aciklama:
+          "Zorunlu Deprem Sigortası, evinizi depremin neden olabileceği maddi hasarlara karşı güvence altına alan ve teminatı Doğal Afet Sigortaları Kurumu (DASK) tarafından verilen yaptırılması zorunlu bir sigortadır.  ",
+        image: "Filo Kasko Sİgortası",
+      },
+    ],
     tag: ["Deprem Sigortası"],
   },
   {
@@ -223,9 +330,50 @@ const flipItem = [
     name: "Sorumluluk Sigortaları",
     link: "shop-product-details",
     id: 11,
-    aciklama: "lorem ipsum dolor sit amed",
-    urun: ["Sorumluluk Sigortaları"],
+    aciklama:
+      "Sorumluluk sigortası; sigortalıyı, sigortalının aile bireylerini ya da çalışanlarını çeşitli ihmal durumlarında doğabilecek maddi ve bedensel zararlara karşı güvence altına alan bir sigorta türüdür. Farklı çeşitleri bulunan sorumluluk sigortalarının kapsamları imzalanan poliçelerde belirlenir ve sigortalı kişinin sorumlu olduğu olumsuz durumlar sonucunda tazminat hakkı doğan kişilerin karşılaştıkları zarar, poliçe sınırları dahilinde ödenir.",
+    urun: [
+      {
+        urun: "Sorumluluk Sigortaları",
+        aciklama:
+          "Sorumluluk sigortası; sigortalıyı, sigortalının aile bireylerini ya da çalışanlarını çeşitli ihmal durumlarında doğabilecek maddi ve bedensel zararlara karşı güvence altına alan bir sigorta türüdür. Farklı çeşitleri bulunan sorumluluk sigortalarının kapsamları imzalanan poliçelerde belirlenir ve sigortalı kişinin sorumlu olduğu olumsuz durumlar sonucunda tazminat hakkı doğan kişilerin karşılaştıkları zarar, poliçe sınırları dahilinde ödenir.",
+        image: "Filo Kasko Sİgortası",
+      },
+    ],
     tag: ["Sorumluluk Sigortaları"],
+  },
+  {
+    image: sorumluluksigorta,
+    name: "Hayvan Hayat Sigortası",
+    link: "shop-product-details",
+    id: 12,
+    aciklama: "lorem ipsum dolor sit amed",
+    urun: [
+      {
+        urun: "Hayvan Hayat Sigortası",
+        aciklama:
+          "Hayvan hayat sigortası, Hayvan Hayat Sigortası Genel Şartlarındaki hayvanları her türlü adi ve bulaşıcı hastalıklardan, kazalardan, doğal afetler sebebiyle meydana gelen zorunlu öldürmeler veya ölümlerinden sigortalının doğrudan doğruya uğradığı maddi zararı temin eder.",
+        image: "Filo Kasko Sİgortası",
+      },
+      {
+        urun: "Kümes Hayvanları Sigortası",
+        aciklama:
+          "Kümes Hayvanları Hayat Sigortasında, poliçede yazılı primin %50'si Devlet tarafından karşılanır. Sigortalı tarafından ödenecek olan primin %25'i peşin alınır, kalan prim tutarı da en fazla 5 taksitle tahsil edilir. Sadece Geniş Kapsamlı 45 günlük Broiler sigortalarında primin tamamı peşin tahsil edilir.",
+        image: "Konut Sigortası",
+      },
+      {
+        urun: "Dolu Sigortası",
+        aciklama:
+          "Dolu Sigortaları’nda Geleneksel sistemden poliçe tanzim edilebilmesi için, söz konusu arazinin ÇKS (Çiftçi Kayıt Sistemi) kaydının bulunmaması gerekmektedir.Sigorta kapsamına bitkisel ürünler girmektedir.        ",
+        image: "İş Yeri Sigortası",
+      },
+      {
+        urun: "Sera Sigortası",
+        aciklama:
+          "Sera yapı malzemeleri, içindeki teknik ekipman ve serada yetiştirilen bitkisel ürünler için Dolu, Fırtına, Hortum, Yangın, Deprem, Taşıt Çarpması Heyelan, Kar ve dolu Ağırlığı, Sel ve Su Baskını risklerinin neden olduğu miktar kaybı sigorta kapsamındadır.",
+        image: "İş Yeri Sigortası",
+      },
+    ],
   },
 ];
 
