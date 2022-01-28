@@ -185,7 +185,7 @@ const flipItem = [
   },
   {
     image: nakliyatsigorta,
-    name: "Nakliyat  Sigortaları",
+    name: "Nakliyat Sigortaları",
     link: "shop-product-details",
     id: 3,
     aciklama:
@@ -215,7 +215,7 @@ const flipItem = [
       },
     ],
 
-    tag: ["Hayvan Hayat Sigortası"],
+    tag: ["Nakliyat Sigortaları"],
   },
   {
     image: kefaletsigorta,
@@ -397,6 +397,7 @@ const flipItem = [
         link: "shop-product-details",
       },
     ],
+    tag: ["Hayvan Hayat Sigortası"],
   },
 ];
 

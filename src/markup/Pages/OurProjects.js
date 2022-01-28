@@ -7,7 +7,28 @@ import { SRLWrapper, useLightbox } from "simple-react-lightbox";
 import PageTitle from "./../Layout/PageTitle";
 import Masonry from "react-masonry-component";
 import bnr2 from "./../../images/banner/bnr2.jpg";
+
+//images
+import box1 from "./../../images/project/pic1.jpg";
+import box2 from "./../../images/project/pic2.jpg";
+import box3 from "./../../images/project/pic3.jpg";
+import box4 from "./../../images/project/pic4.jpg";
+import box5 from "./../../images/project/pic5.jpg";
+import box6 from "./../../images/project/pic6.jpg";
+import box7 from "./../../images/project/pic7.jpg";
+import box8 from "./../../images/project/pic8.jpg";
 import { flipItem } from "./../Pages/ShortCode/DataFile";
+
+const imageBlog = [
+  { Large: box1, tag: ["Wordpress", "Joomla"] },
+  { Large: box2, tag: ["Php", "Drupal", "Laravel"] },
+  { Large: box3, tag: ["Laravel", "Drupal"] },
+  { Large: box4, tag: ["Wordpress"] },
+  { Large: box5, tag: ["Joomla"] },
+  { Large: box6, tag: ["Drupal"] },
+  { Large: box7, tag: ["Php"] },
+  { Large: box8, tag: ["Laravel", "Joomla", "Drupal"] },
+];
 
 //Light Gallery on icon click
 const Iconimage = (props) => {
@@ -77,8 +98,8 @@ function PortfolioItem() {
     tag === "Show All"
       ? setFilterdImages(flipItem)
       : setFilterdImages(
-          flipItem.filter((image) =>
-            image.name.find((element) => element === tag)
+          flipItem.filter((name) =>
+            name.name.find((element) => element === tag)
           )
         );
   }, [tag]);
@@ -89,7 +110,7 @@ function PortfolioItem() {
         <div className="container-fluid">
           <div className="section-head text-black text-center">
             <h4 className="text-gray-dark font-weight-300 m-b10">
-              Our Portfolio
+              Ürünlerimiz
             </h4>
             <h2 className="box-title m-tb0">
               Wind Sigorta<span className="bg-primary"></span>
@@ -99,17 +120,60 @@ function PortfolioItem() {
           <div className="site-filters clearfix center  m-b40">
             <ul className="filters" data-toggle="buttons">
               <TagLi
-                name="Show All"
+                name="Tüm Ürünler"
                 handlesettag={setTag}
                 tagActive={tag === "Show All" ? true : false}
               />
-              {flipItem.map((data, index) => (
-                <TagLi
-                  name={data.name}
-                  handlesettag={setTag}
-                  tagActive={tag === data.name ? true : false}
-                />
-              ))}
+              <TagLi
+                name="Oto Sigortaları"
+                handlesettag={setTag}
+                tagActive={tag === "Oto Sigortaları" ? true : false}
+              />
+              <TagLi
+                name="Yangın Sigortaları"
+                handlesettag={setTag}
+                tagActive={tag === "Yangın Sigortaları" ? true : false}
+              />
+              <TagLi
+                name="Nakliyat Sigortaları"
+                handlesettag={setTag}
+                tagActive={tag === "Nakliyat Sigortaları" ? true : false}
+              />
+              <TagLi
+                name="Kefalet Sigortası"
+                handlesettag={setTag}
+                tagActive={tag === "Kefalet Sigortası" ? true : false}
+              />
+              <TagLi
+                name="Sağlık Sigortaları"
+                handlesettag={setTag}
+                tagActive={tag === "Sağlık Sigortaları" ? true : false}
+              />
+              <TagLi
+                name="Mühendislik Sigortası"
+                handlesettag={setTag}
+                tagActive={tag === "Mühendislik Sigortası" ? true : false}
+              />{" "}
+              <TagLi
+                name="Ferdi Kaza Sigortası"
+                handlesettag={setTag}
+                tagActive={tag === "Ferdi Kaza Sigortası" ? true : false}
+              />{" "}
+              <TagLi
+                name="All Risk İnşaat Sigortaları"
+                handlesettag={setTag}
+                tagActive={tag === "All Risk İnşaat Sigortaları" ? true : false}
+              />{" "}
+              <TagLi
+                name="Deprem Sigortası"
+                handlesettag={setTag}
+                tagActive={tag === "Deprem Sigortası" ? true : false}
+              />
+              <TagLi
+                name="Hayvan Hayat Sigortası"
+                handlesettag={setTag}
+                tagActive={tag === "Hayvan Hayat Sigortası" ? true : false}
+              />
             </ul>
           </div>
           <SimpleReactLightbox>
@@ -120,11 +184,11 @@ function PortfolioItem() {
                   className="dlab-gallery-listing gallery-grid-4 mfp-gallery "
                 >
                   <Masonry
-                    className={"my-gallery-class"}
-                    options={masonryOptions}
-                    disableImagesLoaded={false}
-                    updateOnEachImageLoad={false}
-                    imagesLoadedOptions={imagesLoadedOptions}
+                    className={"my-gallery-class"} // default ''
+                    options={masonryOptions} // default {}
+                    disableImagesLoaded={false} // default false
+                    updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
+                    imagesLoadedOptions={imagesLoadedOptions} // default {}
                   >
                     {flipItem.map((item, index) => (
                       <li
