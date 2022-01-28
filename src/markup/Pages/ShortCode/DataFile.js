@@ -132,7 +132,8 @@ const flipItem = [
     name: "Oto Sigortaları",
     link: "shop-product-details",
     id: 1,
-    aciklama: "lorem ipsum dolor sit amed",
+    aciklama:
+      "Zorunlu trafik sigortası, her araç sahibinin yaptırmasının zorunlu olduğu bir araç sigortasıdır. Trafik sigortası, trafikte meydana gelebilecek kaza sonucunda karşı tarafın maddi ve bedensel zararlarının karşılanmasını sağlar.",
     urun: [
       {
         urun: "Trafik Sigortası",

@@ -94,7 +94,7 @@ class ProjectManagement extends Component {
                       alt=""
                       className="fa faa-horizontal animated"
                     />
-                    <h5 className="text-primary">Start Project</h5>
+                    <h5 className="text-primary">İşlemler</h5>
                   </div>
                   <div className="col-lg-12">
                     <div className="time-line clearfix">

@@ -297,11 +297,11 @@ const Index6 = (props) => {
                       </div>
                       <div className="back">
                         <div className="inner text-white">
-                          <p className="m-b10">{data.aciklama}</p>
+                          <p className="m-b10">{data.name}</p>
                           <div className="testimonial-detail">
                             {data.urun.map((data2, index) => (
                               <a href={data.link} className="testimonial-name">
-                                {data2}
+                                {data2.urun}
                               </a>
                             ))}
                             <a href="#" className="testimonial-position"></a>
