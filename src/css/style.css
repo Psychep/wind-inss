@@ -1562,7 +1562,7 @@ dl dd {
 }
 
 .bg-primary {
-  background-color: ;
+  background-color: #fff;
 }
 
 .bg-white {
@@ -2627,7 +2627,7 @@ label {
 /*radio & checkbox*/
 input[type="checkbox"],
 input[type="radio"] {
-  display: ;
+  display: flex;
   opacity: 0;
   margin-left: 1px !important;
   position: absolute;
@@ -8548,7 +8548,7 @@ a,
 .site-button-link.yellow:hover,
 .site-button-link.yellow:active,
 .site-button-link.yellow:focus {
-  color: ##d4af19;
+  color:#d4af19;
 }
 
 /* purple */
@@ -11080,7 +11080,7 @@ ul[class*="list-"] {
 .testimonial-10 .testimonial-position {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  color: #888q;
+  color: #888;
   font-size: 12px;
   font-style: inherit;
 }
@@ -11804,7 +11804,7 @@ ul[class*="list-"] {
 .overlay-primary-middle:after,
 .overlay-primary-dark:after,
 .overlay-primary:after {
-  background: ;
+  background: transparent;
 }
 
 .overlay-black-light:after {
@@ -16151,4 +16151,13 @@ ol.commentlist li .star-rating {
     padding-left: 8px;
     padding-right: 8px;
   }
+}
+
+/* custom css by psychep */
+
+.demo-2 {
+  overflow: hidden;
+  white-space: pre;
+  text-overflow: ellipsis;
+  max-height: 600px;
 }

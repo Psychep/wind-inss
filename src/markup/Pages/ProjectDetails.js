@@ -65,10 +65,22 @@ class ProjectDetails extends Component {
                     </div>
                   </div>
                   <div className="col-md-6 align-self-center">
-                    <h5 className="text-black fw5 m-b10">
-                      {flipItem[0].urun[0].aciklama}
-                    </h5>
-                    <p className="m-b0">{flipItem[0].urun[0].aciklama}</p>
+                    <h5 className="text-black fw5 m-b10">{flipItem[0].name}</h5>
+                    <p className="m-b0">
+                      <a href={flipItem[0].urun[0].link}>
+                        {flipItem[0].urun[0].urun}
+                      </a>
+                    </p>
+                    <p className="m-b0">
+                      <a href={flipItem[0].urun[1].link}>
+                        {flipItem[0].urun[1].urun}
+                      </a>
+                    </p>
+                    <p className="m-b0">
+                      <a href={flipItem[0].urun[2].link}>
+                        {flipItem[0].urun[2].urun}
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>

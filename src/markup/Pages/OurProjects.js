@@ -78,7 +78,7 @@ function PortfolioItem() {
       ? setFilterdImages(flipItem)
       : setFilterdImages(
           flipItem.filter((image) =>
-            image.tag.find((element) => element === tag)
+            image.name.find((element) => element === tag)
           )
         );
   }, [tag]);
@@ -140,7 +140,9 @@ function PortfolioItem() {
                                 to={"#"}
                                 className="site-button outline radius-xl white"
                               >
-                                {item.urun}
+                                {item.urun.map((data, index) => (
+                                  <span>{data.urun}</span>
+                                ))}
                               </Link>
                               <Link
                                 to={"#"}

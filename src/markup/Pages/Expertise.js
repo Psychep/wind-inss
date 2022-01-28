@@ -92,7 +92,7 @@ class Expertise extends Component {
                               <h5 className="dlab-tilte text-uppercase">
                                 <Link to={"#"}>{data.name}</Link>
                               </h5>
-                              <p>{data.aciklama}</p>
+                              <p className="demo-2">{data.aciklama}</p>
                             </div>
                           </div>
                         </div>
