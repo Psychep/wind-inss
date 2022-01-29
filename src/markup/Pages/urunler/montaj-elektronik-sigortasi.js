@@ -27,8 +27,8 @@ class ProjectDetails extends Component {
           >
             <PageTitle
               style="color: #333;"
-              motherMenu={flipItem[0].name}
-              activeMenu={flipItem[0].urun[0].urun}
+              motherMenu={flipItem[5].name}
+              activeMenu={flipItem[5].urun[0].urun}
             />
           </div>
           {/* <!-- inner page banner END --> */}
@@ -38,8 +38,8 @@ class ProjectDetails extends Component {
               <div className="container">
                 <div className="row m-b40">
                   <div className="col-lg-6 col-md-6 m-b20">
-                    <h2 className="m-b10 m-t0">{flipItem[0].name}</h2>
-                    <p className="m-b10">{flipItem[0].aciklama}</p>
+                    <h2 className="m-b10 m-t0">{flipItem[5].name}</h2>
+                    <p className="m-b10">{flipItem[5].aciklama}</p>
                   </div>
                   <div className="col-lg-6 col-md-6">
                     <ImgCarousel />
@@ -49,10 +49,10 @@ class ProjectDetails extends Component {
                   <div className="col-md-6 m-b20">
                     <div className="p-a30 bg-gray">
                       <h6>
-                        Ürün: {flipItem[0].urun[0].urun} <br />
+                        Ürün: {flipItem[5].urun[0].urun} <br />
                         Açıklama:
                         <span className="m-l10 font-weight-300 text-gray-dark">
-                          {flipItem[0].urun[0].aciklama}
+                          {flipItem[5].urun[0].aciklama}
                         </span>
                       </h6>
                       <h6>
@@ -65,20 +65,15 @@ class ProjectDetails extends Component {
                     </div>
                   </div>
                   <div className="col-md-6 align-self-center">
-                    <h5 className="text-black fw5 m-b10">{flipItem[0].name}</h5>
+                    <h5 className="text-black fw5 m-b10">{flipItem[5].name}</h5>
                     <p className="m-b0">
-                      <a href={flipItem[0].urun[0].link}>
-                        {flipItem[0].urun[0].urun}
+                      <a href={flipItem[5].urun[0].link}>
+                        {flipItem[5].urun[0].urun}
                       </a>
                     </p>
                     <p className="m-b0">
-                      <a href={flipItem[0].urun[1].link}>
-                        {flipItem[0].urun[1].urun}
-                      </a>
-                    </p>
-                    <p className="m-b0">
-                      <a href={flipItem[0].urun[2].link}>
-                        {flipItem[0].urun[2].urun}
+                      <a href={flipItem[5].urun[1].link}>
+                        {flipItem[5].urun[1].urun}
                       </a>
                     </p>
                   </div>

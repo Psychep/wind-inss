@@ -139,7 +139,7 @@ const flipItem = [
         urun: "Trafik Sigortası",
         aciklama:
           "Trafik Sigortası, Karayolları Trafik Kanununun 2918 sayılı hükmünce trafiğe çıkan her araç için yapılması zorunlu kılınmış bir sigorta türüdür. Trafik Sigortasının yapılmasındaki temel amaç; karışılan kazada karşı tarafın uğradığı hasar neticesinde karşılaştığı kayıpların üstlenilmesidir. Yani bu sigorta türü, zorunlu olarak bu sigortayı yaptırmış araç sahibinin zararını karşılamaz. Araç sahiplerinin kendi zararlarını karşılamak amacıyla kasko yaptırmaları gerekir.",
-        image: "Filo Kasko Sİgortası",
+        image: "flipitemimage",
         link: "trafik-sigortasi",
       },
       {
@@ -150,7 +150,7 @@ const flipItem = [
         link: "kasko-sigortasi",
       },
       {
-        urun: "Filo Kasko Sİgortası",
+        urun: "flipitemimage",
         aciklama:
           "Filo Kasko, yüksek sayıda araç sahibi olanlar için yapılan kasko poliçesi çeşididir. Tüzel kişilerin araçlarını güvence altına alabildikleri ve bazı genel ve özel şartlarda istenilen teminatlara göre şekillendirebildikleri fiyat avantajı sunan poliçedir.",
         image: "İş Yeri Sigortası",
@@ -170,7 +170,7 @@ const flipItem = [
         urun: "Konut Sigortası",
         aciklama:
           "Hem kiracıların hem de ev sahiplerinin yararlanabileceği, en uygun fiyatlı konut poliçesiyle birçok riske karşı eşyalarınızı teminat altına alan bir yangın sigortası türüdür.       ",
-        image: "Filo Kasko Sİgortası",
+        image: "flipitemimage",
         link: "konut-sigortasi",
       },
       {
@@ -195,7 +195,7 @@ const flipItem = [
         urun: "Deniz/Tekne/Yat Sigortası",
         aciklama:
           "Tekne-Yat Sigortaları ürünümüz, özel amaçlı olarak kullandığınız yatlarınıza, deniz tehlikeleri veya karada bağlama yerlerin de , marina da  veya yatma-çekek yerinde meydana gelebilecek kazalara karşı güvence sağlayan bir Sigortadır.        ",
-        image: "Filo Kasko Sİgortası",
+        image: "flipitemimage",
         link: "deniztekneyat",
       },
       {
@@ -228,7 +228,7 @@ const flipItem = [
         urun: "Kefalet Sigortası",
         aciklama:
           "Kefalet	sigortasında	sigorta	şirketi,	borçlunun	sözleşmeden	ve/veya	kanundan	doğan	yükümlülüğünü	yerine	getirmemesi	riskine	karşı	alacaklıya/işverene	düzenlediği	kefalet	senedi	bedeline	kadar	kefil	olmaktadır.	Bu	sigorta	türü	geleneksel	sigorta	uygulamalarından	ziyade	bankacılık	ürünlerine	alternatif	bir	finansal	enstrüman	niteliğindedir.",
-        image: "Filo Kasko Sİgortası",
+        image: "flipitemimage",
         link: "kefalet-sigortasi",
       },
     ],
@@ -245,7 +245,7 @@ const flipItem = [
         urun: "Özel Sağlık sigortası",
         aciklama:
           "Beklenmedik bir kaza veya hastalık sonucu oluşacak sağlık giderlerinizin yanı sıra sağlığınız için ihtiyaç duyacağınız her türlü tanı ve tedavi işlemlerini, en seçkin sağlık kurumlarında en modern yöntemlerle ve mali kaygı duymadan karşılanması için hazırlanmış sigortalardır. Sağlık giderleriniz, genel ve özel şartlar dahilinde ve poliçede belirtilen limitler doğrultusunda karşılanır.  ",
-        image: "Filo Kasko Sİgortası",
+        image: "flipitemimage",
         link: "ozel-saglik-sigortasi",
       },
       {
@@ -277,7 +277,7 @@ const flipItem = [
         urun: "Montaj Sigortası",
         aciklama:
           "Montaj faaliyetlerinin başlangıcından bitimine kadar geçen süre içinde, ani ve beklenmedik sebeplerle ortaya çıkabilecek risklere karşı güvence sunan bir mühendislik sigortasıdır.",
-        image: "Filo Kasko Sİgortası",
+        image: "flipitemimage",
         link: "montaj-sigortasi",
       },
       {
@@ -303,7 +303,7 @@ const flipItem = [
         urun: "Ferdi Kaza Sigortası",
         aciklama:
           "Ferdi kaza sigortası, beklenmedik kaza riski nedeniyle kendinizi teminat altına alabileceğiniz bir sigortadır. Ferdi kaza sigortası neleri kapsar sorusunun cevabı olarak ise beklenmedik kazalara ilaveten deprem, sel, yer kayması ve terör olaylarına karşı sigorta poliçenizin sizi teminat altına alması verilebilir. Ferdi kaza sigortası genel şartları kapsamında sigorta hizmetine başvurabilmek için 18- 60 yaşları arasında olmanız yeterlidir.        ",
-        image: "Filo Kasko Sİgortası",
+        image: "flipitemimage",
         link: "ferdi-kaza-sigortasi",
       },
     ],
@@ -320,7 +320,7 @@ const flipItem = [
         urun: "All Risk İnşaat Sigortaları",
         aciklama:
           "İnşaat All Risks Sigortası, müteahhit kuruluşlar için ciddi bir güvence sunmaktadır. İnşaat All Risks Sigortası, yapı malzemelerinin inşaat alanına indirilmesinden, tesisin kullanılmaya başlamasına kadar geçen süre içinde, doğa, teknik ve insan faktörlerinin neden olabileceği çok geniş bir risk yelpazesini güvence altına almaktadır. İnşaat faaliyetlerinize (Şantiyelerinize) yaptıracağınız İnşaat All Risks Sigortası talepleriniz için, Wind Sigorta uzmanlarına danışabilirsiniz.        ",
-        image: "Filo Kasko Sİgortası",
+        image: "flipitemimage",
         link: "allrisk-sigortasi",
       },
     ],
@@ -337,7 +337,7 @@ const flipItem = [
         urun: "Deprem Sigortası",
         aciklama:
           "Zorunlu Deprem Sigortası, evinizi depremin neden olabileceği maddi hasarlara karşı güvence altına alan ve teminatı Doğal Afet Sigortaları Kurumu (DASK) tarafından verilen yaptırılması zorunlu bir sigortadır.  ",
-        image: "Filo Kasko Sİgortası",
+        image: "flipitemimage",
         link: "deprem-sigortasi",
       },
     ],
@@ -355,7 +355,7 @@ const flipItem = [
         urun: "Sorumluluk Sigortaları",
         aciklama:
           "Sorumluluk sigortası; sigortalıyı, sigortalının aile bireylerini ya da çalışanlarını çeşitli ihmal durumlarında doğabilecek maddi ve bedensel zararlara karşı güvence altına alan bir sigorta türüdür. Farklı çeşitleri bulunan sorumluluk sigortalarının kapsamları imzalanan poliçelerde belirlenir ve sigortalı kişinin sorumlu olduğu olumsuz durumlar sonucunda tazminat hakkı doğan kişilerin karşılaştıkları zarar, poliçe sınırları dahilinde ödenir.",
-        image: "Filo Kasko Sİgortası",
+        image: "flipitemimage",
         link: "sorumluluk-sigortasi",
       },
     ],
@@ -372,7 +372,7 @@ const flipItem = [
         urun: "Hayvan Hayat Sigortası",
         aciklama:
           "Hayvan hayat sigortası, Hayvan Hayat Sigortası Genel Şartlarındaki hayvanları her türlü adi ve bulaşıcı hastalıklardan, kazalardan, doğal afetler sebebiyle meydana gelen zorunlu öldürmeler veya ölümlerinden sigortalının doğrudan doğruya uğradığı maddi zararı temin eder.",
-        image: "Filo Kasko Sİgortası",
+        image: "flipitemimage",
         link: "hayvan-hayat-sigortasi",
       },
       {

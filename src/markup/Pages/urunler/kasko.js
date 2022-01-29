@@ -49,10 +49,10 @@ class ProjectDetails extends Component {
                   <div className="col-md-6 m-b20">
                     <div className="p-a30 bg-gray">
                       <h6>
-                        Ürün: {flipItem[0].urun[0].urun} <br />
+                        Ürün: {flipItem[0].urun[1].urun} <br />
                         Açıklama:
                         <span className="m-l10 font-weight-300 text-gray-dark">
-                          {flipItem[0].urun[0].aciklama}
+                          {flipItem[0].urun[1].aciklama}
                         </span>
                       </h6>
                       <h6>

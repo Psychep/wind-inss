@@ -28,7 +28,7 @@ class ProjectDetails extends Component {
             <PageTitle
               style="color: #333;"
               motherMenu={flipItem[2].name}
-              activeMenu={flipItem[2].urun[0].urun}
+              activeMenu={flipItem[2].urun[1].urun}
             />
           </div>
           {/* <!-- inner page banner END --> */}
@@ -49,10 +49,10 @@ class ProjectDetails extends Component {
                   <div className="col-md-6 m-b20">
                     <div className="p-a30 bg-gray">
                       <h6>
-                        Ürün: {flipItem[2].urun[0].urun} <br />
+                        Ürün: {flipItem[2].urun[1].urun} <br />
                         Açıklama:
                         <span className="m-l10 font-weight-300 text-gray-dark">
-                          {flipItem[2].urun[0].aciklama}
+                          {flipItem[2].urun[1].aciklama}
                         </span>
                       </h6>
                       <h6>
