@@ -150,7 +150,7 @@ const flipItem = [
         link: "kasko-sigortasi",
       },
       {
-        urun: "flipitemimage",
+        urun: "Filo Kasko Sigortası",
         aciklama:
           "Filo Kasko, yüksek sayıda araç sahibi olanlar için yapılan kasko poliçesi çeşididir. Tüzel kişilerin araçlarını güvence altına alabildikleri ve bazı genel ve özel şartlarda istenilen teminatlara göre şekillendirebildikleri fiyat avantajı sunan poliçedir.",
         image: "İş Yeri Sigortası",
