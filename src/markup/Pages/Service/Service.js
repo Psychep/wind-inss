@@ -61,29 +61,27 @@ class Service extends Component {
               </div>
               <div className="container">
                 <div className="row ">
-                  {flipItem.map((data, index) =>
-                    data.urun.map((data, index) => (
-                      <div className="col-md-4 col-sm-6 m-b30 " key={index}>
-                        <div className="icon-bx-wraper expertise  bx-style-1 p-a30 center">
-                          <div className="icon-lg m-b20">
-                            {" "}
-                            <Link to={"#"} className="icon-cell">
-                              {data.icon}
-                            </Link>{" "}
-                          </div>
-                          <div className="icon-content">
-                            <h5 className="dlab-tilte text-uppercase">
-                              <Link to={"#"}>{data}</Link>
-                            </h5>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetuer
-                              adipiscing elit, sed diam nonummy nibh euismod..
-                            </p>
-                          </div>
+                  {flipItem.map((data, index) => (
+                    <div className="col-md-4 col-sm-6 m-b30 " key={index}>
+                      <div className="icon-bx-wraper expertise  bx-style-1 p-a30 center">
+                        <div className="icon-lg m-b20">
+                          {" "}
+                          <Link to={"#"} className="icon-cell">
+                            {data.image}
+                          </Link>{" "}
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-uppercase">
+                            <Link to={"#"}>{data.link}</Link>
+                          </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod..
+                          </p>
                         </div>
                       </div>
-                    ))
-                  )}
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

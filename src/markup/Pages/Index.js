@@ -290,7 +290,7 @@ const Index6 = (props) => {
                             </strong>
 
                             <span className="testimonial-position">
-                              {data.link}
+                              {data.urun.link}
                             </span>
                           </div>
                         </div>
@@ -300,7 +300,7 @@ const Index6 = (props) => {
                           <p className="m-b10">{data.name}</p>
                           <div className="testimonial-detail">
                             {data.urun.map((data2, index) => (
-                              <a href={data.link} className="testimonial-name">
+                              <a href={data2.link} className="testimonial-name">
                                 {data2.urun}
                               </a>
                             ))}

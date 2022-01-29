@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Header from "./../Layout/Header1";
-import Footer from "./../Layout/footer5";
-import PageTitle from "./../Layout/PageTitle";
-import ImgCarousel from "./../Element/ImgCarousel";
-import ClientCarousel from "./../Element/ClientCarousel";
-import { flipItem } from "./../Pages/ShortCode/DataFile";
-import bgslider9 from "./../../images/background/bg222.jpg";
+import Header from "../../Layout/Header1";
+import Footer from "../../Layout/footer5";
+import PageTitle from "../../Layout/PageTitle";
+import ImgCarousel from "../../Element/ImgCarousel";
+import ClientCarousel from "../../Element/ClientCarousel";
+import { flipItem } from "../ShortCode/DataFile";
+import bgslider9 from "../../../images/background/bg222.jpg";
 
 //Images
-import bnr1 from "./../../images/banner/bnr2.jpg";
+import bnr1 from "../../../images/banner/bnr2.jpg";
 
 class ProjectDetails extends Component {
   /* componentDidMount(){

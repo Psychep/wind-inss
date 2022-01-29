@@ -19,7 +19,6 @@ import UnderMaintenance from "./Pages/UnderMaintenance";
 import Expertise from "./Pages/Expertise";
 import ProjectManagement from "./Pages/ProjectManagement";
 import OurProjects from "./Pages/OurProjects";
-import ProjectDetails from "./Pages/ProjectDetails";
 import Team from "./Pages/Team";
 import Faqs from "./Pages/Faqs";
 import Login from "./Pages/Login";
@@ -62,6 +61,29 @@ import ShortAccordions from "./Pages/ShortCode/ShortAccordions";
 
 import ScrollToTop from "./Element/ScrollToTop";
 
+import deniztekneyat from "./Pages/urunler/deniz-tekne-yat-sigortasi";
+import ProjectDetails from "./Pages/urunler/trafik-sigortasi";
+import montajsigortasi from "./Pages/urunler/montaj-elektronik-sigortasi";
+import makinesigortasi from "./Pages/urunler/makine-kirilmasi-sigortasi";
+import ferdikazasigortasi from "./Pages/urunler/ferdi-kaza-sigortasi";
+import allrisk from "./Pages/urunler/allrisk";
+import depremsigotasi from "./Pages/urunler/deprem-sigortasi";
+import sorumluluksigortasi from "./Pages/urunler/sorumluluk-sigortalari";
+import hayvanhayatsigortasi from "./Pages/urunler/hayvan-hayat-sigortasi";
+import kumeshayvanlarisigortasi from "./Pages/urunler/kumes-hayvan-sigortasi";
+import dolusigortasi from "./Pages/urunler/dolu-sigortasi";
+import serasigortasi from "./Pages/urunler/sera-sigortasi";
+import trafiksigortasi from "./Pages/urunler/trafik-sigortasi";
+import filokaskosigortasi from "./Pages/urunler/filokasko";
+import konutsigortasi from "./Pages/urunler/konut-sigortasi";
+import kefaletsigortasi from "./Pages/urunler/kefalet-sigortasi";
+import nakliyatsigortasi from "./Pages/urunler/nakliyat-sigortasi";
+import emitasigortasi from "./Pages/urunler/emita-sigortasi";
+import ozelsagliksigortasi from "./Pages/urunler/saglik-sigortasi";
+import tamamlayicisagliksigortasi from "./Pages/urunler/tamamlayici-saglik-sigortasi";
+import yabancisagliksigortasi from "./Pages/urunler/yabanci-saglik-sigortasi";
+import isyerisigortasi from "./Pages/urunler/isyeri-sigortasi";
+import kaskosigortasi from "./Pages/urunler/kasko";
 class Markup extends Component {
   render() {
     return (
@@ -89,7 +111,81 @@ class Markup extends Component {
             <Route path="/urunler" exact component={Expertise} />
             <Route path="/hizmetlerimiz" exact component={ProjectManagement} />
             <Route path="/our-projects" exact component={OurProjects} />
-            <Route path="/project-details" exact component={ProjectDetails} />
+            <Route path="/trafik-sigortasi" exact component={ProjectDetails} />
+
+            <Route path="/trafik-sigortasi" exact component={trafiksigortasi} />
+            <Route path="/kasko-sigortasi" exact component={kaskosigortasi} />
+
+            <Route
+              path="/filo-kasko-sigortasi"
+              exact
+              component={filokaskosigortasi}
+            />
+            <Route path="/konut-sigortasi" exact component={konutsigortasi} />
+            <Route path="/isyeri-sigortasi" exact component={isyerisigortasi} />
+            <Route
+              path="/kefalet-sigortasi"
+              exact
+              component={kefaletsigortasi}
+            />
+
+            <Route path="/deniztekneyat" exact component={deniztekneyat} />
+            <Route
+              path="/nakliyat-sigortasi"
+              exact
+              component={nakliyatsigortasi}
+            />
+            <Route path="/emita-sigortasi" exact component={emitasigortasi} />
+
+            <Route
+              path="/ozel-saglik-sigortasi"
+              exact
+              component={ozelsagliksigortasi}
+            />
+
+            <Route
+              path="/tamamlayici-saglik-sigortasi"
+              exact
+              component={tamamlayicisagliksigortasi}
+            />
+
+            <Route
+              path="/yabanci-saglik-sigortasi"
+              exact
+              component={yabancisagliksigortasi}
+            />
+
+            <Route path="/montaj-sigortasi" exact component={montajsigortasi} />
+            <Route path="/makine-sigortasi" exact component={makinesigortasi} />
+
+            <Route
+              path="/ferdi-kaza-sigortasi"
+              exact
+              component={ferdikazasigortasi}
+            />
+
+            <Route path="/allrisk-sigortasi" exact component={allrisk} />
+
+            <Route path="/deprem-sigortasi" exact component={depremsigotasi} />
+
+            <Route
+              path="/sorumluluk-sigortasi"
+              exact
+              component={sorumluluksigortasi}
+            />
+            <Route
+              path="/hayvan-hayat-sigortasi"
+              exact
+              component={hayvanhayatsigortasi}
+            />
+            <Route
+              path="/kumes-hayvanalri-sigortasi"
+              exact
+              component={kumeshayvanlarisigortasi}
+            />
+            <Route path="/dolu-sigortasi" exact component={dolusigortasi} />
+            <Route path="/sera-sigortasi" exact component={serasigortasi} />
+
             <Route path="/team" exact component={Team} />
             <Route path="/faqs" exact component={Faqs} />
             <Route path="/login" exact component={Login} />
