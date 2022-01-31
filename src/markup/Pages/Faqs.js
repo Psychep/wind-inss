@@ -8,7 +8,7 @@ import VideoPopup from "./../Element/VideoPopup";
 
 import bnr1 from "./../../images/background/bg222.jpg";
 import pattern from "./../../images/pattern/pic1.jpg";
-import about from "./../../images/about/pic10.jpg";
+import about from "./../../images/main-slider/slide9.png";
 
 const iconBlog = [
   { icon: <i className="flaticon-bar-chart" />, title: "Make it Simple" },

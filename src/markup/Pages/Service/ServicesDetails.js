@@ -13,7 +13,7 @@ import bgslider9 from "../../../images/background/bg222.jpg";
 import bnr1 from "./../../../images/banner/bnr4.jpg";
 import bgmap from "./../../../images/background/bg-map.jpg";
 import bg1 from "./../../../images/background/bg1.jpg";
-import about from "./../../../images/about/pic3.jpg";
+import about from "./../../../images/main-slider/slide9.png";
 
 class ServicesDetails extends Component {
   render() {
