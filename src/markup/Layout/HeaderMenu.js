@@ -68,11 +68,7 @@ class HeaderMenu extends Component {
               </li>
             </ul>
           </li>
-          <li>
-            <Link to={"#"}>
-              Kampanyalarımız <i className=""></i>
-            </Link>
-          </li>
+
           <li>
             <Link to={"#"}>
               Hakkımızda <i className=""></i>

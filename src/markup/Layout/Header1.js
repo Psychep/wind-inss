@@ -98,11 +98,20 @@ class Header1 extends Component {
                       to={"./contact"}
                       className="dez-page site-button primary"
                     >
+                      Bayilik
+                    </Link>
+                  </div>
+                </div>
+                <div className="extra-nav">
+                  <div className="extra-cell">
+                    <Link
+                      to={"./contact"}
+                      className="dez-page site-button primary"
+                    >
                       Teklif Formu!{" "}
                     </Link>
                   </div>
                 </div>
-
                 <div
                   className="header-nav navbar-collapse collapse myNavbar justify-content-end"
                   id="navbarNavDropdown"
