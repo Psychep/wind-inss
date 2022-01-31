@@ -284,27 +284,33 @@ const Index6 = (props) => {
                               height="230"
                             />
                           </div>
-                          <div className="testimonial-detail">
-                            <strong className="testimonial-name">
+                          <div className="testimonial-detail text-white">
+                            <strong className="testimonial-name text-white">
                               {data.name}
                             </strong>
 
-                            <span className="testimonial-position">
+                            <span className="testimonial-position text-white">
                               {data.urun.link}
                             </span>
                           </div>
                         </div>
                       </div>
                       <div className="back">
-                        <div className="inner text-white">
+                        <div className="inner text-white ">
                           <p className="m-b10">{data.name}</p>
-                          <div className="testimonial-detail">
+                          <div className="testimonial-detail text-white">
                             {data.urun.map((data2, index) => (
-                              <a href={data2.link} className="testimonial-name">
+                              <a
+                                href={data2.link}
+                                className="testimonial-name text-white"
+                              >
                                 {data2.urun}
                               </a>
                             ))}
-                            <a href="#" className="testimonial-position"></a>
+                            <a
+                              href="#"
+                              className="testimonial-position text-white"
+                            ></a>
                           </div>
                         </div>
                       </div>
