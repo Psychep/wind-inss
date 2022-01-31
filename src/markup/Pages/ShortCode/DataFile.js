@@ -21,6 +21,8 @@ import allrisk from "./../../../images/product/allrisk.png";
 import depremsigorta from "./../../../images/product/depremsigorta.png";
 import sorumluluksigorta from "./../../../images/product/sorumluluksigota.png";
 
+import hayvanhayat from "./../../../images/product/hayvanhayat.png";
+
 const wraperBlog = [
   { icon: <i className="ti-headphone-alt" />, title: "Market forecast" },
   { icon: <i className="ti-ruler-pencil" />, title: "Most Versatile" },
@@ -130,7 +132,7 @@ const flipItem = [
   {
     image: aracsigorta,
     name: "Oto Sigortaları",
-    link: "shop-product-details",
+    link: "trafik-sigortasi",
     id: 1,
     aciklama:
       "Zorunlu trafik sigortası, her araç sahibinin yaptırmasının zorunlu olduğu bir araç sigortasıdır. Trafik sigortası, trafikte meydana gelebilecek kaza sonucunda karşı tarafın maddi ve bedensel zararlarının karşılanmasını sağlar.",
@@ -162,9 +164,10 @@ const flipItem = [
   {
     image: yanginsigorta,
     name: "Yangın Sigortaları",
-    link: "shop-product-details",
+    link: "konut-sigortasi",
     id: 2,
-    aciklama: "lorem ipsum dolor sit amed",
+    aciklama:
+      "Hem kiracıların hem de ev sahiplerinin yararlanabileceği, en uygun fiyatlı konut poliçesiyle birçok riske karşı eşyalarınızı teminat altına alan bir yangın sigortası türüdür.",
     urun: [
       {
         urun: "Konut Sigortası",
@@ -186,7 +189,7 @@ const flipItem = [
   {
     image: nakliyatsigorta,
     name: "Nakliyat Sigortaları",
-    link: "shop-product-details",
+    link: "nakliyat-sigortasi",
     id: 3,
     aciklama:
       "Nakliyat Sigortaları; nakliye aracı ile malların taşınması sırasında, söz konusu malların fiziki zarara uğramasına karşılık birtakım teminatlar sunan sigortalardır. Kamyon, tren, gemi, uçak gibi araçlar vasıtasıyla taşınan mallar; yaşanan bir olumsuzluğa bağlı olarak fiziken zarar gördüğü takdirde, sigorta poliçesinde yer alan teminatlar dâhilinde söz konusu mağduriyet giderilir. Nakliyat Sigortalarının kapsamında yer alan alt başlıklarda görülebileceği üzere; hem yurtiçi hem de yurtdışı taşımacılığı için farklı sigorta türleri bulunmaktadır. Doğa Sigorta bünyesinde 5 tür nakliyat sigortası hizmeti sunulmaktadır.",
@@ -237,9 +240,10 @@ const flipItem = [
   {
     image: sagliksigorta,
     name: "Sağlık Sigortaları",
-    link: "shop-product-details",
+    link: "ozel-saglik-sigortasi",
     id: 5,
-    aciklama: "lorem ipsum dolor sit amed",
+    aciklama:
+      "Beklenmedik bir kaza veya hastalık sonucu oluşacak sağlık giderlerinizin yanı sıra sağlığınız için ihtiyaç duyacağınız her türlü tanı ve tedavi işlemlerini, en seçkin sağlık kurumlarında en modern yöntemlerle ve mali kaygı duymadan karşılanması için hazırlanmış sigortalardır. Sağlık giderleriniz, genel ve özel şartlar dahilinde ve poliçede belirtilen limitler doğrultusunda karşılanır.",
     urun: [
       {
         urun: "Özel Sağlık sigortası",
@@ -269,9 +273,10 @@ const flipItem = [
   {
     image: muhendisliksigorta,
     name: "Mühendislik Sigortası",
-    link: "shop-product-details",
+    link: "montaj-sigortasi",
     id: 6,
-    aciklama: "lorem ipsum dolor sit amed",
+    aciklama:
+      "Montaj faaliyetlerinin başlangıcından bitimine kadar geçen süre içinde, ani ve beklenmedik sebeplerle ortaya çıkabilecek risklere karşı güvence sunan bir mühendislik sigortasıdır.",
     urun: [
       {
         urun: "Montaj Sigortası",
@@ -314,7 +319,9 @@ const flipItem = [
     name: "All Risk İnşaat Sigortaları",
     link: "allrisk-sigortasi",
     id: 8,
-    aciklama: "lorem ipsum dolor sit amed",
+    aciklama:
+      "İnşaat All Risks Sigortası, müteahhit kuruluşlar için ciddi bir güvence sunmaktadır. İnşaat All Risks Sigortası, yapı malzemelerinin inşaat alanına indirilmesinden, tesisin kullanılmaya başlamasına kadar geçen süre içinde, doğa, teknik ve insan faktörlerinin neden olabileceği çok geniş bir risk yelpazesini güvence altına almaktadır. İnşaat faaliyetlerinize (Şantiyelerinize) yaptıracağınız İnşaat All Risks Sigortası talepleriniz için, Wind Sigorta uzmanlarına danışabilirsiniz.        ",
+
     urun: [
       {
         urun: "All Risk İnşaat Sigortaları",
@@ -331,7 +338,9 @@ const flipItem = [
     name: "Deprem Sigortası",
     link: "deprem-sigortasi",
     id: 9,
-    aciklama: "lorem ipsum dolor sit amed",
+    aciklama:
+      "Zorunlu Deprem Sigortası, evinizi depremin neden olabileceği maddi hasarlara karşı güvence altına alan ve teminatı Doğal Afet Sigortaları Kurumu (DASK) tarafından verilen yaptırılması zorunlu bir sigortadır.  ",
+
     urun: [
       {
         urun: "Deprem Sigortası",
@@ -362,11 +371,13 @@ const flipItem = [
     tag: ["Sorumluluk Sigortaları"],
   },
   {
-    image: sorumluluksigorta,
+    image: hayvanhayat,
     name: "Hayvan Hayat Sigortası",
     link: "hayvan-hayat-sigortasi",
     id: 11,
-    aciklama: "lorem ipsum dolor sit amed",
+    aciklama:
+      "Hayvan hayat sigortası, Hayvan Hayat Sigortası Genel Şartlarındaki hayvanları her türlü adi ve bulaşıcı hastalıklardan, kazalardan, doğal afetler sebebiyle meydana gelen zorunlu öldürmeler veya ölümlerinden sigortalının doğrudan doğruya uğradığı maddi zararı temin eder.",
+
     urun: [
       {
         urun: "Hayvan Hayat Sigortası",

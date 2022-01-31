@@ -3,58 +3,24 @@ import { Link } from "react-router-dom";
 import Header from "./../Layout/Header1";
 import Footer from "./../Layout/Footer1";
 import PageTitle from "./../Layout/PageTitle";
-import SectionCounter from "./../Element/SectionCounter";
-import TestimonialCarousel from "./../Element/TestimonialCarousel";
-import FormStyle from "./../Element/FormStyle";
 
 //Images
-import bnr1 from "./../../images/banner/bnr5.jpg";
-import php from "./../../images/expertise/php.png";
-import joomla from "./../../images/expertise/joomla.png";
-import drupal from "./../../images/expertise/drupal.png";
-import laravel from "./../../images/expertise/laravel.png";
-import magento from "./../../images/expertise/magento.png";
-import wordpress from "./../../images/expertise/wordpress.png";
-import oscommerce from "./../../images/expertise/oscommerce.png";
-import ecommerce from "./../../images/expertise/ecommerce.png";
-import zend from "./../../images/expertise/zend-framework.png";
-import ruby from "./../../images/expertise/ruby-rails.png";
-import zencart from "./../../images/expertise/zencart.png";
-import xcart from "./../../images/expertise/xcart.png";
-import python from "./../../images/expertise/python-framework.png";
-import bg1 from "./../../images/background/bg1.jpg";
-import bgmap from "./../../images/background/bg-map.jpg";
-import { flipItem } from "./../Pages/ShortCode/DataFile";
+import bnr1 from "./../../images/background/bg222.jpg";
 
-const imageBlog = [
-  { image: php, title: "Php" },
-  { image: joomla, title: "Joomla" },
-  { image: drupal, title: "Drupal" },
-  { image: laravel, title: "Laravel" },
-  { image: magento, title: "Magento 1.x" },
-  { image: magento, title: "Magento 2.x" },
-  { image: wordpress, title: "Wordpress" },
-  { image: oscommerce, title: "Oscommerce" },
-  { image: ecommerce, title: "ecommerce" },
-  { image: zend, title: "Zend Framework" },
-  { image: ruby, title: "Ruby Rails" },
-  { image: zencart, title: "Zencart" },
-  { image: xcart, title: "Xcart" },
-  { image: python, title: "Python Framework" },
-];
+import { flipItem } from "./../Pages/ShortCode/DataFile";
 
 class Expertise extends Component {
   render() {
     return (
       <>
         <Header />
-        <div className="page-content bg-white">
+        <div className="page-content bg-white rubik-font">
           {/* <!-- inner page banner --> */}
           <div
-            className="dlab-bnr-inr overlay-primary"
+            className="dlab-bnr-inr overlay-primary-white"
             style={{ backgroundImage: "url(" + bnr1 + ")" }}
           >
-            <PageTitle motherMenu="Expertise" activeMenu="Ürünler" />
+            <PageTitle motherMenu="Ürünlerimiz" activeMenu="Ürünler" />
           </div>
           {/* <!-- inner page banner END --> */}
           <div className="content-block">
@@ -90,7 +56,7 @@ class Expertise extends Component {
                             </div>
                             <div className="icon-content">
                               <h5 className="dlab-tilte text-uppercase">
-                                <Link to={"#"}>{data.name}</Link>
+                                <Link to={data.link}>{data.name}</Link>
                               </h5>
                               <p className="demo-2">{data.aciklama}</p>
                             </div>
@@ -106,13 +72,11 @@ class Expertise extends Component {
                     >
                       <div className="dzFormMsg"></div>
                       <h3 className="box-title m-t0 m-b10">
-                        Let's Convert Your Idea into Reality{" "}
+                        Teklif Formunu doldurun{" "}
                         <span className="bg-primary"></span>
                       </h3>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the
+                        İhtiyaçlarınıza yönelik en uygun teklifi sizlere sunalım
                       </p>
                       <div className="row">
                         <div className="col-lg-6">

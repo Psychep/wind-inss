@@ -1,52 +1,32 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Header from "./../../Layout/Header1";
-import Footer from "./../../Layout/Footer1";
+
+import Header from "../../Layout/Header1";
+import Footer from "../../Layout/footer5";
 import PageTitle from "./../../Layout/PageTitle";
 import SectionCounter from "./../../Element/SectionCounter";
 import TestimonialCarousel from "./../../Element/TestimonialCarousel";
 import FormStyle from "./../../Element/FormStyle";
 
+import bgslider9 from "../../../images/background/bg222.jpg";
 //Images
 import bnr1 from "./../../../images/banner/bnr4.jpg";
 import bgmap from "./../../../images/background/bg-map.jpg";
 import bg1 from "./../../../images/background/bg1.jpg";
 import about from "./../../../images/about/pic3.jpg";
 
-const iconWraper = [
-  { icon: <i className="flaticon-devices" />, title: "Custom Applications" },
-  { icon: <i className="flaticon-pen" />, title: "Dynamic Website" },
-  { icon: <i className="flaticon-layers" />, title: "CMS Development" },
-  { icon: <i className="flaticon-shop" />, title: "PHP based E-commerce" },
-  { icon: <i className="flaticon-technology" />, title: "CMS Development" },
-  { icon: <i className="flaticon-internet" />, title: "Cloud (SaaS, PaaS)" },
-];
-
-const titleBlog = [
-  { title1: "PHP Web", title2: "Portals" },
-  { title1: "PHP Mobile", title2: "Web Services" },
-  { title1: "PHP Backend", title2: "Solutions" },
-  { title1: "Social Networking", title2: "Development" },
-  { title1: "PHP eCommerce", title2: "Solution" },
-  { title1: "PHP", title2: "Frameworks" },
-];
-
 class ServicesDetails extends Component {
   render() {
     return (
       <>
         <Header />
-
-        <div className="page-content bg-white">
+        <div className="page-content bg-white rubik-font">
           {/* <!-- inner page banner --> */}
           <div
-            className="dlab-bnr-inr overlay-primary"
-            style={{ backgroundImage: "url(" + bnr1 + ")" }}
+            className="dlab-bnr-inr overlay-primary-white"
+            style={{ backgroundImage: "url(" + bgslider9 + ")" }}
           >
-            <PageTitle
-              motherMenu="Services Details"
-              activeMenu="Services Details"
-            />
+            <PageTitle motherMenu="Bayilik" activeMenu="Bayilik " />
           </div>
           {/* <!-- inner page banner END --> */}
           <div className="content-block">
@@ -106,23 +86,23 @@ class ServicesDetails extends Component {
                         </div>
                         <div className="row">
                           <div className="col-lg-12 m-b30 chosesus-content">
-                            <ul className="list-checked primary text-white">
-                              <li>
+                            <ul className="list-checked primary text-white ">
+                              <li className="text-white">
                                 <span>Türkiye’de yerleşik olması.</span>
                               </li>
-                              <li>
+                              <li className="text-white">
                                 <span>
                                   Medeni hakları kullanma ehliyetine sahip
                                   olması.
                                 </span>
                               </li>
-                              <li>
+                              <li className="text-white">
                                 <span>
                                   Sigortacılık kanunu’nda belirtilen suçlardan
                                   hüküm giymemiş veya ceza almamış olması.
                                 </span>
                               </li>
-                              <li>
+                              <li className="text-white">
                                 <span>
                                   Teknik personel vasıflarını taşıması.
                                 </span>
@@ -140,14 +120,6 @@ class ServicesDetails extends Component {
                                 </span>
                               </li>
                             </ul>
-
-                            <Link
-                              to={"#"}
-                              className="site-button radius-xl outline white"
-                            >
-                              Read More{" "}
-                              <i className="fa fa-long-arrow-right"></i>
-                            </Link>
                           </div>
                         </div>
                       </div>
@@ -160,8 +132,8 @@ class ServicesDetails extends Component {
             {/* <!-- Testimonials END --> */}
             {/* <!-- Get in touch --> */}
             <div
-              className="section-full overlay-primary-dark bg-img-fix"
-              style={{ backgroundImage: "url(" + bg1 + ")" }}
+              className="section-full overlay-primary-white bg-img-fix"
+              style={{ backgroundImage: "url(" + bgslider9 + ")" }}
             >
               <FormStyle />
             </div>

@@ -8,7 +8,7 @@ import FormStyle from "./../Element/FormStyle";
 
 //Images
 import rocket from "./../../images/rocket.png";
-import bnr from "./../../images/background/bg1.png";
+import bnr from "./../../images/background/bg222.jpg";
 import tamplate from "./../../images/tamplate.png";
 import bg1 from "./../../images/background/bg10.png";
 import bgmap from "./../../images/background/bg-map.jpg";
@@ -53,11 +53,10 @@ class ProjectManagement extends Component {
     return (
       <>
         <Header />
-
-        <div className="page-content bg-white">
+        <div className="page-content bg-white rubik-font">
           {/* <!-- inner page banner --> */}
           <div
-            className="dlab-bnr-inr overlay-primary"
+            className="dlab-bnr-inr overlay-primary-white"
             style={{ backgroundImage: "url(" + bnr + ")" }}
           >
             <PageTitle
@@ -136,7 +135,7 @@ class ProjectManagement extends Component {
             {/* <!-- Testimonials END --> */}
             {/* <!-- Get in touch --> */}
             <div
-              className="section-full overlay-primary-dark bg-img-fix"
+              className="section-full overlay-primary-white bg-img-fix"
               style={{ backgroundImage: "url(" + bg1 + ")" }}
             >
               <FormStyle />
