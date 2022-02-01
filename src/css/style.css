@@ -114,6 +114,7 @@
 /*--------------------------------------------------------------
 1. GENERAL
 ---------------------------------------------------------------*/
+
 body,
 html {
   -moz-osx-font-smoothing: grayscale;
@@ -130,6 +131,11 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+}
+.header-stripe {
+  background: url("https://www.sigortacini.com.tr/Content/Images/resize/header-stripe-web.png")
+    top left repeat-x;
+  padding-top: 19px;
 }
 
 a {

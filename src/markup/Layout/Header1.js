@@ -44,7 +44,7 @@ class Header1 extends Component {
     return (
       <>
         <header
-          className="site-header header-transparent header mo-left header-seo"
+          className="site-header header-transparent header mo-left header-seo header-stripe"
           id="fix-header"
         >
           <div className="top-bar">
