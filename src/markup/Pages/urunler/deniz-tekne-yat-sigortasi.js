@@ -26,7 +26,6 @@ class ProjectDetails extends Component {
             style={{ backgroundImage: "url(" + bgslider9 + ")" }}
           >
             <PageTitle
-              style="color: #333;"
               motherMenu={flipItem[2].name}
               activeMenu={flipItem[2].urun[0].urun}
             />

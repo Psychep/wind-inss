@@ -174,7 +174,7 @@ h6 a:hover,
 .about-service .icon-bx-wraper:hover a,
 .dlab-box-bg .icon-box-btn .site-button,
 .list-2 li:hover:before {
-  color: #40643c;
+  color: #000000;
 }
 
 @media only screen and (max-width: 991px) {
