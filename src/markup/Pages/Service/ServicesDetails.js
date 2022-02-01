@@ -6,7 +6,7 @@ import Footer from "../../Layout/footer5";
 import PageTitle from "./../../Layout/PageTitle";
 import SectionCounter from "./../../Element/SectionCounter";
 import TestimonialCarousel from "./../../Element/TestimonialCarousel";
-import FormStyle from "./../../Element/FormStyle";
+import FormStyle from "./../../Element/bayiform";
 
 import bgslider9 from "../../../images/background/bg222.jpg";
 //Images
