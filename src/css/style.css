@@ -136,7 +136,16 @@ body {
   background: url("https://img.onl/6QowlY") top left repeat-x;
   padding-top: 40px;
 }
-
+.flank-area {
+  position: fixed;
+  top: 50%;
+  transform: rotate(-90deg);
+  left: -180px;
+  z-index: 99;
+}
+.paddin {
+  margin-right: 8px;
+}
 a {
   color: #6f6f6f;
   outline: 0 none;

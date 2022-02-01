@@ -3517,11 +3517,6 @@ footer.business-footer.footer-white .footer-bottom a {
 }
 
 .testimonial-flip .front .testimonial-pic {
-  border: 0 none;
-
-  border: 5px solid rgb(255, 0, 128);
-  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.35);
-  margin-bottom: 15px;
 }
 
 .testimonial-flip .back p {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ThemeButton from "./Element/ThemeButton/ThemeButton";
-
+import Leftside from "./Element/ThemeButton/left-side-button";
 import Homepage from "./Pages/Homepage1";
 import Index2 from "./Pages/Index2";
 import Index3 from "./Pages/Index3";
@@ -272,6 +272,7 @@ class Markup extends Component {
         </div>
         <ScrollToTop />
         <ThemeButton />
+        <Leftside />
       </BrowserRouter>
     );
   }
