@@ -76,7 +76,7 @@ class FormStyle extends Component {
                           type="text"
                           required
                           className="form-control"
-                          placeholder="Ürün Seçiniz"
+                          placeholder="Şehriniz"
                         />
                       </div>
                     </div>
@@ -139,7 +139,7 @@ class FormStyle extends Component {
                       className="site-button button-lg"
                     >
                       {" "}
-                      <span>Teklif alın!</span>{" "}
+                      <span>Başvurun!</span>{" "}
                     </button>
                   </div>
                 </div>

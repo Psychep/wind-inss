@@ -5,6 +5,7 @@ import Footer from "./../Layout/footer5";
 
 import bgimg from "./../../images/background/bg6.png";
 
+import { flipItem } from "./../Pages/ShortCode/DataFile";
 class Contact extends Component {
   render() {
     return (
@@ -116,13 +117,27 @@ class Contact extends Component {
                             <span className="input-group-addon">
                               <i className="ti-check-box text-primary"></i>
                             </span>
-                            <input
+                            <select
                               name="dzOther[Subject]"
                               type="text"
                               required
                               className="form-control"
                               placeholder="ürün Seçiniz"
-                            />
+                            >
+                              <option disabled selected>
+                                Ürün Seçiniz
+                              </option>
+                              {flipItem.map((item, index) => (
+                                <option
+                                  className="test"
+                                  value={item.urun.map(
+                                    (item, index) => item.urun
+                                  )}
+                                >
+                                  {item.name}
+                                </option>
+                              ))}
+                            </select>
                           </div>
                         </div>
                       </div>
@@ -132,13 +147,17 @@ class Contact extends Component {
                             <span className="input-group-addon">
                               <i className="ti-file text-primary"></i>
                             </span>
-                            <input
+                            <select
                               name="dzOther[Subject]"
                               type="text"
                               required
                               className="form-control"
                               placeholder="Ek Bilgi"
-                            />
+                            >
+                              <option disabled selected>
+                                ürün
+                              </option>
+                            </select>
                           </div>
                         </div>
                       </div>
