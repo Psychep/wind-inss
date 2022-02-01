@@ -133,9 +133,8 @@ body {
   font-smoothing: antialiased;
 }
 .header-stripe {
-  background: url("https://www.sigortacini.com.tr/Content/Images/resize/header-stripe-web.png")
-    top left repeat-x;
-  padding-top: 19px;
+  background: url("https://img.onl/6QowlY") top left repeat-x;
+  padding-top: 40px;
 }
 
 a {
@@ -13188,6 +13187,7 @@ footer.footer-white .footer-bottom a {
 }
 
 .page-content {
+  padding-top: 57px;
   margin-top: 0;
   padding-bottom: 50px;
 }
