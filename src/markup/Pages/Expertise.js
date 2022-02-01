@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Header from "./../Layout/Header1";
-import Footer from "./../Layout/Footer1";
+import Footer from "./../Layout/footer5";
 import PageTitle from "./../Layout/PageTitle";
 
 //Images
