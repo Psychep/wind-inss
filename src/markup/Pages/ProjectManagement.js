@@ -59,10 +59,7 @@ class ProjectManagement extends Component {
             className="dlab-bnr-inr overlay-primary-white"
             style={{ backgroundImage: "url(" + bnr + ")" }}
           >
-            <PageTitle
-              motherMenu="Project Management"
-              activeMenu="Project Management"
-            />
+            <PageTitle motherMenu="Hizmetlerimiz" activeMenu="Hizmetlerimiz" />
           </div>
           {/* <!-- inner page banner END --> */}
           <div className="content-block">
@@ -76,13 +73,6 @@ class ProjectManagement extends Component {
                     yeniliklere açık acenteliğimizle, sizlerin hizmetindeyiz.{" "}
                     <span className="bg-primary"></span>
                   </h2>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
                 </div>
               </div>
               <div className="container">
