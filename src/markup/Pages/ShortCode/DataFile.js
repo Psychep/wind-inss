@@ -225,7 +225,9 @@ const flipItem = [
     name: "Kefalet Sigortası",
     link: "shop-product-details",
     id: 4,
-    aciklama: "lorem ipsum dolor sit amed",
+    aciklama:
+      "Kefalet	sigortasında	sigorta	şirketi,	borçlunun	sözleşmeden	ve/veya	kanundan	doğan	yükümlülüğünü	yerine	getirmemesi	riskine	karşı	alacaklıya/işverene	düzenlediği	kefalet	senedi	bedeline	kadar	kefil	olmaktadır.	Bu	sigorta	türü	geleneksel	sigorta	uygulamalarından	ziyade	bankacılık	ürünlerine	alternatif	bir	finansal	enstrüman	niteliğindedir.",
+
     urun: [
       {
         urun: "Kefalet Sigortası",
