@@ -9,16 +9,17 @@ import Masonry from "react-masonry-component";
 import bnr2 from "./../../images/banner/bnr2.jpg";
 
 //images
-import box1 from "./../../images/project/pic1.jpg";
-import box2 from "./../../images/project/pic2.jpg";
-import box3 from "./../../images/project/pic3.jpg";
-import box4 from "./../../images/project/pic4.jpg";
-import box5 from "./../../images/project/pic5.jpg";
-import box6 from "./../../images/project/pic6.jpg";
-import box7 from "./../../images/project/pic7.jpg";
-import box8 from "./../../images/project/pic8.jpg";
-import { flipItem } from "./../Pages/ShortCode/DataFile";
-
+import box1 from "./../../images/product/arac-sigorta.png";
+import box2 from "./../../images/product/yangin-sigorta.png";
+import box3 from "./../../images/product/nakliyat-sigorta.png";
+import box4 from "./../../images/product/kefalet.png";
+import box5 from "./../../images/product/saglik-sigorta.png";
+import box6 from "./../../images/product/muhendislik-sigortasi.png";
+import box7 from "./../../images/product/ferdikazasigortasi.png";
+import box8 from "./../../images/product/allrisk.png";
+import box9 from "./../../images/product/depremsigorta.png";
+import box10 from "./../../images/product/sorumluluksigota.png";
+import box11 from "./../../images/product/hayvanhayat.png";
 const imageBlog = [
   { Large: box1, tag: ["Wordpress", "Joomla"] },
   { Large: box2, tag: ["Php", "Drupal", "Laravel"] },
@@ -27,7 +28,13 @@ const imageBlog = [
   { Large: box5, tag: ["Joomla"] },
   { Large: box6, tag: ["Drupal"] },
   { Large: box7, tag: ["Php"] },
-  { Large: box8, tag: ["Laravel", "Joomla", "Drupal"] },
+  {
+    Large: box8,
+    tag: ["Laravel", "Joomla", "Drupal", "Hayvan Hayat Sigortası"],
+  },
+  { Large: box9, tag: ["Laravel", "Joomla", "Drupal"] },
+  { Large: box10, tag: ["Laravel", "Joomla", "Drupal"] },
+  { Large: box11, tag: ["Laravel", "Joomla", "Drupal"] },
 ];
 
 //Light Gallery on icon click
@@ -96,10 +103,10 @@ function PortfolioItem() {
 
   useEffect(() => {
     tag === "Show All"
-      ? setFilterdImages(flipItem)
+      ? setFilterdImages(imageBlog)
       : setFilterdImages(
-          flipItem.filter((name) =>
-            name.name.find((element) => element === tag)
+          imageBlog.filter((image) =>
+            image.tag.find((element) => element === tag)
           )
         );
   }, [tag]);
@@ -110,69 +117,49 @@ function PortfolioItem() {
         <div className="container-fluid">
           <div className="section-head text-black text-center">
             <h4 className="text-gray-dark font-weight-300 m-b10">
-              Ürünlerimiz
+              Our Portfolio
             </h4>
             <h2 className="box-title m-tb0">
-              Wind Sigorta<span className="bg-primary"></span>
+              Web Development Portfolio<span className="bg-primary"></span>
             </h2>
-            <p>ürünlerimiz falan</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
           </div>
           <div className="site-filters clearfix center  m-b40">
             <ul className="filters" data-toggle="buttons">
               <TagLi
-                name="Tüm Ürünler"
+                name="Show All"
                 handlesettag={setTag}
                 tagActive={tag === "Show All" ? true : false}
-              />
-              <TagLi
-                name="Oto Sigortaları"
-                handlesettag={setTag}
-                tagActive={tag === "Oto Sigortaları" ? true : false}
-              />
-              <TagLi
-                name="Yangın Sigortaları"
-                handlesettag={setTag}
-                tagActive={tag === "Yangın Sigortaları" ? true : false}
-              />
-              <TagLi
-                name="Nakliyat Sigortaları"
-                handlesettag={setTag}
-                tagActive={tag === "Nakliyat Sigortaları" ? true : false}
-              />
-              <TagLi
-                name="Kefalet Sigortası"
-                handlesettag={setTag}
-                tagActive={tag === "Kefalet Sigortası" ? true : false}
-              />
-              <TagLi
-                name="Sağlık Sigortaları"
-                handlesettag={setTag}
-                tagActive={tag === "Sağlık Sigortaları" ? true : false}
-              />
-              <TagLi
-                name="Mühendislik Sigortası"
-                handlesettag={setTag}
-                tagActive={tag === "Mühendislik Sigortası" ? true : false}
-              />{" "}
-              <TagLi
-                name="Ferdi Kaza Sigortası"
-                handlesettag={setTag}
-                tagActive={tag === "Ferdi Kaza Sigortası" ? true : false}
-              />{" "}
-              <TagLi
-                name="All Risk İnşaat Sigortaları"
-                handlesettag={setTag}
-                tagActive={tag === "All Risk İnşaat Sigortaları" ? true : false}
-              />{" "}
-              <TagLi
-                name="Deprem Sigortası"
-                handlesettag={setTag}
-                tagActive={tag === "Deprem Sigortası" ? true : false}
               />
               <TagLi
                 name="Hayvan Hayat Sigortası"
                 handlesettag={setTag}
                 tagActive={tag === "Hayvan Hayat Sigortası" ? true : false}
+              />
+              <TagLi
+                name="Joomla"
+                handlesettag={setTag}
+                tagActive={tag === "Joomla" ? true : false}
+              />
+              <TagLi
+                name="Php"
+                handlesettag={setTag}
+                tagActive={tag === "Php" ? true : false}
+              />
+              <TagLi
+                name="Drupal"
+                handlesettag={setTag}
+                tagActive={tag === "Drupal" ? true : false}
+              />
+              <TagLi
+                name="Laravel"
+                handlesettag={setTag}
+                tagActive={tag === "Laravel" ? true : false}
               />
             </ul>
           </div>
@@ -190,37 +177,38 @@ function PortfolioItem() {
                     updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
                     imagesLoadedOptions={imagesLoadedOptions} // default {}
                   >
-                    {flipItem.map((item, index) => (
+                    {filteredImages.map((item, index) => (
                       <li
                         className="card-container col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30 drupal php wordpress"
-                        key={item.name}
+                        key={index}
                       >
                         <div className="dlab-box portfolio-box">
                           <div className="dlab-media dlab-img-effect dlab-img-overlay1">
                             {" "}
-                            <img src={item.image} alt="" />
+                            <img src={item.Large} alt="" />
                             <div className="dlab-info-has p-a15 bg-primary">
                               <Link
                                 to={"#"}
                                 className="site-button outline radius-xl white"
                               >
-                                {item.urun.map((data, index) => (
-                                  <span>{data.urun}</span>
-                                ))}
+                                Wordpress
                               </Link>
                               <Link
                                 to={"#"}
                                 className="site-button outline radius-xl white pull-right"
                               >
-                                {item.aciklama}
+                                Vist Site
                               </Link>
                             </div>
                             <div className="overlay-bx">
                               <div className="overlay-icon text-white p-lr10">
-                                <h5>Wind Sigorta</h5>
-                                <p className="m-b10"></p>
+                                <h5>Website Name</h5>
+                                <p className="m-b10">
+                                  Contrary to popular belief, Lorem Ipsum is not
+                                  simply random text. It has roots
+                                </p>
                                 <Iconimage />
-                                <a href={item.link} target="bank">
+                                <a href="https://www.google.com/" target="bank">
                                   <i className="ti-arrow-top-right icon-bx-xs"></i>
                                 </a>
                               </div>

@@ -450,10 +450,7 @@ const Index6 = (props) => {
               </form>
             </div>
           </div>
-
-          {/* <!-- Contact Us END --> */}
         </div>
-        {/* <!-- contact area END --> */}
       </div>
       <Footer5 />
     </>
