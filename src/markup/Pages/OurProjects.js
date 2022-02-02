@@ -117,17 +117,12 @@ function PortfolioItem() {
         <div className="container-fluid">
           <div className="section-head text-black text-center">
             <h4 className="text-gray-dark font-weight-300 m-b10">
-              Our Portfolio
+              Hizmetlerimiz
             </h4>
             <h2 className="box-title m-tb0">
-              Web Development Portfolio<span className="bg-primary"></span>
+              Sunduğumuz sigorta hizmetleri<span className="bg-primary"></span>
             </h2>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+            <p>falan falan sigorta hizmetlerimizi kullanıyoruz.</p>
           </div>
           <div className="site-filters clearfix center  m-b40">
             <ul className="filters" data-toggle="buttons">
