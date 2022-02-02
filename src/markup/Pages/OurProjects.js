@@ -1,12 +1,12 @@
 import React, { Component, useState, useEffect, Fragment } from "react";
 import { Link } from "react-router-dom";
 import Header from "./../Layout/Header1";
-import Footer from "./../Layout/Footer1";
+import Footer from "./../Layout/footer5";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper, useLightbox } from "simple-react-lightbox";
 import PageTitle from "./../Layout/PageTitle";
 import Masonry from "react-masonry-component";
-import bnr2 from "./../../images/banner/bnr2.jpg";
+import bnr1 from "./../../images/background/bg222.jpg";
 
 //images
 import box1 from "./../../images/product/arac-sigorta.png";
@@ -81,13 +81,13 @@ class Portfolio2 extends Component {
     return (
       <Fragment>
         <Header />
-        <div className="page-content bg-white">
-          {/*  banner  */}
+        <div className="page-content bg-white rubik-font">
+          {/* <!-- inner page banner --> */}
           <div
-            className="dlab-bnr-inr overlay-primary"
-            style={{ backgroundImage: "url(" + bnr2 + ")" }}
+            className="dlab-bnr-inr overlay-primary-white"
+            style={{ backgroundImage: "url(" + bnr1 + ")" }}
           >
-            <PageTitle motherMenu="Our Projects" activeMenu="Our Projects" />
+            <PageTitle motherMenu="Ürünlerimiz" activeMenu="Ürünlerimiz" />
           </div>
           {/*  Section-1 Start  */}
           <PortfolioItem />
