@@ -9,16 +9,16 @@ export default class leftsidebutton extends Component {
             Kasko
           </Link>
           <Link to={"./"} className="dez-page site-button primary paddin">
-            Kasko
+            Sağlık
           </Link>
           <Link to={"./"} className="dez-page site-button primary paddin">
-            Kasko
+            Deprem
           </Link>
           <Link to={"./"} className="dez-page site-button primary paddin">
-            Kasko
+            Yangın
           </Link>
           <Link to={"./"} className="dez-page site-button primary paddin">
-            Kasko
+            Hayat
           </Link>
 
           <div className="clear"></div>

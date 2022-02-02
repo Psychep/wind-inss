@@ -203,7 +203,7 @@ function PortfolioItem() {
                                   simply random text. It has roots
                                 </p>
                                 <Iconimage />
-                                <a href="https://www.google.com/" target="bank">
+                                <a href="#" target="bank">
                                   <i className="ti-arrow-top-right icon-bx-xs"></i>
                                 </a>
                               </div>

@@ -324,46 +324,7 @@ const Index6 = (props) => {
           {/* <!-- Our Recent Blog Posts --> */}
 
           {/* <!-- Newsletter --> */}
-          <div className="content-inner newsletter-bx">
-            <div className="container">
-              <form
-                className="row text-white dezPlaceAni align-items-center dzSubscribe m-lr0 "
-                action="script/mailchamp.php"
-                method="post"
-              >
-                <div className="col-xl-5 col-lg-6 col-md-12">
-                  <div className="title-bx">
-                    <h2 className="m-b0">
-                      Tekliflerimizden <br /> Haberdar olun
-                    </h2>
-                  </div>
-                </div>
-                <div className="col-xl-7 col-lg-6 col-md-12 contact-form-bx">
-                  <div className="form-group">
-                    <div className="input-group">
-                      <label>E-mail</label>
-                      <input
-                        name="dzEmail"
-                        required="required"
-                        type="email"
-                        className="form-control"
-                        placeholder=""
-                      />
-                      <button
-                        name="submit"
-                        value="Submit"
-                        type="submit"
-                        className="site-button radius-xl"
-                      >
-                        Kayıt ol
-                      </button>
-                    </div>
-                    <div className="dzSubscribeMsg"></div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
+
           {/* <!-- Newsletter END --> */}
 
           {/* <!-- Contact Us --> */}
