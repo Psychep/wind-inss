@@ -94,7 +94,10 @@ const Index6 = (props) => {
                   15 dakika'da <br />
                   Sigortan hazır.
                 </p>
-                <Link to={"#"} className="site-button button-md radius-xl">
+                <Link
+                  to={"./iletisim"}
+                  className="site-button button-md radius-xl"
+                >
                   Hemen Teklif Al
                 </Link>
               </div>
@@ -209,7 +212,7 @@ const Index6 = (props) => {
                     hizmetindeyiz.
                   </p>
                   <Link
-                    to={"#"}
+                    to={"./urunler"}
                     className="site-button radius-xl button-md btn-long"
                   >
                     Daha Fazla
@@ -247,7 +250,7 @@ const Index6 = (props) => {
                         Türkiye,Anadolu,Bereket,Mapfre,Gri,Arex,Gulf
                       </p>
                       <Link
-                        to={"#"}
+                        to={"./sigortasirketleri"}
                         className="site-button button-long button-md radius-xl"
                       >
                         Detaylı Bilgi{" "}

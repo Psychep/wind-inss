@@ -1413,6 +1413,10 @@ dl dd {
 .max-w80 {
   max-width: 80px;
 }
+.max-w250 {
+  max-width: 200px;
+  margin-left: 25px;
+}
 
 .max-w100 {
   max-width: 100px;

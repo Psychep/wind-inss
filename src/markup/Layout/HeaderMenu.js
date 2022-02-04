@@ -17,13 +17,14 @@ class HeaderMenu extends Component {
             </Link>
           </li>
           <li>
-            <Link to={"./hizmetlerimiz"}>
-              Hizmetlerimiz <i className=""></i>
-            </Link>
-          </li>
-          <li>
             <Link to={"./teklif"}>
               Teklif <i className=""></i>
+            </Link>
+          </li>
+
+          <li>
+            <Link to={"./sigortasirketleri"}>
+              Çözüm Ortaklarımız <i className=""></i>
             </Link>
           </li>
           <li>

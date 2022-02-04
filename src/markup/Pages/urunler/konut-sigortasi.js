@@ -77,11 +77,6 @@ class ProjectDetails extends Component {
                         {flipItem[1].urun[1].urun}
                       </a>
                     </p>
-                    <p className="m-b0">
-                      <a href={flipItem[1].urun[2].link}>
-                        {flipItem[1].urun[2].urun}
-                      </a>
-                    </p>
                   </div>
                 </div>
               </div>

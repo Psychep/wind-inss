@@ -5,20 +5,35 @@ export default class leftsidebutton extends Component {
     return (
       <>
         <div className="flank-area ">
-          <Link to={"./"} className="dez-page site-button primary paddin">
+          <Link
+            to={"./kasko-sigortasi"}
+            className="dez-page site-button primary paddin"
+          >
             Kasko
           </Link>
-          <Link to={"./"} className="dez-page site-button primary paddin">
+          <Link
+            to={"./ozel-saglik-sigortasi"}
+            className="dez-page site-button primary paddin"
+          >
             Sağlık
           </Link>
-          <Link to={"./"} className="dez-page site-button primary paddin">
+          <Link
+            to={"./deprem-sigortasi"}
+            className="dez-page site-button primary paddin"
+          >
             Deprem
           </Link>
-          <Link to={"./"} className="dez-page site-button primary paddin">
+          <Link
+            to={"./konut-sigortasi"}
+            className="dez-page site-button primary paddin"
+          >
             Yangın
           </Link>
-          <Link to={"./"} className="dez-page site-button primary paddin">
-            Hayat
+          <Link
+            to={"./sera-sigortasi"}
+            className="dez-page site-button primary paddin"
+          >
+            Sera
           </Link>
 
           <div className="clear"></div>

@@ -191,7 +191,7 @@ class Markup extends Component {
             <Route path="/login" exact component={Login} />
             <Route path="/register" exact component={Register} />
             <Route path="/iletisim" exact component={Contact} />
-            <Route path="/service" exact component={Service} />
+            <Route path="/sigortasirketleri" exact component={Service} />
             <Route path="/bayilik" exact component={ServicesDetails} />
             <Route path="/blog-standard" exact component={BlogStandard} />
             <Route
