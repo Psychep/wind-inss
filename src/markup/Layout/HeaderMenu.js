@@ -21,7 +21,11 @@ class HeaderMenu extends Component {
               Hizmetlerimiz <i className=""></i>
             </Link>
           </li>
-
+          <li>
+            <Link to={"./teklif"}>
+              Teklif <i className=""></i>
+            </Link>
+          </li>
           <li>
             <Link to={"./hakkimizda"}>
               Hakkımızda <i className=""></i>

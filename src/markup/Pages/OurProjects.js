@@ -21,20 +21,101 @@ import box9 from "./../../images/product/depremsigorta.png";
 import box10 from "./../../images/product/sorumluluksigota.png";
 import box11 from "./../../images/product/hayvanhayat.png";
 const imageBlog = [
-  { Large: box1, tag: ["Wordpress", "Joomla"] },
-  { Large: box2, tag: ["Php", "Drupal", "Laravel"] },
-  { Large: box3, tag: ["Laravel", "Drupal"] },
-  { Large: box4, tag: ["Wordpress"] },
-  { Large: box5, tag: ["Joomla"] },
-  { Large: box6, tag: ["Drupal"] },
-  { Large: box7, tag: ["Php"] },
+  { Large: box1, name: "Trafik Sigortası", tag: ["Oto Sigortaları", "Joomla"] },
+  {
+    Large: box2,
+    name: "Hayvan Hayat Sigortası",
+    tag: ["Php", "Drupal", "Laravel"],
+  },
+  { Large: box3, name: "Kasko", tag: ["Oto Sigortaları"] },
+  { Large: box4, name: "Filo Kasko Sigortası", tag: ["Oto Sigortaları"] },
+  { Large: box5, name: "Konut Sigortası", tag: ["Yangın Sigortaları"] },
+  { Large: box6, name: "İş Yeri Sigortası", tag: ["Yangın Sigortaları"] },
+  {
+    Large: box7,
+    name: "Deniz/Tekne/Yat Sigortası",
+    tag: ["Nakliyat Sigortaları"],
+  },
   {
     Large: box8,
-    tag: ["Laravel", "Joomla", "Drupal", "Hayvan Hayat Sigortası"],
+    name: "Nakliyat Sigortası",
+    tag: ["Nakliyat Sigortaları"],
   },
-  { Large: box9, tag: ["Laravel", "Joomla", "Drupal"] },
-  { Large: box10, tag: ["Laravel", "Joomla", "Drupal"] },
-  { Large: box11, tag: ["Laravel", "Joomla", "Drupal"] },
+  {
+    Large: box9,
+    name: "Emtia Sigortası",
+    tag: ["Nakliyat Sigortaları"],
+  },
+  {
+    Large: box10,
+    name: "Kefalet Sigortası",
+    tag: ["Kefalet Sigortası"],
+  },
+  {
+    Large: box11,
+    name: "Özel Sağlık sigortası",
+    tag: ["Sağlık Sigortaları"],
+  },
+  {
+    Large: box11,
+    name: "Tamamlayıcı Sağlık Sigortası",
+    tag: ["Sağlık Sigortaları"],
+  },
+  {
+    Large: box11,
+    name: "Yabancı Sağlık Sigortası",
+    tag: ["Sağlık Sigortaları"],
+  },
+  {
+    Large: box11,
+    name: "Montaj Sigortası",
+    tag: ["Mühendislik Sigortası"],
+  },
+  {
+    Large: box11,
+    name: "Makine Kırılması Sigortası",
+    tag: ["Mühendislik Sigortası"],
+  },
+  {
+    Large: box11,
+    name: "Ferdi Kaza Sigortası",
+    tag: ["Ferdi Kaza Sigortası"],
+  },
+  {
+    Large: box11,
+    name: "All Risk İnşaat Sigortaları",
+    tag: ["All Risk"],
+  },
+  {
+    Large: box11,
+    name: "Deprem Sigortası",
+    tag: ["Deprem Sigortası"],
+  },
+  {
+    Large: box11,
+    name: "Sorumluluk Sigortaları",
+    tag: ["Sorumluluk Sigortaları"],
+  },
+  {
+    Large: box11,
+    name: "Hayvan Hayat Sigortası",
+    tag: ["hayvan-hayat-sigortası"],
+  },
+  {
+    Large: box11,
+    name: "Kümes Hayvanları Sigortası",
+    tag: ["Hayvan Hayat Sigortası"],
+  },
+  {
+    Large: box11,
+    name: "Dolu Sigortası",
+    tag: ["Hayvan Hayat Sigortası"],
+  },
+  {
+    Large: box11,
+    name: "Sera Sigortası",
+    tag: ["Hayvan Hayat Sigortası"],
+  },
 ];
 
 //Light Gallery on icon click
@@ -98,11 +179,11 @@ class Portfolio2 extends Component {
   }
 }
 function PortfolioItem() {
-  const [tag, setTag] = useState("Show All");
+  const [tag, setTag] = useState("Tümü");
   const [filteredImages, setFilterdImages] = useState([]);
 
   useEffect(() => {
-    tag === "Show All"
+    tag === "Tümü"
       ? setFilterdImages(imageBlog)
       : setFilterdImages(
           imageBlog.filter((image) =>
@@ -117,44 +198,77 @@ function PortfolioItem() {
         <div className="container-fluid">
           <div className="section-head text-black text-center">
             <h4 className="text-gray-dark font-weight-300 m-b10">
-              Hizmetlerimiz
+              Ürünlerimiz
             </h4>
             <h2 className="box-title m-tb0">
               Sunduğumuz sigorta hizmetleri<span className="bg-primary"></span>
             </h2>
-            <p>falan falan sigorta hizmetlerimizi kullanıyoruz.</p>
+            <p>
+              Her türlü teknolojiye ayak uyduran dinamik yapımızla tüm
+              yeniliklere açık acenteliğimizle, sizlerin hizmetindeyiz..
+            </p>
           </div>
           <div className="site-filters clearfix center  m-b40">
             <ul className="filters" data-toggle="buttons">
               <TagLi
-                name="Show All"
+                name="Tümü"
                 handlesettag={setTag}
-                tagActive={tag === "Show All" ? true : false}
+                tagActive={tag === "Tümü" ? true : false}
+              />
+              <TagLi
+                name="Oto Sigortaları"
+                handlesettag={setTag}
+                tagActive={tag === "Oto Sigortaları" ? true : false}
+              />
+              <TagLi
+                name="Yangın Sigortaları"
+                handlesettag={setTag}
+                tagActive={tag === "Yangın Sigortaları" ? true : false}
+              />
+              <TagLi
+                name="Nakliyat Sigortaları"
+                handlesettag={setTag}
+                tagActive={tag === "Nakliyat Sigortaları" ? true : false}
+              />
+              <TagLi
+                name="Kefalet Sigortası"
+                handlesettag={setTag}
+                tagActive={tag === "Kefalet Sigortası" ? true : false}
+              />
+              <TagLi
+                name="Sağlık Sigortaları"
+                handlesettag={setTag}
+                tagActive={tag === "Sağlık Sigortaları" ? true : false}
+              />
+              <TagLi
+                name="Mühendislik Sigortası"
+                handlesettag={setTag}
+                tagActive={tag === "Mühendislik Sigortası" ? true : false}
+              />
+              <TagLi
+                name="Ferdi Kaza Sigortası"
+                handlesettag={setTag}
+                tagActive={tag === "Ferdi Kaza Sigortası" ? true : false}
+              />
+              <TagLi
+                name="All Risk"
+                handlesettag={setTag}
+                tagActive={tag === "All Risk" ? true : false}
+              />
+              <TagLi
+                name="Deprem Sigortası"
+                handlesettag={setTag}
+                tagActive={tag === "Deprem Sigortası" ? true : false}
+              />
+              <TagLi
+                name="Sorumluluk Sigortaları"
+                handlesettag={setTag}
+                tagActive={tag === "Sorumluluk Sigortaları" ? true : false}
               />
               <TagLi
                 name="Hayvan Hayat Sigortası"
                 handlesettag={setTag}
                 tagActive={tag === "Hayvan Hayat Sigortası" ? true : false}
-              />
-              <TagLi
-                name="Joomla"
-                handlesettag={setTag}
-                tagActive={tag === "Joomla" ? true : false}
-              />
-              <TagLi
-                name="Php"
-                handlesettag={setTag}
-                tagActive={tag === "Php" ? true : false}
-              />
-              <TagLi
-                name="Drupal"
-                handlesettag={setTag}
-                tagActive={tag === "Drupal" ? true : false}
-              />
-              <TagLi
-                name="Laravel"
-                handlesettag={setTag}
-                tagActive={tag === "Laravel" ? true : false}
               />
             </ul>
           </div>
@@ -174,38 +288,19 @@ function PortfolioItem() {
                   >
                     {filteredImages.map((item, index) => (
                       <li
-                        className="card-container col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30 drupal php wordpress"
+                        className="card-container col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30 "
                         key={index}
                       >
                         <div className="dlab-box portfolio-box">
                           <div className="dlab-media dlab-img-effect dlab-img-overlay1">
                             {" "}
                             <img src={item.Large} alt="" />
-                            <div className="dlab-info-has p-a15 bg-primary">
-                              <Link
-                                to={"#"}
-                                className="site-button outline radius-xl white"
-                              >
-                                Wordpress
-                              </Link>
-                              <Link
-                                to={"#"}
-                                className="site-button outline radius-xl white pull-right"
-                              >
-                                Vist Site
-                              </Link>
-                            </div>
                             <div className="overlay-bx">
                               <div className="overlay-icon text-white p-lr10">
-                                <h5>Website Name</h5>
+                                <h5> {item.name}</h5>
                                 <p className="m-b10">
-                                  Contrary to popular belief, Lorem Ipsum is not
-                                  simply random text. It has roots
+                                  Wind Sigorta {item.name} hizmeti detayları
                                 </p>
-                                <Iconimage />
-                                <a href="#" target="bank">
-                                  <i className="ti-arrow-top-right icon-bx-xs"></i>
-                                </a>
                               </div>
                             </div>
                           </div>

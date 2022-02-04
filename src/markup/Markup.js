@@ -109,8 +109,8 @@ class Markup extends Component {
               component={UnderMaintenance}
             />
             <Route path="/urunler" exact component={Expertise} />
-            <Route path="/hizmetlerimiz" exact component={ProjectManagement} />
-            <Route path="/our-projects" exact component={OurProjects} />
+            <Route path="/teklif" exact component={ProjectManagement} />
+            <Route path="/hizmetlerimiz" exact component={OurProjects} />
             <Route path="/trafik-sigortasi" exact component={ProjectDetails} />
 
             <Route path="/trafik-sigortasi" exact component={trafiksigortasi} />

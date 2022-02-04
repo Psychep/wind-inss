@@ -7,7 +7,8 @@ import ImgCarousel from "../../Element/ImgCarousel";
 import ClientCarousel from "../../Element/ClientCarousel";
 import { flipItem } from "../ShortCode/DataFile";
 import bgslider9 from "../../../images/background/bg222.jpg";
-
+import bg1 from "../../../images/background/bg10.png";
+import FormStyle from "../../Element/FormStyle";
 //Images
 import bnr1 from "../../../images/banner/bnr2.jpg";
 
@@ -76,6 +77,12 @@ class ProjectDetails extends Component {
               </div>
             </div>
           </div>
+        </div>{" "}
+        <div
+          className="section-full overlay-primary-white bg-img-fix"
+          style={{ backgroundImage: "url(" + bg1 + ")" }}
+        >
+          <FormStyle />
         </div>
         <Footer />
       </>
