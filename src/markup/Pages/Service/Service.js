@@ -10,6 +10,8 @@ import work3 from "./../../../images/our-services/bereket.jpg";
 import work4 from "./../../../images/our-services/gri.png";
 import work5 from "./../../../images/our-services/gulf.png";
 import work6 from "./../../../images/our-services/mapfre.png";
+
+import work7 from "./../../../images/our-services/turkiye.png";
 import bgslider9 from "./../../../images/background/bg222.jpg";
 //Images
 
@@ -19,10 +21,12 @@ const iconBox = [
     icon: work2,
     title: "Arex ",
   },
+
   { icon: work3, title: "Bereket" },
   { icon: work4, title: "Gri" },
   { icon: work1, title: "Anadolu" },
   { icon: work6, title: "Mapfre" },
+  { icon: work7, title: "Turkiye Sigorta" },
 ];
 
 class Service extends Component {

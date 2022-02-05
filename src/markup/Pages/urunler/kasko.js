@@ -33,6 +33,12 @@ class ProjectDetails extends Component {
             />
           </div>
           {/* <!-- inner page banner END --> */}
+          <div
+            className="section-full overlay-primary-white bg-img-fix"
+            style={{ backgroundImage: "url(" + bg1 + ")" }}
+          >
+            <FormStyle />
+          </div>
           <div className="content-block">
             {/* <!-- Project Details --> */}
             <div className="section-full content-inner-2">
@@ -41,9 +47,6 @@ class ProjectDetails extends Component {
                   <div className="col-lg-6 col-md-6 m-b20">
                     <h2 className="m-b10 m-t0">{flipItem[0].name}</h2>
                     <p className="m-b10">{flipItem[0].aciklama}</p>
-                  </div>
-                  <div className="col-lg-6 col-md-6">
-                    <ImgCarousel />
                   </div>
                 </div>
                 <div className="row m-b50">
@@ -83,17 +86,14 @@ class ProjectDetails extends Component {
                       </a>
                     </p>
                   </div>
+                  <div className="col-lg-6 col-md-6">
+                    <ImgCarousel />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>{" "}
-        <div
-          className="section-full overlay-primary-white bg-img-fix"
-          style={{ backgroundImage: "url(" + bg1 + ")" }}
-        >
-          <FormStyle />
-        </div>
         <Footer />
       </>
     );
