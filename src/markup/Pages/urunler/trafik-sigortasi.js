@@ -56,13 +56,7 @@ class ProjectDetails extends Component {
                           {flipItem[0].urun[0].aciklama}
                         </span>
                       </h6>
-                      <h6>
-                        Sigorta şirketi:{" "}
-                        <span className="m-l10 font-weight-300 text-gray-dark">
-                          {" "}
-                          Türkiye,Anadolu,Bereket,Mapfre,Gri,Arex,Gulf
-                        </span>
-                      </h6>
+                      <h6></h6>
                     </div>
                   </div>
                   <div className="col-md-6 align-self-center">

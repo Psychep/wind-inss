@@ -30,10 +30,10 @@ export default class leftsidebutton extends Component {
             Yangın
           </Link>
           <Link
-            to={"./sera-sigortasi"}
+            to={"./trafik-sigortasi"}
             className="dez-page site-button primary paddin"
           >
-            Sera
+            Trafik
           </Link>
 
           <div className="clear"></div>
