@@ -1,5 +1,5 @@
 import React, { Fragment, Component } from "react";
-
+import { iller } from "../../markup/Pages/ShortCode/il-ilce";
 class FormStyle extends Component {
   render() {
     return (
@@ -71,13 +71,22 @@ class FormStyle extends Component {
                         <span className="input-group-addon">
                           <i className="ti-check-box text-primary"></i>
                         </span>
-                        <input
+                        <select
                           name="dzOther[Subject]"
                           type="text"
                           required
                           className="form-control"
                           placeholder="Şehriniz"
-                        />
+                        >
+                          <option disabled selected>
+                            il seçiniz
+                          </option>
+                          {iller.map((item, index) => (
+                            <option className="test" value="test">
+                              {item.il_adi}
+                            </option>
+                          ))}
+                        </select>
                       </div>
                     </div>
                   </div>
@@ -87,13 +96,22 @@ class FormStyle extends Component {
                         <span className="input-group-addon">
                           <i className="ti-file text-primary"></i>
                         </span>
-                        <input
+                        <select
                           name="dzOther[Subject]"
                           type="text"
                           required
                           className="form-control"
-                          placeholder="Ek Bilgi"
-                        />
+                          placeholder="Şehriniz"
+                        >
+                          <option disabled selected>
+                            il seçiniz
+                          </option>
+                          {iller.map((item, index) => (
+                            <option className="test" value="test">
+                              {item.il_adi}
+                            </option>
+                          ))}
+                        </select>
                       </div>
                     </div>
                   </div>

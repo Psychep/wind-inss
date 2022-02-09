@@ -17,7 +17,7 @@ class HeaderMenu extends Component {
             </Link>
           </li>
           <li>
-            <Link to={"./teklif"}>
+            <Link to={"./kampanyalar"}>
               Kampanyalar <i className=""></i>
             </Link>
           </li>

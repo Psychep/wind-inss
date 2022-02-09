@@ -37,25 +37,23 @@ class ServicesDetails extends Component {
                   <div className="col-lg-12">
                     <div className="section-head text-black text-center">
                       <h4 className="text-gray-dark font-weight-500 m-b10">
-                        Bayimiz Olun
+                        Şubemiz Olun
                       </h4>
                       <h2 className="box-title m-tb0">
-                        Acentelik Başvurularınız için Wind Sigorta Başvuru
-                        şartları.
+                        SİGORTA ŞUBE BAŞVURUSU
                         <span className="bg-primary"></span>
                       </h2>
                       <p className="font-weight-300 font-18">
-                        Ön Yeterlilik Koşulu:{" "}
-                        <strong className="text-yellow">5684 </strong> sayılı
-                        Sigortacılık Kanununu ve buna bağlı Sigorta Acenteleri
-                        Yönetmeliği gereğince sigorta acenteliği yapmak
-                        isteyenlerin Türkiye Odalar ve Borsalar Birliğince
-                        tutulan levhaya kayıtlı olması gerekmektedir. Levhaya
-                        kayıt olmamış acenteler uygunluk belgesi almak üzere
-                        başvurularını TOBB tarafından görevlendirilecek odalara
-                        yapabilirler. Konu ile ilgili mevzuat, detaylı bilgi ve
-                        işlemler için www.sigorta.org.tr internet adresinden
-                        yararlanabilirsiniz.
+                        Sigorta şubeliği –sigorta acenteliğinden farklı olarak-
+                        bir çok sigorta şirketi ile anlaşması olan, kendi teknik
+                        operasyon kadrosunu bünyesinde bulunduran güçlü bir
+                        sigorta acentesinin resmi şubesi olarak faaliyet
+                        göstermektir. Sigorta şubeliği için ayrı bir tüzel
+                        kişilik kurmaya, sigorta şirketlerine acentelik
+                        başvurusunda bulunmaya gerek yoktur. Güçlü bir sigorta
+                        acentesinin şubesi olduğunuzda bu acentenin Sigorta
+                        Şirketlerinin tamamından teklif alabilir, sigorta
+                        poliçesi düzenleyebilirsiniz.
                       </p>
                     </div>
                   </div>
@@ -76,11 +74,10 @@ class ServicesDetails extends Component {
                         <div className="row">
                           <div className="col-lg-12 text-white">
                             <h3 className="box-title m-b10">
-                              Acentemiz olun<span className="bg-primary"></span>
+                              Şubemiz olun<span className="bg-primary"></span>
                             </h3>
                             <h5 className="m-b30">
-                              Acentelik faaliyetlerinde bulunacak gerçek
-                              kişilerde aşağıdaki nitelikler aranır:
+                              SİGORTA ŞUBESİ AÇMAK İÇİN GEREKLİ ŞARTLAR
                             </h5>
                           </div>
                         </div>
@@ -88,35 +85,29 @@ class ServicesDetails extends Component {
                           <div className="col-lg-12 m-b30 chosesus-content">
                             <ul className="list-checked primary text-white ">
                               <li className="text-white">
-                                <span>Türkiye’de yerleşik olması.</span>
-                              </li>
-                              <li className="text-white">
                                 <span>
-                                  Medeni hakları kullanma ehliyetine sahip
-                                  olması.
+                                  Şube Müdürü : Sigorta acente şubesi açmak için
+                                  ilk şart şube müdürüdür.{" "}
                                 </span>
                               </li>
                               <li className="text-white">
                                 <span>
-                                  Sigortacılık kanunu’nda belirtilen suçlardan
-                                  hüküm giymemiş veya ceza almamış olması.
+                                  Ofis: Bir diğer şart ise Sigorta Şubesinin
+                                  uygun bir mekanda açılmasıdır. Şubenin ,
+                                  müstakil bir bina veya iş merkezi içerisinde;
+                                  fiziki olarak ayrılmış , müstakil bir girişe
+                                  sahip , başlıbaşına kullanılmaya elverişli
+                                  bağımsız bir mekân olması ve bu mekânda
+                                  yalnızca sigorta acenteliği faaliyeti
+                                  yürütülüyor olması gerekmektedir.
                                 </span>
                               </li>
                               <li className="text-white">
                                 <span>
-                                  Teknik personel vasıflarını taşıması.
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  Asgari malvarlığı (25.000 TL) şartını yerine
-                                  getirmiş olması.
-                                </span>
-                              </li>
-                              <li>
-                                <span>
-                                  Fiziksel, teknik ve idari altyapı ile insan
-                                  kaynakları bakımından yeterli olması.
+                                  Kuruluş masrafları: Sigorta Şubeliğinin
+                                  açılması için gerekli masraflardır. Şube
+                                  başvurusu sonrasında yapılan görüşmelerde
+                                  Sigorta Acentesi tarafından belirtilir.
                                 </span>
                               </li>
                             </ul>

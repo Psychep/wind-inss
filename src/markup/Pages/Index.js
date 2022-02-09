@@ -83,7 +83,7 @@ const Index6 = (props) => {
           <div className="container">
             <div className="home-bnr-inner-2 row align-items-center">
               <div className="home-bnr-content-2 col-md-6">
-                <h4 className="sub-title">15 Dakikada Sigorta</h4>
+                <h4 className="sub-title">Anında Sigorta</h4>
                 <h2 className="dz-title text-primary">
                   <strong>WİND SİGORTA </strong>
                   <span>Sigorta İhtiyacınızı Belirleyin</span>
@@ -91,7 +91,7 @@ const Index6 = (props) => {
                 </h2>
                 <p>
                   Wind sigorta <br />
-                  15 dakika'da <br />
+                  Anında <br />
                   Sigortan hazır.
                 </p>
                 <Link
