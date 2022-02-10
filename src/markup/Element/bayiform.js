@@ -1,6 +1,23 @@
 import React, { Fragment, Component } from "react";
 import { iller } from "../../markup/Pages/ShortCode/il-ilce";
 class FormStyle extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { value: "il seçmeniz gerek" };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({ value: event.target.value });
+  }
+
+  handleSubmit(event) {
+    alert(this.state.value);
+    event.preventDefault();
+  }
+
   render() {
     return (
       <Fragment>
@@ -8,8 +25,9 @@ class FormStyle extends Component {
           <div className="">
             <div className="">
               <form
-                className="inquiry-form  dzForm"
+                className="inquiry-form  dzForm "
                 action="script/contact.php"
+                onSubmit={this.handleSubmit}
               >
                 <div className="dzFormMsg"></div>
                 <h3 className="box-title m-t0 m-b10">
@@ -17,7 +35,7 @@ class FormStyle extends Component {
                 </h3>
                 <p>Bayilik formu</p>
                 <div className="row">
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 ">
                     <div className="form-group">
                       <div className="input-group">
                         <span className="input-group-addon">
@@ -27,7 +45,7 @@ class FormStyle extends Component {
                           name="dzName"
                           type="text"
                           required
-                          className="form-control"
+                          className="form-control "
                           placeholder="Ad-Soyad"
                         />
                       </div>
@@ -82,7 +100,11 @@ class FormStyle extends Component {
                             il seçiniz
                           </option>
                           {iller.map((item, index) => (
-                            <option className="test" value="test">
+                            <option
+                              className="test"
+                              key={index}
+                              plaka={item.plaka_kodu}
+                            >
                               {item.il_adi}
                             </option>
                           ))}
@@ -103,9 +125,8 @@ class FormStyle extends Component {
                           className="form-control"
                           placeholder="Şehriniz"
                         >
-                          <option disabled selected>
-                            il seçiniz
-                          </option>
+                          <option disabled selected></option>
+
                           {iller.map((item, index) => (
                             <option className="test" value="test">
                               {item.il_adi}
@@ -161,6 +182,18 @@ class FormStyle extends Component {
                     </button>
                   </div>
                 </div>
+              </form>
+              <form onSubmit={this.handleSubmit}>
+                <label>
+                  En sevdiğiniz il:
+                  <select value={this.state.value} onChange={this.handleChange}>
+                    <option value="istanbul">İstanbul</option>
+                    <option value="ankara">Ankara</option>
+                    <option value="trabzon">Trabzon</option>
+                    <option value="izmir">İzmir</option>
+                  </select>
+                </label>
+                <input type="submit" value="Gönder" />
               </form>
             </div>
           </div>
