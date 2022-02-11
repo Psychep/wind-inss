@@ -8,10 +8,24 @@ import PageTitle from "./../../Layout/PageTitle";
 import Masonry from "react-masonry-component";
 import bgslider9 from "./../../../images/background/bg222.jpg";
 
-//images
-import bnr1 from "./../../../images/banner/bnr10.jpg";
+//imagesimport box1 from './../../../images/portfolio/image_1.jpg';
+import box2 from "./../../../images/portfolio/sevgililer-gunu.png";
+
+import box3 from "./../../../images/portfolio/hosgeldin.jpg";
 import { box1 } from "./ProtfolioFullWidth";
-import { imageBlog } from "./ProtfolioFullWidth";
+
+const imageBlog = [
+  {
+    Large: box2,
+    aciklama: "Sevgililer Gününe Özel",
+    sigorta: "Anadolu Sigorta",
+  },
+  {
+    Large: box3,
+    aciklama: "Sevgililer Gününe Özel",
+    sigorta: "Anadolu Sigorta",
+  },
+];
 
 //Light Gallery on icon click
 const Iconimage = (props) => {
@@ -62,7 +76,7 @@ class PortfolioGrid2 extends Component {
             className="dlab-bnr-inr overlay-primary-white"
             style={{ backgroundImage: "url(" + bgslider9 + ")" }}
           >
-            <PageTitle motherMenu="Bayilik" activeMenu="Bayilik " />
+            <PageTitle motherMenu="Kampanyalar" activeMenu="Kampanyalar " />
           </div>
           {/*  Section-1 Start  */}
           <PortfolioItem />
@@ -91,38 +105,7 @@ function PortfolioItem() {
       <div className="section-full content-inner-2 portfolio text-uppercase">
         <div className="container">
           <div className="site-filters clearfix center  m-b40">
-            <ul className="filters" data-toggle="buttons">
-              <TagLi
-                name="All"
-                handlesettag={setTag}
-                tagActive={tag === "All" ? true : false}
-              />
-              <TagLi
-                name="Web"
-                handlesettag={setTag}
-                tagActive={tag === "Web" ? true : false}
-              />
-              <TagLi
-                name="Advertising"
-                handlesettag={setTag}
-                tagActive={tag === "Advertising" ? true : false}
-              />
-              <TagLi
-                name="Branding"
-                handlesettag={setTag}
-                tagActive={tag === "Branding" ? true : false}
-              />
-              <TagLi
-                name="Design"
-                handlesettag={setTag}
-                tagActive={tag === "Design" ? true : false}
-              />
-              <TagLi
-                name="Photography"
-                handlesettag={setTag}
-                tagActive={tag === "Photography" ? true : false}
-              />
-            </ul>
+            <ul className="filters" data-toggle="buttons"></ul>
           </div>
           <SimpleReactLightbox>
             <SRLWrapper>
@@ -149,8 +132,8 @@ function PortfolioItem() {
                             <div className="overlay-bx">
                               <div className="overlay-icon align-b text-white text-left">
                                 <div className="text-white text-left port-box">
-                                  <h5>Herbal Beauty Salon</h5>
-                                  <p>Branding and Identity</p>
+                                  <a href="#">{item.aciklama}</a>
+                                  <p>{item.sigorta}</p>
                                   <Iconimage />
                                 </div>
                               </div>
