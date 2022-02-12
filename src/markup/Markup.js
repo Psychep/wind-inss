@@ -235,9 +235,9 @@ class Markup extends Component {
               exact
               component={ProtfolioFullWidth}
             />
-            <Route path="/kampanyalar" exact component={PortfolioGrid2} />
+            <Route path="/portfolio-grid-2" exact component={PortfolioGrid2} />
             <Route path="/portfolio-grid-3" exact component={PortfolioGrid3} />
-            <Route path="/portfolio-grid-4" exact component={PortfolioGrid4} />
+            <Route path="/kampanyalar" exact component={PortfolioGrid4} />
             <Route path="/shop-columns" exact component={ShopColumns} />
             <Route
               path="/shop-columns-sidebar"

@@ -9,14 +9,25 @@ import Masonry from "react-masonry-component";
 import bgslider9 from "./../../../images/background/bg222.jpg";
 
 //imagesimport box1 from './../../../images/portfolio/image_1.jpg';
-import box2 from "./../../../images/portfolio/sevgililer-gunu.png";
-
+import box2 from "./../../../images/portfolio/sevgililergunu.jpg";
+import gencemeklilik from "./../../../images/portfolio/gencemeklili.jpg";
+import turkcell from "./../../../images/portfolio/turkcell.png";
 import box3 from "./../../../images/portfolio/hosgeldin.jpg";
 import { box1 } from "./ProtfolioFullWidth";
 
 const imageBlog = [
   {
     Large: box2,
+    aciklama: "Sevgililer Gününe Özel",
+    sigorta: "Anadolu Sigorta",
+  },
+  {
+    Large: gencemeklilik,
+    aciklama: "Sevgililer Gününe Özel",
+    sigorta: "Anadolu Sigorta",
+  },
+  {
+    Large: turkcell,
     aciklama: "Sevgililer Gününe Özel",
     sigorta: "Anadolu Sigorta",
   },
