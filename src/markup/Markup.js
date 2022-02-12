@@ -247,11 +247,7 @@ class Markup extends Component {
 
             <Route path="/shop-cart" exact component={ShopCart} />
             <Route path="/shop-checkout" exact component={ShopCheckout} />
-            <Route
-              path="/shop-product-details"
-              exact
-              component={ShopProductDetails}
-            />
+            <Route path="/kampanya1" exact component={ShopProductDetails} />
             <Route path="/shop-wishlist" exact component={ShopWishlist} />
             <Route path="/shop-login" exact component={ShopLogin} />
             <Route path="/shop-register" exact component={ShopRegister} />

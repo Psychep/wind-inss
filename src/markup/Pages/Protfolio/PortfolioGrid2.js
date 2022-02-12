@@ -143,7 +143,7 @@ function PortfolioItem() {
                             <div className="overlay-bx">
                               <div className="overlay-icon align-b text-white text-left">
                                 <div className="text-white text-left port-box">
-                                  <a href="#">{item.aciklama}</a>
+                                  <a href="kampanya1">{item.aciklama}</a>
                                   <p>{item.sigorta}</p>
                                   <Iconimage />
                                 </div>
