@@ -82,7 +82,10 @@ class ProjectDetails extends Component {
           className="section-full overlay-primary-white bg-img-fix"
           style={{ backgroundImage: "url(" + bg1 + ")" }}
         >
-          <FormStyle />
+          <FormStyle
+            category={flipItem[5].name}
+            produtc={flipItem[5].urun[1].urun}
+          />
         </div>
         <Footer />
       </>
