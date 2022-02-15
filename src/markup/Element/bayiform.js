@@ -1,9 +1,9 @@
-import React, { Fragment, Component } from "react";
+import React, { Fragment, Component, useState } from "react";
 import { iller } from "../../markup/Pages/ShortCode/il-ilce";
 class FormStyle extends Component {
   constructor(props) {
     super(props);
-    this.state = { value: "il seçmeniz gerek" };
+    this.state = { value: "Adana" };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -11,6 +11,7 @@ class FormStyle extends Component {
 
   handleChange(event) {
     this.setState({ value: event.target.value });
+    console.log(this.state.value);
   }
 
   handleSubmit(event) {
@@ -90,6 +91,8 @@ class FormStyle extends Component {
                           <i className="ti-check-box text-primary"></i>
                         </span>
                         <select
+                          value={this.state.value}
+                          onChange={this.handleChange}
                           name="dzOther[Subject]"
                           type="text"
                           required
@@ -128,7 +131,11 @@ class FormStyle extends Component {
                           <option disabled selected></option>
 
                           {iller.map((item, index) => (
-                            <option className="test" value="test">
+                            <option
+                              className="test"
+                              key={index}
+                              plaka={item.plaka_kodu}
+                            >
                               {item.il_adi}
                             </option>
                           ))}
@@ -182,18 +189,6 @@ class FormStyle extends Component {
                     </button>
                   </div>
                 </div>
-              </form>
-              <form onSubmit={this.handleSubmit}>
-                <label>
-                  En sevdiğiniz il:
-                  <select value={this.state.value} onChange={this.handleChange}>
-                    <option value="istanbul">İstanbul</option>
-                    <option value="ankara">Ankara</option>
-                    <option value="trabzon">Trabzon</option>
-                    <option value="izmir">İzmir</option>
-                  </select>
-                </label>
-                <input type="submit" value="Gönder" />
               </form>
             </div>
           </div>

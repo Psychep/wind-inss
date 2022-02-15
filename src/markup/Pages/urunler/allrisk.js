@@ -9,6 +9,8 @@ import { flipItem } from "../ShortCode/DataFile";
 import bgslider9 from "../../../images/background/bg222.jpg";
 import bg1 from "../../../images/background/bg10.png";
 import FormStyle from "../../Element/FormStyle";
+import kasko from "../../../images/background/allrisk-sigortasi.png";
+
 //Images
 import bnr1 from "../../../images/banner/bnr2.jpg";
 
@@ -43,7 +45,7 @@ class ProjectDetails extends Component {
                     <p className="m-b10">{flipItem[7].aciklama}</p>
                   </div>
                   <div className="col-lg-6 col-md-6">
-                    <ImgCarousel />
+                    <ImgCarousel img={kasko} />
                   </div>
                 </div>
                 <div className="row m-b50">

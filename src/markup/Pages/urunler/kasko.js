@@ -7,7 +7,7 @@ import ImgCarousel from "../../Element/ImgCarousel";
 import ClientCarousel from "../../Element/ClientCarousel";
 import { flipItem } from "../../Pages/ShortCode/DataFile";
 import bgslider9 from "../../../images/background/bg222.jpg";
-import kasko from "../../../images/background/oto-kasko.jpg";
+import kasko from "../../../images/background/trafik-sigortasi.png";
 
 import bg1 from "../../../images/background/bg10.png";
 import FormStyle from "../../Element/FormStyle";

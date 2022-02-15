@@ -11,6 +11,7 @@ import bg1 from "../../../images/background/bg10.png";
 import FormStyle from "../../Element/FormStyle";
 //Images
 import bnr1 from "../../../images/banner/bnr2.jpg";
+import kasko from "../../../images/background/deprem-sigortasi.png";
 
 class ProjectDetails extends Component {
   /* componentDidMount(){
@@ -43,7 +44,7 @@ class ProjectDetails extends Component {
                     <p className="m-b10">{flipItem[8].aciklama}</p>
                   </div>
                   <div className="col-lg-6 col-md-6">
-                    <ImgCarousel />
+                    <ImgCarousel img={kasko} />
                   </div>
                 </div>
                 <div className="row m-b50">

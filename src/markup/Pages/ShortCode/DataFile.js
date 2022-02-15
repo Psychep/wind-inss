@@ -149,14 +149,14 @@ const flipItem = [
         aciklama:
           "Bir motorlu kara taşıtı sigortası olan kasko, sigortayı yaptıran araç sahibinin ve aracının uğrayabileceği zararların karşılanmasını temin eder. Kasko yaptıran araç sahibi, kendisini ve aracını trafikte karşılaşabileceği zararlara karşı güvence altına alır. Kasko sigortasının amacı; sigorta sahibine ait motorlu aracın uğrayabileceği zararları tazmin etmektir. Kasko, yaptırılması kanunlarla zorunlu tutulan bir sigorta türü değildir. Kasko yaptırıp yaptırmamak araç sahiplerinin tasarrufundadır. Ancak trafikte karşılaşılabilecek muhtemel riskler göz önüne alındığında kasko sigortası, araç ve araç sahipleri için sunduğu teminatlar sayesinde büyük önem arz etmektedir. Bununla birlikte ek teminatlar sunulan araç sahiplerine kasko sigortası tercihinde esneklik sağlanarak özel kasko planları oluşturulabiliyor.",
         image: "Konut Sigortası",
-        link: "kasko-sigortasi",
+        link: "trafik-sigortasi",
       },
       {
         urun: "Filo Kasko Sigortası",
         aciklama:
           "Filo Kasko, yüksek sayıda araç sahibi olanlar için yapılan kasko poliçesi çeşididir. Tüzel kişilerin araçlarını güvence altına alabildikleri ve bazı genel ve özel şartlarda istenilen teminatlara göre şekillendirebildikleri fiyat avantajı sunan poliçedir.",
         image: "İş Yeri Sigortası",
-        link: "filo-kasko-sigortasi",
+        link: "trafik-sigortasi",
       },
     ],
     tag: ["Oto Sigortaları"],
@@ -198,7 +198,7 @@ const flipItem = [
         urun: "Deniz/Tekne/Yat Sigortası",
         aciklama:
           "Tekne-Yat Sigortaları ürünümüz, özel amaçlı olarak kullandığınız yatlarınıza, deniz tehlikeleri veya karada bağlama yerlerin de , marina da  veya yatma-çekek yerinde meydana gelebilecek kazalara karşı güvence sağlayan bir Sigortadır.        ",
-        image: "flipitemimage",
+        image: "teknesigortasi",
         link: "deniztekneyat",
       },
       {
@@ -206,14 +206,14 @@ const flipItem = [
         aciklama:
           "Taşıdığınız sorumluluklar sizi zor durumda bırakmasın. Wind Sigorta ile sorumluluklarınız teminat altındadır, Freight Forwarder olarak faaliyet gösteren şirketlerin, uluslararası konvansiyonlar kapsamındaki yükümlülüklerine karşılık teminat sağlamaktadır,",
 
-        image: "Konut Sigortası",
+        image: "Nakliyat-Sigortasi",
         link: "nakliyat-sigortasi",
       },
       {
         urun: "Emtia Sigortası",
         aciklama:
           "Sahibi bulunduğunuz malların, çeşitli nakil vasıtaları ile bir yerden diğer bir yere taşınması, bu taşınma sırasında da oluşabilecek çeşitli rizikolara karşı güvence altına alınması Emtia Nakliyat Sigortası ürünümüz ile sağlanmaktadır. ",
-        image: "İş Yeri Sigortası",
+        image: "emita-sigortasi",
         link: "emita-sigortasi",
       },
     ],
@@ -233,7 +233,7 @@ const flipItem = [
         urun: "Kefalet Sigortası",
         aciklama:
           "Kefalet	sigortasında	sigorta	şirketi,	borçlunun	sözleşmeden	ve/veya	kanundan	doğan	yükümlülüğünü	yerine	getirmemesi	riskine	karşı	alacaklıya/işverene	düzenlediği	kefalet	senedi	bedeline	kadar	kefil	olmaktadır.	Bu	sigorta	türü	geleneksel	sigorta	uygulamalarından	ziyade	bankacılık	ürünlerine	alternatif	bir	finansal	enstrüman	niteliğindedir.",
-        image: "flipitemimage",
+        image: "kefalet-sigortasi",
         link: "kefalet-sigortasi",
       },
     ],
@@ -251,21 +251,21 @@ const flipItem = [
         urun: "Özel Sağlık sigortası",
         aciklama:
           "Beklenmedik bir kaza veya hastalık sonucu oluşacak sağlık giderlerinizin yanı sıra sağlığınız için ihtiyaç duyacağınız her türlü tanı ve tedavi işlemlerini, en seçkin sağlık kurumlarında en modern yöntemlerle ve mali kaygı duymadan karşılanması için hazırlanmış sigortalardır. Sağlık giderleriniz, genel ve özel şartlar dahilinde ve poliçede belirtilen limitler doğrultusunda karşılanır.  ",
-        image: "flipitemimage",
+        image: "saglik-sigortasi",
         link: "ozel-saglik-sigortasi",
       },
       {
         urun: "Tamamlayıcı Sağlık Sigortası",
         aciklama:
           "Wind Sigorta'nın sunduğu Tamamlayıcı Sağlık Sigortası ile Wind Sigorta anlaşmalı özel sağlık kurumlarında, özel şartlar kapsamında SGK tarafından karşılanan sağlık giderlerinizde oluşan fark ücretlerini hiçbir ek ödeme yapmadan karşılayabilirsiniz( SGK zorunlu muayene katılım payı hariç).   ",
-        image: "Konut Sigortası",
+        image: "saglik-sigortasi",
         link: "tamamlayici-saglik-sigortasi",
       },
       {
         urun: "Yabancı Sağlık Sigortası",
         aciklama:
           "Kanun gereğince Türk vatandaşı olmayan ve ikamet izni almak için Türkiye’ye gelen yabancı konukların yaptırmak durumunda olduğu Yabancılara Özel Sağlık Sigortası Wind Sigorta’da!        ",
-        image: "İş Yeri Sigortası",
+        image: "saglik-sigortasi",
         link: "yabanci-saglik-sigortasi",
       },
     ],
@@ -284,14 +284,14 @@ const flipItem = [
         urun: "Montaj Sigortası",
         aciklama:
           "Montaj faaliyetlerinin başlangıcından bitimine kadar geçen süre içinde, ani ve beklenmedik sebeplerle ortaya çıkabilecek risklere karşı güvence sunan bir mühendislik sigortasıdır.",
-        image: "flipitemimage",
+        image: "montaj-sigortasi",
         link: "montaj-sigortasi",
       },
       {
         urun: "Makine Kırılması Sigortası",
         aciklama:
           "İşletmenizde kullanılan makinelerin çalışırken aniden duraklaması veya beklenmedik bir sebepten ötürü üretiminizin aksamasına sebep olarak önemli maliyetlerin kaybına neden olmaması için makineleri teminat altına alır.",
-        image: "Konut Sigortası",
+        image: "makine-sigortasi",
         link: "makine-sigortasi",
       },
     ],
@@ -310,7 +310,7 @@ const flipItem = [
         urun: "Ferdi Kaza Sigortası",
         aciklama:
           "Ferdi kaza sigortası, beklenmedik kaza riski nedeniyle kendinizi teminat altına alabileceğiniz bir sigortadır. Ferdi kaza sigortası neleri kapsar sorusunun cevabı olarak ise beklenmedik kazalara ilaveten deprem, sel, yer kayması ve terör olaylarına karşı sigorta poliçenizin sizi teminat altına alması verilebilir. Ferdi kaza sigortası genel şartları kapsamında sigorta hizmetine başvurabilmek için 18- 60 yaşları arasında olmanız yeterlidir.        ",
-        image: "flipitemimage",
+        image: "ferdi-kaza",
         link: "ferdi-kaza-sigortasi",
       },
     ],
@@ -329,7 +329,7 @@ const flipItem = [
         urun: "All Risk İnşaat Sigortaları",
         aciklama:
           "İnşaat All Risks Sigortası, müteahhit kuruluşlar için ciddi bir güvence sunmaktadır. İnşaat All Risks Sigortası, yapı malzemelerinin inşaat alanına indirilmesinden, tesisin kullanılmaya başlamasına kadar geçen süre içinde, doğa, teknik ve insan faktörlerinin neden olabileceği çok geniş bir risk yelpazesini güvence altına almaktadır. İnşaat faaliyetlerinize (Şantiyelerinize) yaptıracağınız İnşaat All Risks Sigortası talepleriniz için, Wind Sigorta uzmanlarına danışabilirsiniz.        ",
-        image: "flipitemimage",
+        image: "allrisk-sigortasi",
         link: "allrisk-sigortasi",
       },
     ],
@@ -348,7 +348,7 @@ const flipItem = [
         urun: "Deprem Sigortası",
         aciklama:
           "Zorunlu Deprem Sigortası, evinizi depremin neden olabileceği maddi hasarlara karşı güvence altına alan ve teminatı Doğal Afet Sigortaları Kurumu (DASK) tarafından verilen yaptırılması zorunlu bir sigortadır.  ",
-        image: "flipitemimage",
+        image: "deprem-sigortasi",
         link: "deprem-sigortasi",
       },
     ],
@@ -366,7 +366,7 @@ const flipItem = [
         urun: "Sorumluluk Sigortaları",
         aciklama:
           "Sorumluluk sigortası; sigortalıyı, sigortalının aile bireylerini ya da çalışanlarını çeşitli ihmal durumlarında doğabilecek maddi ve bedensel zararlara karşı güvence altına alan bir sigorta türüdür. Farklı çeşitleri bulunan sorumluluk sigortalarının kapsamları imzalanan poliçelerde belirlenir ve sigortalı kişinin sorumlu olduğu olumsuz durumlar sonucunda tazminat hakkı doğan kişilerin karşılaştıkları zarar, poliçe sınırları dahilinde ödenir.",
-        image: "flipitemimage",
+        image: "sorumluluk-sigortasi",
         link: "sorumluluk-sigortasi",
       },
     ],
@@ -385,28 +385,28 @@ const flipItem = [
         urun: "Hayvan Hayat Sigortası",
         aciklama:
           "Hayvan hayat sigortası, Hayvan Hayat Sigortası Genel Şartlarındaki hayvanları her türlü adi ve bulaşıcı hastalıklardan, kazalardan, doğal afetler sebebiyle meydana gelen zorunlu öldürmeler veya ölümlerinden sigortalının doğrudan doğruya uğradığı maddi zararı temin eder.",
-        image: "flipitemimage",
+        image: "hayvan-hayat-sigortasi",
         link: "hayvan-hayat-sigortasi",
       },
       {
         urun: "Kümes Hayvanları Sigortası",
         aciklama:
           "Kümes Hayvanları Hayat Sigortasında, poliçede yazılı primin %50'si Devlet tarafından karşılanır. Sigortalı tarafından ödenecek olan primin %25'i peşin alınır, kalan prim tutarı da en fazla 5 taksitle tahsil edilir. Sadece Geniş Kapsamlı 45 günlük Broiler sigortalarında primin tamamı peşin tahsil edilir.",
-        image: "Konut Sigortası",
+        image: "kumes-hayvanlari-sigortasi",
         link: "kumes-hayvanalri-sigortasi",
       },
       {
         urun: "Dolu Sigortası",
         aciklama:
           "Dolu Sigortaları’nda Geleneksel sistemden poliçe tanzim edilebilmesi için, söz konusu arazinin ÇKS (Çiftçi Kayıt Sistemi) kaydının bulunmaması gerekmektedir.Sigorta kapsamına bitkisel ürünler girmektedir.        ",
-        image: "İş Yeri Sigortası",
+        image: "dolu-sigortasi",
         link: "dolu-sigortasi",
       },
       {
         urun: "Sera Sigortası",
         aciklama:
           "Sera yapı malzemeleri, içindeki teknik ekipman ve serada yetiştirilen bitkisel ürünler için Dolu, Fırtına, Hortum, Yangın, Deprem, Taşıt Çarpması Heyelan, Kar ve dolu Ağırlığı, Sel ve Su Baskını risklerinin neden olduğu miktar kaybı sigorta kapsamındadır.",
-        image: "İş Yeri Sigortası",
+        image: "sera-sigortasi",
         link: "sera-sigortasi",
       },
     ],
