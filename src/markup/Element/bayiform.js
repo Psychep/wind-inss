@@ -1,21 +1,23 @@
 import React, { Fragment, Component, useState } from "react";
 import { iller } from "../../markup/Pages/ShortCode/il-ilce";
-import emailjs from "@emailjs/browser";
+class FormStyle extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { value: "Adana" };
 
-export const ContactUs = () =>  {
-  
-  const form = useRef();
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  handleChange(event) {
+    this.setState({ value: event.target.value });
+    console.log(this.state.value);
+  }
 
-    emailjs.sendForm('service_8kjnr3o', 'template_q16r2im', form.current, 'user_ijt9nhCteZejMvvrDlvuZ')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+  handleSubmit(event) {
+    alert(this.state.value);
+    event.preventDefault();
+  }
 
   render() {
     return (
@@ -24,9 +26,9 @@ export const ContactUs = () =>  {
           <div className="">
             <div className="">
               <form
-              ref={form} onSubmit={sendEmail}
                 className="inquiry-form  dzForm "
                 action="script/contact.php"
+                onSubmit={this.handleSubmit}
               >
                 <div className="dzFormMsg"></div>
                 <h3 className="box-title m-t0 m-b10">
@@ -43,8 +45,6 @@ export const ContactUs = () =>  {
                         <input
                           name="dzName"
                           type="text"
-                          name="user_name" 
-                          
                           required
                           className="form-control "
                           placeholder="Ad-Soyad"
@@ -77,7 +77,6 @@ export const ContactUs = () =>  {
                         <input
                           name="dzEmail"
                           type="email"
-                          name="user_email"
                           className="form-control"
                           required
                           placeholder="E-mail"
@@ -182,7 +181,6 @@ export const ContactUs = () =>  {
                     <button
                       name="submit"
                       type="submit"
-                      name="message"
                       value="Submit"
                       className="site-button button-lg"
                     >
@@ -199,4 +197,4 @@ export const ContactUs = () =>  {
     );
   }
 }
-export default ContactUs;
+export default FormStyle;
