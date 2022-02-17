@@ -123,7 +123,7 @@ const iconBox = [
   },
   {
     icon: work16,
-    title: "Group Ama",
+    title: "Groupama",
     description:
       "Kasko, trafik ve sağlık branşlarında hizmet veren Groupama Sigorta Türkiye’nin en önemli sigorta şirketleri arasındadır.",
   },
@@ -141,7 +141,7 @@ const iconBox = [
   },
   {
     icon: work19,
-    title: "Sompo Japan",
+    title: "Sompo Sigorta",
     description:
       "Sompo Sigorta, Türkiye’de ve dünyanın ikinci büyük sigorta pazarı olan Japonya'da lider sigorta şirketleri arasındadır.",
   },
@@ -153,7 +153,7 @@ const iconBox = [
   },
   {
     icon: work21,
-    title: "Uninco",
+    title: "Unico",
     description:
       "26 yıllık tecrübesi ile sektörün en önemli şirketleri arasında yer alan Aviva, artık yoluna Unico Sigorta adıyla devam ediyor.",
   },
