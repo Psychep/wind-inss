@@ -26,7 +26,7 @@ import work19 from "./../../../images/our-services/sompojapan.png";
 import work20 from "./../../../images/our-services/turknippon.png";
 import work21 from "./../../../images/our-services/unico.png";
 import work22 from "./../../../images/our-services/zurich.png";
-
+import work23 from "./../../../images/our-services/quick.png";
 import bgslider9 from "./../../../images/background/bg222.jpg";
 //Images
 
@@ -162,6 +162,12 @@ const iconBox = [
     title: "Zurich",
     description:
       "Geniş ürün portföyü, tarihi ve köklü yapısı ile Zurich Sigorta, dünyanın en önemli sigorta şirketleri arasında bulunmaktadır.  ",
+  },
+  {
+    icon: work23,
+    title: "Quick Sigorta",
+    description:
+      "Hasar anında Quick Sigorta her an yanında! Hasar işlemlerinizi online veya telefon yardımı ile yapabilirsiniz.  ",
   },
 ];
 
