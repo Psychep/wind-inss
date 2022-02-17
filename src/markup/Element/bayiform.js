@@ -1,23 +1,21 @@
 import React, { Fragment, Component, useState } from "react";
 import { iller } from "../../markup/Pages/ShortCode/il-ilce";
-class FormStyle extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { value: "Adana" };
+import emailjs from "@emailjs/browser";
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
+export const ContactUs = () =>  {
+  
+  const form = useRef();
 
-  handleChange(event) {
-    this.setState({ value: event.target.value });
-    console.log(this.state.value);
-  }
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  handleSubmit(event) {
-    alert(this.state.value);
-    event.preventDefault();
-  }
+    emailjs.sendForm('service_8kjnr3o', 'template_q16r2im', form.current, 'user_ijt9nhCteZejMvvrDlvuZ')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   render() {
     return (
@@ -26,9 +24,9 @@ class FormStyle extends Component {
           <div className="">
             <div className="">
               <form
+              ref={form} onSubmit={sendEmail}
                 className="inquiry-form  dzForm "
                 action="script/contact.php"
-                onSubmit={this.handleSubmit}
               >
                 <div className="dzFormMsg"></div>
                 <h3 className="box-title m-t0 m-b10">
@@ -45,6 +43,8 @@ class FormStyle extends Component {
                         <input
                           name="dzName"
                           type="text"
+                          name="user_name" 
+                          
                           required
                           className="form-control "
                           placeholder="Ad-Soyad"
@@ -77,6 +77,7 @@ class FormStyle extends Component {
                         <input
                           name="dzEmail"
                           type="email"
+                          name="user_email"
                           className="form-control"
                           required
                           placeholder="E-mail"
@@ -181,6 +182,7 @@ class FormStyle extends Component {
                     <button
                       name="submit"
                       type="submit"
+                      name="message"
                       value="Submit"
                       className="site-button button-lg"
                     >
@@ -197,4 +199,4 @@ class FormStyle extends Component {
     );
   }
 }
-export default FormStyle;
+export default ContactUs;

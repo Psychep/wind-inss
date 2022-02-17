@@ -143,6 +143,7 @@ body {
   left: -180px;
   z-index: 99;
 }
+
 .paddin {
   margin-right: 8px;
 }
@@ -3180,6 +3181,9 @@ blockquote:before {
 }
 
 @media only screen and (max-width: 991px) {
+  .flank-area {
+    display: hidden;
+  }
   .dlab-topbar-right {
     padding-left: 0;
     padding-right: 15px;
@@ -3192,6 +3196,9 @@ blockquote:before {
 }
 
 @media only screen and (max-width: 767px) {
+  .flank-area {
+    display: hidden;
+  }
   .top-bar [class*="col-"] {
     width: 100%;
     text-align: right;
@@ -3454,6 +3461,9 @@ blockquote:before {
   .site-header .extra-nav,
   .site-header .is-fixed .extra-nav {
     padding: 11px 0;
+  }
+  .flank-area {
+    display: hidden;
   }
 }
 
