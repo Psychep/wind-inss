@@ -65,10 +65,10 @@ class ServicesDetails extends Component {
             <div className="section-full">
               <div className="container-fluid">
                 <div className="row dzseth">
-                  <div className="col-lg-6 col-md-12 p-a0 img-fix">
-                    <img src={about} alt="" className="img-cover" />
+                  <div className="col-lg-6 col-md-12  bg-black-light p-a0 img-fix">
+                    <img src={about} alt="" className="img-cover " />
                   </div>
-                  <div className="col-lg-6 col-md-12 bg-black-light p-lr0 dis-tbl">
+                  <div className="col-lg-6 col-md-12 bg-black-light p-lr0 dis-tbl ">
                     <div className="p-a30 dis-tbl-cell ">
                       <div className="max-w500 m-auto p-tb30">
                         <div className="row">
