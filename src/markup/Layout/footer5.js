@@ -41,6 +41,11 @@ class Footer5 extends Component {
                         <i className="ti-email"></i>
                         <strong>email</strong>windsigorta@outlook.com
                       </li>
+                      <li>
+                        <i className="ti-map"></i>
+                        <strong>Adres</strong>Aydınlar mahallesi 03010 nolu
+                        sokak 9/1 Şehitkamil Gaziantep
+                      </li>
                     </ul>
                   </div>
                 </div>

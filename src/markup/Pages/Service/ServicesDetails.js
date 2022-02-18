@@ -7,7 +7,7 @@ import PageTitle from "./../../Layout/PageTitle";
 import SectionCounter from "./../../Element/SectionCounter";
 import TestimonialCarousel from "./../../Element/TestimonialCarousel";
 import FormStyle from "./../../Element/bayiform";
-
+import Search from "../../Pages/Search";
 import bgslider9 from "../../../images/background/bg222.jpg";
 //Images
 import bnr1 from "./../../../images/banner/bnr4.jpg";
@@ -119,7 +119,6 @@ class ServicesDetails extends Component {
                 </div>
               </div>
             </div>
-
             {/* <!-- Testimonials END --> */}
             {/* <!-- Get in touch --> */}
             <div
