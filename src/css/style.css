@@ -3184,6 +3184,9 @@ blockquote:before {
   .flank-area {
     visibility: hidden;
   }
+  .hidden-button {
+    visibility: hidden;
+  }
   .dlab-topbar-right {
     padding-left: 0;
     padding-right: 15px;
@@ -3197,6 +3200,9 @@ blockquote:before {
 
 @media only screen and (max-width: 767px) {
   .flank-area {
+    visibility: hidden;
+  }
+  .hidden-button {
     visibility: hidden;
   }
   .top-bar [class*="col-"] {
@@ -3463,6 +3469,9 @@ blockquote:before {
     padding: 11px 0;
   }
   .flank-area {
+    visibility: hidden;
+  }
+  .hidden-button {
     visibility: hidden;
   }
 }

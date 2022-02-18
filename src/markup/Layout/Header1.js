@@ -106,7 +106,7 @@ class Header1 extends Component {
                   <div className="extra-cell">
                     <Link
                       to={"./teklif"}
-                      className="dez-page site-button primary"
+                      className="dez-page site-button primary hidden-button"
                     >
                       Teklif Formu!{" "}
                     </Link>
