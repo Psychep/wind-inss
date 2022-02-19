@@ -17,21 +17,25 @@ const imageBlog = [
     Large: box2,
     aciklama: "Sevgililer Gününe Özel",
     sigorta: "Anadolu Sigorta",
+    link: "kampanya-sevgililergunu",
   },
   {
     Large: gencemeklilik,
     aciklama: "Genç Emeklilik",
     sigorta: "Anadolu Sigorta",
+    link: "kampanya-gencemeklilik",
   },
   {
     Large: turkcell,
     aciklama: "Turkcell Kampanya",
     sigorta: "Anadolu Sigorta",
+    link: "kampanya-turkcell",
   },
   {
     Large: box3,
     aciklama: "Hoşgeldin Özel Kampanyası",
     sigorta: "Anadolu Sigorta",
+    link: "kampanya-hosgeldin",
   },
 ];
 
@@ -109,7 +113,7 @@ function GalleryGrid() {
                     <div className="overlay-bx">
                       <div className="overlay-icon align-b text-white text-left">
                         <div className="text-white text-left port-box">
-                          <a href="kampanya1">{item.aciklama}</a>
+                          <a href={item.link}>{item.aciklama}</a>
                           <p>{item.sigorta}</p>
                           <Iconimage />
                         </div>

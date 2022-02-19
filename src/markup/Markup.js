@@ -45,6 +45,9 @@ import ShopColumnsSidebar from "./Pages/Shop/ShopColumnsSidebar";
 import ShopCart from "./Pages/Shop/ShopCart";
 import ShopCheckout from "./Pages/Shop/ShopCheckout";
 import ShopProductDetails from "./Pages/Shop/ShopProductDetails";
+import hosgeldin from "./Pages/Shop/hosgeldin";
+import turkcell from "./Pages/Shop/turkcell";
+import gencemeklilik from "./Pages/Shop/gencemeklilik";
 
 import ShopWishlist from "./Pages/Shop/ShopWishlist";
 import ShopLogin from "./Pages/Shop/ShopLogin";
@@ -247,7 +250,19 @@ class Markup extends Component {
 
             <Route path="/shop-cart" exact component={ShopCart} />
             <Route path="/shop-checkout" exact component={ShopCheckout} />
-            <Route path="/kampanya1" exact component={ShopProductDetails} />
+            <Route
+              path="/kampanya-sevgililergunu"
+              exact
+              component={ShopProductDetails}
+            />
+            <Route path="/kampanya-hosgeldin" exact component={hosgeldin} />
+            <Route path="/kampanya-turkcell" exact component={turkcell} />
+            <Route
+              path="/kampanya-gencemeklilik"
+              exact
+              component={gencemeklilik}
+            />
+
             <Route path="/shop-wishlist" exact component={ShopWishlist} />
             <Route path="/shop-login" exact component={ShopLogin} />
             <Route path="/shop-register" exact component={ShopRegister} />
