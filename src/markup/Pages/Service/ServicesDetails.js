@@ -6,7 +6,7 @@ import Footer from "../../Layout/footer5";
 import PageTitle from "./../../Layout/PageTitle";
 import SectionCounter from "./../../Element/SectionCounter";
 import TestimonialCarousel from "./../../Element/TestimonialCarousel";
-import FormStyle from "./../../Element/bayiform";
+import ContactUs from "./../../Element/bayiform";
 import Search from "../../Pages/Search";
 import bgslider9 from "../../../images/background/bg222.jpg";
 //Images
@@ -125,7 +125,7 @@ class ServicesDetails extends Component {
               className="section-full overlay-primary-white bg-img-fix"
               style={{ backgroundImage: "url(" + bgslider9 + ")" }}
             >
-              <FormStyle />
+              <ContactUs />
             </div>
             {/* <!-- Get in touch --> */}
           </div>
