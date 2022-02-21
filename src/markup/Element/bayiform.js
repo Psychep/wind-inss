@@ -17,6 +17,7 @@ const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert("ok");
         },
         (error) => {
           console.log(error.text);
@@ -48,7 +49,7 @@ const ContactUs = () => {
                       </span>
                       <input
                         type="text"
-                        name="user_name"
+                        name="message"
                         required
                         className="form-control"
                         placeholder="Ad-Soyad"
@@ -80,7 +81,7 @@ const ContactUs = () => {
                       </span>
                       <input
                         type="email"
-                        name="user_email"
+                        name="message"
                         className="form-control"
                         required
                         placeholder="E-mail"
